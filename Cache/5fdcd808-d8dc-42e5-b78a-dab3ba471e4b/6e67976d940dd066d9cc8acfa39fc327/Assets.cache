@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cd2b7be0-9647-437a-b29e-ce932975f128: 5fdcd808-d8dc-42e5-b78a-dab3ba471e4b/6e67976d940dd066d9cc8acfa39fc327/Data/icons_light.png
+  Assets:
+    - !<FileTexture/cd2b7be0-9647-437a-b29e-ce932975f128>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 6e67976d940dd066d9cc8acfa39fc327
+  FileHash: b6a6ebe5cc0cc55909045195949997e7
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bb122e38-7807-44cb-988f-4b4bf9aab0e1: b27deed8-6463-4779-9b78-5dbbb78b07be/f18c2da46b20cda4976d1e3773b3e34d/Data/FACE_GEO.mesh
+  Assets:
+    - !<FileMesh/bb122e38-7807-44cb-988f-4b4bf9aab0e1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 136
+        Vertices: 83
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 93.100517, y: 107.221222, z: 35.461697}
+  SourceHash: f18c2da46b20cda4976d1e3773b3e34d
+  FileHash: 8aa380fd6b553706c678c6c24d932f07
+  NativePackageItems:
+    []

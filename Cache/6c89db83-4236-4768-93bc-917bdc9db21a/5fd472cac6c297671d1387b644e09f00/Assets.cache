@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    02552e46-b524-4894-9d0c-42deb64bbfd3: 6c89db83-4236-4768-93bc-917bdc9db21a/5fd472cac6c297671d1387b644e09f00/Data/Old School Beat(1).mp3
+  Assets:
+    - !<FileAudioTrack/02552e46-b524-4894-9d0c-42deb64bbfd3>
+      PackagePath: ""
+  SourceHash: 5fd472cac6c297671d1387b644e09f00
+  FileHash: f7198c1c7f991b1449dd80bd2a44d75c
+  NativePackageItems:
+    []

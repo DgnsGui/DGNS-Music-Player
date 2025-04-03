@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    33063fff-a58d-401d-8a2e-0770632f270b: 8b89c776-0696-4d85-a531-f88c99298cd7/348bf784c4ef743fac56b01caa52ec6a/Data/icon_spherical.png
+  Assets:
+    - !<FileTexture/33063fff-a58d-401d-8a2e-0770632f270b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 348bf784c4ef743fac56b01caa52ec6a
+  FileHash: 181bb0e20bbc2dae6debbf78c38494fb
+  NativePackageItems:
+    []

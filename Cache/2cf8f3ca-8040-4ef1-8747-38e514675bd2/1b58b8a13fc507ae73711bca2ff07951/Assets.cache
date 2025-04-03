@@ -1,0 +1,18 @@
+- !<AssetCache>
+  AssetFiles:
+    cbcd4614-d140-4bdb-b29e-b368f9d99016: 2cf8f3ca-8040-4ef1-8747-38e514675bd2/1b58b8a13fc507ae73711bca2ff07951/Data/UnsuccessNotificationTile.mesh
+  Assets:
+    - !<FileMesh/cbcd4614-d140-4bdb-b29e-b368f9d99016>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 728
+        Vertices: 541
+        Blendshapes:
+          - X
+          - Y
+        Joints: 0
+        AabbSize: {x: 3.878234, y: 3.819857, z: 0.453123}
+  SourceHash: 1b58b8a13fc507ae73711bca2ff07951
+  FileHash: 06e2a35e8b0867776f905b32ed7e3e6f
+  NativePackageItems:
+    []

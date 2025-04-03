@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fbd5bdc2-48f1-497d-914b-4047f1ab6c0d: b54ced16-f07e-4d08-b283-c0c156faef3a/6f16b7e711f9d6ad32e4ff070c83efc5/Data/Car_Paint_Noise.jpg
+  Assets:
+    - !<FileTexture/fbd5bdc2-48f1-497d-914b-4047f1ab6c0d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6f16b7e711f9d6ad32e4ff070c83efc5
+  FileHash: 0a90fd83bdfb5dc937910c1496a4681c
+  NativePackageItems:
+    []

@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/d09b7594-9957-4d4c-9b79-55e4070d7398>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 761af50c-6ddb-4947-b143-6a60f709a430
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 761af50c-6ddb-4947-b143-6a60f709a430
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> b80674c3-4e1f-47fe-8cf0-240c1000130e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/b80674c3-4e1f-47fe-8cf0-240c1000130e>
+  InputLines:
+    - '// @input float distance = "120.0" {"hint":"How far away the target will be from the camera"}'
+    - '// @input float bufferRotationDegrees = "0.0" {"hint":"The magnitude of change in degrees of leeway in any direction before a change starts to occur"}'
+    - '// @input float bufferTranslationCentimeters = "0.0" {"hint":"The magnitude of change needed to activate a translation for the target to follow the camera (centimeters)"}'
+    - '// @input float frequencyCoefficient = "1.0"'
+    - '// @input float dampingCoefficient = "0.8"'
+    - '// @input float underShockCoefficient = "0.0"'
+    - '// @input float timeCoefficient = "1.0"'
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 10bd3369-4c0f-4ea0-a574-228618c7c27a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bufferRotationDegrees: false
+    bufferTranslationCentimeters: false
+    dampingCoefficient: false
+    distance: false
+    frequencyCoefficient: false
+    timeCoefficient: false
+    underShockCoefficient: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - distance: !<float> 110.000000
+      frequencyCoefficient: 0.750000
+      dampingCoefficient: 0.500000
+      underShockCoefficient: !<float> 0.000000
+      timeCoefficient: !<float> 1.000000
+      bufferRotationDegrees: !<float> 18.000000
+      bufferTranslationCentimeters: !<float> 20.000000
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

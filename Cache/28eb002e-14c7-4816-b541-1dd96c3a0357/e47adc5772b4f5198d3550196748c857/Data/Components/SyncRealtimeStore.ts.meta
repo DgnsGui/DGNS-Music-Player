@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/5d10dbd1-3645-494c-8508-266ffe3dadb9>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fedf2a86-df88-449a-a6cb-7aebc0c54fda
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fedf2a86-df88-449a-a6cb-7aebc0c54fda
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6a65f9a2-daa7-42bf-933d-111bb200b63b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/6a65f9a2-daa7-42bf-933d-111bb200b63b>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: dc62db7e-7635-4d81-87d4-3341afcf967c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    customNetworkId: false
+    networkIdTypeString: false
+    ownershipTypeString: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - networkIdTypeString: objectId
+      customNetworkId: enter_unique_id
+      ownershipTypeString: none
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string networkIdTypeString = "objectId" {"label":"Network Id Type", "widget":"combobox", "values":[{"label":"Object Id", "value":"objectId"}, {"label":"Custom", "value":"custom"}]}'
+    - '// @input string customNetworkId = "enter_unique_id" {"showIf":"networkIdTypeString", "showIfValue":"custom"}'
+    - '// @input string ownershipTypeString = "none" {"label":"Ownership Type", "widget":"combobox", "values":[{"label":"None", "value":"none"}, {"label":"Request if Available", "value":"requestIfAvailable"}]}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

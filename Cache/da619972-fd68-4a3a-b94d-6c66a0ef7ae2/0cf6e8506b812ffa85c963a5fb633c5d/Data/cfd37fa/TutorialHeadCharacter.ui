@@ -1,0 +1,97 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "Tweak_N1",
+                	"label":       "Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N8",
+                	"label":       "Add Lightness",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N5",
+                	"label":       "Exponent",
+                	"widget":      "slider",
+                	"min":         -10,
+                	"max":         10,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N6",
+                	"label":       "intensity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         5,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N9",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "Invert RIM",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "alpha",
+                	"label":       "alpha",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

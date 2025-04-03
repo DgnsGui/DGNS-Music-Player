@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f93e6540-fdc5-4fbb-a226-65363f2fa43c: 35ae3640-d99b-4344-88ad-ebeb76d8fc7d/e15198f2916fd1b2da3637900a1ca6aa/Data/Bike_normal.pvr
+  Assets:
+    - !<FileTexture/f93e6540-fdc5-4fbb-a226-65363f2fa43c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e15198f2916fd1b2da3637900a1ca6aa
+  FileHash: 268071ad0213bec76f75c2efbdfc08c3
+  NativePackageItems:
+    []

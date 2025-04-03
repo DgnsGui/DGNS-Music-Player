@@ -1,0 +1,124 @@
+- !<AssetCache>
+  AssetFiles:
+    94bc890a-891a-4aca-ab3a-c6cb707b4952: 7056e411-0d5f-42fd-846c-23dc26c22313/fb3f6a2a402edc5383306a2546e9666e/Data/GlassesOutline.ss_graph
+  Assets:
+    - !<ShaderGraphPass/94bc890a-891a-4aca-ab3a-c6cb707b4952>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N015:
+          typeIdx: 1
+          value: 100.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value_N018:
+          typeIdx: 1
+          value: 0.200000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Outline Thickness
+            mType: Property
+            mName: Tweak_N19
+            mWidget: spinbox
+            mHint: "Property: Tweak_N19"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: Tweak_N6
+            mWidget: color
+            mHint: "Property: Tweak_N6"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: alpha
+            mType: Property
+            mName: alpha
+            mWidget: slider
+            mHint: "Property: alpha"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 7056e411-0d5f-42fd-846c-23dc26c22313/fb3f6a2a402edc5383306a2546e9666e/Data/cfd37fa/GlassesOutline.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: fb3f6a2a402edc5383306a2546e9666e
+  FileHash: 60577c5643527e3af2a9cefca841723c
+  NativePackageItems:
+    []

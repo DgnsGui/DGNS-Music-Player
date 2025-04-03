@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    934fba0f-7a40-4cee-918a-cff27670667d: 7b0d8f59-4087-4aca-b014-c4be467b47dd/f23904de703d75f3350f45def047db63/Data/SocietyAugment(1).mp3
+  Assets:
+    - !<FileAudioTrack/934fba0f-7a40-4cee-918a-cff27670667d>
+      PackagePath: ""
+  SourceHash: f23904de703d75f3350f45def047db63
+  FileHash: 068672eac43be8d0658b0dea49619645
+  NativePackageItems:
+    []

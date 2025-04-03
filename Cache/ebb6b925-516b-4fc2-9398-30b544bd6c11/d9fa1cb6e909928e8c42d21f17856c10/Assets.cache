@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    21b87e43-5968-462f-8a38-dabc3b96c5aa: ebb6b925-516b-4fc2-9398-30b544bd6c11/d9fa1cb6e909928e8c42d21f17856c10/Data/specularenvironment.png
+  Assets:
+    - !<FileTexture/21b87e43-5968-462f-8a38-dabc3b96c5aa>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 256
+  SourceHash: d9fa1cb6e909928e8c42d21f17856c10
+  FileHash: 33a99e192a5045080f8749683c61878c
+  NativePackageItems:
+    []

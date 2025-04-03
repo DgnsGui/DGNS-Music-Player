@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b66bb181-897e-46b8-af5f-4ebecc0cd029: f084dddf-9023-465f-ab53-6bb6fee7fe96/cdff7ed331b2f9450663a732bac87ac6/Data/AmaticSC-Regular.ttf
+  Assets:
+    - !<Font/b66bb181-897e-46b8-af5f-4ebecc0cd029>
+      PackagePath: ""
+  SourceHash: cdff7ed331b2f9450663a732bac87ac6
+  FileHash: 827ad95d36228ff00f3eea8810d60a48
+  NativePackageItems:
+    []

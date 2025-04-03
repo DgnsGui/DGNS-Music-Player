@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/7ce2a1459a827bc76bf3c991bc6e23ce/Data/Tree_base.png
+  Assets:
+    - !<FileTexture/fe4203a5-42de-4ca3-bd8e-470278a1a8d2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7ce2a1459a827bc76bf3c991bc6e23ce
+  FileHash: 6bd4daa3ea6c82d87ac20317db950468
+  NativePackageItems:
+    []

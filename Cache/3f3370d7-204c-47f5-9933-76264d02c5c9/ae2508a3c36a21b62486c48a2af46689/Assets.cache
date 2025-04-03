@@ -1,0 +1,24 @@
+- !<AssetCache>
+  AssetFiles:
+    a93888d4-5e24-48d5-8a20-f5d59521b111: 3f3370d7-204c-47f5-9933-76264d02c5c9/ae2508a3c36a21b62486c48a2af46689/Data/converted_gif.webp
+  Assets:
+    - !<AnimatedTexture/a93888d4-5e24-48d5-8a20-f5d59521b111>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 4.500000
+            value: 126
+      ReverseSupported: false
+      FrameSize: {x: 360, y: 360}
+      AnimationSequences:
+        default: 126
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+  SourceHash: ae2508a3c36a21b62486c48a2af46689
+  FileHash: f90caefc9238ab988e3b6f2c4ea1e8cc
+  NativePackageItems:
+    []

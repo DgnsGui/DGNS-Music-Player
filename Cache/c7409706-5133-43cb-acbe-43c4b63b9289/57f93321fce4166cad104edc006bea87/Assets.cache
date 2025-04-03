@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    626bfcc0-4e20-4a58-943d-5a78717ae848: c7409706-5133-43cb-acbe-43c4b63b9289/57f93321fce4166cad104edc006bea87/Data/line.png
+  Assets:
+    - !<FileTexture/626bfcc0-4e20-4a58-943d-5a78717ae848>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 18
+        Height: 900
+  SourceHash: 57f93321fce4166cad104edc006bea87
+  FileHash: e98f605f92dc9a861dce9593b06a2be4
+  NativePackageItems:
+    []

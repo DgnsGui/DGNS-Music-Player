@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    29746540-73db-42f4-bfb3-a0d1efeb3134: 231929f1-8ef2-40e3-994c-d2522473dd93/a704015a024c8086eb53f6801566918e/Data/statue_params.png
+  Assets:
+    - !<FileTexture/29746540-73db-42f4-bfb3-a0d1efeb3134>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: a704015a024c8086eb53f6801566918e
+  FileHash: 471cababc30ccb3691250e2d916a9baa
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    20414496-6247-4392-996b-6b861333647e: 116a1e1b-378c-474c-8e9c-49c5f6a3755e/35b7bcf2955d96a664cd77d31d3283da/Data/Tree_params.png
+  Assets:
+    - !<FileTexture/20414496-6247-4392-996b-6b861333647e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 35b7bcf2955d96a664cd77d31d3283da
+  FileHash: 8985c880826ecf19c42042e3f35fb1f4
+  NativePackageItems:
+    []

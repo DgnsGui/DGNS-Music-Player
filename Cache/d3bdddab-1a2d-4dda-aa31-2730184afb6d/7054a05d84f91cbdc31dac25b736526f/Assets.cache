@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    47a11b23-143c-459a-8e62-8d6d23ce13d8: d3bdddab-1a2d-4dda-aa31-2730184afb6d/7054a05d84f91cbdc31dac25b736526f/Data/Fulbert - First Time House (Original Mix)(1).mp3
+  Assets:
+    - !<FileAudioTrack/47a11b23-143c-459a-8e62-8d6d23ce13d8>
+      PackagePath: ""
+  SourceHash: 7054a05d84f91cbdc31dac25b736526f
+  FileHash: f3bf6f77351285d60084d3ec6ff1fd70
+  NativePackageItems:
+    []

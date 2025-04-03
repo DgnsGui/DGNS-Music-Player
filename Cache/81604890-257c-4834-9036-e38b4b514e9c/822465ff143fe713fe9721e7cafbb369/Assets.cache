@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    89e66f9c-d337-44a0-8e54-10527c35d7a9: 81604890-257c-4834-9036-e38b4b514e9c/822465ff143fe713fe9721e7cafbb369/Data/hologram5.jpg
+  Assets:
+    - !<FileTexture/89e66f9c-d337-44a0-8e54-10527c35d7a9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: 822465ff143fe713fe9721e7cafbb369
+  FileHash: 44302398a12e0f0614fa0d865eeb1fe4
+  NativePackageItems:
+    []

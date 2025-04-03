@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/6b22aa49-b20d-4ffe-b1c8-fc56f9c0205f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d8ea6e59-e03b-463d-957a-bda0fa8818bf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d8ea6e59-e03b-463d-957a-bda0fa8818bf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a0654de9-8965-4df7-8d00-fb732e9b3b75
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/a0654de9-8965-4df7-8d00-fb732e9b3b75>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fa54bee2-a9de-4924-ade5-3ede7ad210fc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objectLocatorInput: false
+    tutorialNotificationInput: false
+    tutorialParametersInput: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - objectLocatorInput: !<MappingBased.ObjectLocatorInput> 00000000-0000-0000-0000-000000000000
+      tutorialNotificationInput: !<MappingBased.TutorialNotificationInput> 00000000-0000-0000-0000-000000000000
+      tutorialParametersInput: !<MappingBased.TutorialParametersInput> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input TutorialInput tutorialNotificationInput
+    - // @input ObjectLocatorInput objectLocatorInput
+    - // @input TutorialParametersInput tutorialParametersInput
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

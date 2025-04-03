@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    30841b1f-6341-48a1-be1e-6d0267e88d67: d27c6131-a136-429a-9048-545d699691af/fa2c0d4a4cdeaa99acbb810c08aec977/Data/PizzaBox.mesh
+  Assets:
+    - !<FileMesh/30841b1f-6341-48a1-be1e-6d0267e88d67>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 88
+        Vertices: 74
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 166.800003, y: 165.143463, z: 166.800018}
+  SourceHash: fa2c0d4a4cdeaa99acbb810c08aec977
+  FileHash: 136de807763925b7ceb8d26e1869ef91
+  NativePackageItems:
+    []

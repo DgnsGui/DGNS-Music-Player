@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    19b05bf9-336a-4446-8bae-3900ec681e19: c648360e-4a60-4750-a5b3-301fc46db649/c41325fd9ace343e506cbda347505a93/Data/SnapGhost_Mesh.mesh
+  Assets:
+    - !<FileMesh/19b05bf9-336a-4446-8bae-3900ec681e19>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 18576
+        Vertices: 9314
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.494399, y: 2.532881, z: 2.120043}
+  SourceHash: c41325fd9ace343e506cbda347505a93
+  FileHash: 9d5a7b8b16eba97bd958ece49bdf989c
+  NativePackageItems:
+    []

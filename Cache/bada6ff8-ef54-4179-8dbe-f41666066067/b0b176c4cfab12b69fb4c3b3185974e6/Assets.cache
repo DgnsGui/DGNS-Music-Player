@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4db6d39c-9288-4fcc-9ce6-13bebbb28dfb: bada6ff8-ef54-4179-8dbe-f41666066067/b0b176c4cfab12b69fb4c3b3185974e6/Data/ChessPattern_opacity.png
+  Assets:
+    - !<FileTexture/4db6d39c-9288-4fcc-9ce6-13bebbb28dfb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: b0b176c4cfab12b69fb4c3b3185974e6
+  FileHash: 085b2442db8956c9fa5058ab4d5698fa
+  NativePackageItems:
+    []

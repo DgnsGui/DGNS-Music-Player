@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/8600d710-4f75-47e7-880d-1b5b6a8dd558>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5330310d-ff67-4c8d-9e97-1967a8229121
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5330310d-ff67-4c8d-9e97-1967a8229121
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 13c8e432-8060-4e20-a8db-8a46c06ca687
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/13c8e432-8060-4e20-a8db-8a46c06ca687>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1f576eaa-1f01-45cb-87d5-828ab8c862cf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    demoOption: false
+    interactionHintController: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactionHintController: !<MappingBased.InteractionHintController> 00000000-0000-0000-0000-000000000000
+      demoOption: 0
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input InteractionHintController interactionHintController
+    - '// @input int demoOption {"widget":"combobox", "values":[{"label":"Demo Single Animation", "value":0}, {"label":"Demo Animation Sequence", "value":1}]}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

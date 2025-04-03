@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8e46087a-785c-45d0-9c9c-c57acfe962ce: 747c0720-b032-40d4-a026-726770635aa7/14bf05ff94e27ffe8e79e16f246a62fa/Data/Helmet_materialParams.pvr
+  Assets:
+    - !<FileTexture/8e46087a-785c-45d0-9c9c-c57acfe962ce>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 14bf05ff94e27ffe8e79e16f246a62fa
+  FileHash: 1b13b8284f79672a47ba6858882b6a4a
+  NativePackageItems:
+    []

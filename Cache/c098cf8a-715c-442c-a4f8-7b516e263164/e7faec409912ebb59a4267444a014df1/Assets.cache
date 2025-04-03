@@ -1,0 +1,619 @@
+- !<AssetCache>
+  AssetFiles:
+    77e3deee-15d5-4f31-97cc-fd423574c3c1: c098cf8a-715c-442c-a4f8-7b516e263164/e7faec409912ebb59a4267444a014df1/Data/Hologram.ss_graph
+  Assets:
+    - !<ShaderGraphPass/77e3deee-15d5-4f31-97cc-fd423574c3c1>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_C_N113:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_D_N113:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N071:
+          typeIdx: 1
+          value: 0.500000
+        Port_Import_N106:
+          typeIdx: 1
+          value: 20.000000
+        Port_Import_N174:
+          typeIdx: 1
+          value: 20.000000
+        Port_Import_N181:
+          typeIdx: 1
+          value: 1.000000
+        Port_Import_N203:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N009:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input0_N129:
+          typeIdx: 1
+          value: 1.100000
+        Port_Input1_N020:
+          typeIdx: 1
+          value: 0.400000
+        Port_Input1_N049:
+          typeIdx: 1
+          value: 0.400000
+        Port_Input1_N055:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N056:
+          typeIdx: 1
+          value: 1.294000
+        Port_Input1_N058:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N066:
+          typeIdx: 1
+          value: 0.200000
+        Port_Input1_N072:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N078:
+          typeIdx: 1
+          value: 0.002000
+        Port_Input1_N117:
+          typeIdx: 1
+          value: 20.000000
+        Port_Input1_N122:
+          typeIdx: 1
+          value: 1.300000
+        Port_Input1_N125:
+          typeIdx: 1
+          value: 4.000000
+        Port_Input1_N126:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N140:
+          typeIdx: 1
+          value: 1.300000
+        Port_Input1_N141:
+          typeIdx: 1
+          value: 4.000000
+        Port_Input1_N182:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N014:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N058:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N072:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N110:
+          typeIdx: 1
+          value: 0.180000
+        Port_Input2_N126:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N182:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMaxA_N002:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N034:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N063:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N067:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N103:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N002:
+          typeIdx: 1
+          value: 2.000000
+        Port_RangeMaxB_N034:
+          typeIdx: 1
+          value: 2.000000
+        Port_RangeMaxB_N063:
+          typeIdx: 1
+          value: 20.000000
+        Port_RangeMaxB_N067:
+          typeIdx: 1
+          value: 100.000000
+        Port_RangeMaxB_N103:
+          typeIdx: 1
+          value: 100.000000
+        Port_RangeMinA_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N034:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N063:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N067:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N103:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N034:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N063:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N067:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N103:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N041:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Scale_N164:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_UVCoord_N013:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: Tweak_N12
+            mWidget: group_start
+            mHint: "Define: Tweak_N12"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTexture
+            mWidget: texture_group
+            mHint: "Property: opacityTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N12
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Thin Lines Color
+            mType: Property
+            mName: thinlinesColor
+            mWidget: color
+            mHint: "Property: thinlinesColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Thick Lines Color
+            mType: Property
+            mName: thicklinesColor
+            mWidget: color
+            mHint: "Property: thicklinesColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Tint
+            mType: Property
+            mName: rimTint
+            mWidget: color
+            mHint: "Property: rimTint"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scanline
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Use Screen UV
+            mType: Define
+            mName: Tweak_N89
+            mWidget: checkbox
+            mHint: |-
+              Define: Tweak_N89
+              
+              Can be used when mesh is animated.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Animated
+            mType: Define
+            mName: animated
+            mWidget: group_start
+            mHint: "Define: animated"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Speed
+            mType: Property
+            mName: scanlineSpeed
+            mWidget: slider
+            mHint: "Property: scanlineSpeed"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert Direction
+            mType: Define
+            mName: Tweak_N68
+            mWidget: checkbox
+            mHint: "Define: Tweak_N68"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: animated
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: Offset
+            mWidget: slider
+            mHint: "Property: Offset"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Density
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "Thin Lines "
+            mType: Property
+            mName: thinLines
+            mWidget: slider
+            mHint: "Property: thinLines"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Thick Lines
+            mType: Property
+            mName: thickLines
+            mWidget: slider
+            mHint: "Property: thickLines"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Glitch
+            mType: Define
+            mName: Tweak_N76
+            mWidget: group_start
+            mHint: "Define: Tweak_N76"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Animated
+            mType: Define
+            mName: Tweak_N87
+            mWidget: group_start
+            mHint: "Define: Tweak_N87"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Speed
+            mType: Property
+            mName: glitchSpeed
+            mWidget: slider
+            mHint: "Property: glitchSpeed"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N87
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: glitchOffset
+            mWidget: slider
+            mHint: "Property: glitchOffset"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: glitchScale
+            mWidget: slider
+            mHint: "Property: glitchScale"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: glitchIntensity
+            mWidget: slider
+            mHint: "Property: glitchIntensity"
+            mMin: -1.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Frequency
+            mType: Property
+            mName: glitchFrequency
+            mWidget: slider
+            mHint: "Property: glitchFrequency"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Random Glitch Area
+            mType: Define
+            mName: Tweak_N75
+            mWidget: group_start
+            mHint: "Define: Tweak_N75"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: randScale
+            mWidget: slider
+            mHint: "Property: randScale"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert Mask
+            mType: Define
+            mName: Tweak_N130
+            mWidget: checkbox
+            mHint: "Define: Tweak_N130"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N75
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N76
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: c098cf8a-715c-442c-a4f8-7b516e263164/e7faec409912ebb59a4267444a014df1/Data/cfd37fa/Hologram.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e7faec409912ebb59a4267444a014df1
+  FileHash: 5422245743170989ba8abbe9ff9f4f47
+  NativePackageItems:
+    []

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/d8a15907-0ae6-452b-8827-9eb5fc25c7a8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 368a50b0-46ef-439a-a332-a34b6e33313f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 368a50b0-46ef-439a-a332-a34b6e33313f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> c3c787ee-835c-4669-ae97-55389d80a384
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/c3c787ee-835c-4669-ae97-55389d80a384>
+  SvgIcon: ""
+  Description: A suite of animated hand gestures for educating users on how to interact with your lens
+  InternalVersion: 1
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 75fec9e2-67d3-4283-a034-7247af31b984
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animationSpeed: false
+    autoPlay: false
+    hintAnimations: false
+    numberOfLoops: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - autoPlay: true
+      numberOfLoops: 1
+      animationSpeed: !<float> 1.000000
+      hintAnimations:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool autoPlay
+    - '// @input float animationSpeed = 1 {"widget":"slider", "min":0.5, "max":3, "step":0.1}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input int numberOfLoops = 1 {"widget":"slider", "min":1, "max":10, "step":1, "showIf":"loop", "showIfValue":true}'
+    - '// @ui {"widget":"separator"}'
+    - /*
+    - "@typedef HintAnimation"
+    - '@property {int} handType {"widget":"combobox", "values":[{"label":"Left", "value":0}, {"label":"Right", "value":1}, {"label":"Both", "value":2}]}'
+    - '@property {string} oneHandedAnimation_l = pinch_near {"widget":"combobox", "values":[{"label":"Pinch Near", "value":"pinch_near"}, {"label":"Pinch Far", "value":"pinch_far"}, {"label":"Pinch Move X", "value":"pinch_move_x"}, {"label":"Pinch Move Y", "value":"pinch_move_y"}, {"label":"Pinch Move Z", "value":"pinch_move_z"}, {"label":"Pinch Rotate X", "value":"pinch_rotate_x"}, {"label":"Pinch Rotate Y", "value":"pinch_rotate_y"}, {"label":"Pinch Rotate Z", "value":"pinch_rotate_z"}, {"label":"Pinch Swipe X", "value":"pinch_swipe_x"}, {"label":"Pinch Swipe Y", "value":"pinch_swipe_y"}, {"label":"Finger Tap Near", "value":"finger_tap_near"}, {"label":"Finger Tap Surface", "value":"finger_tap_surface"}, {"label":"Finger Swipe X", "value":"finger_swipe_x"}, {"label":"Finger Swipe Y", "value":"finger_swipe_y"}, {"label":"Finger Scroll Mirco", "value":"finger_scroll_micro"}, {"label":"Palm Touch Near", "value":"palm_touch_near"}, {"label":"Palm Touch Surface", "value":"palm_touch_surface"}, {"label":"Palm Swipe X", "value":"palm_swipe_x"}, {"label":"Palm Grab X", "value":"palm_grab_x"}, {"label":"Palm Grab Y", "value":"palm_grab_y"}], "showIf":"handType", "showIfValue":0}'
+    - '@property {string} oneHandedAnimation_r = pinch_near {"widget":"combobox", "values":[{"label":"Pinch Near", "value":"pinch_near"}, {"label":"Pinch Far", "value":"pinch_far"}, {"label":"Pinch Move X", "value":"pinch_move_x"}, {"label":"Pinch Move Y", "value":"pinch_move_y"}, {"label":"Pinch Move Z", "value":"pinch_move_z"}, {"label":"Pinch Rotate X", "value":"pinch_rotate_x"}, {"label":"Pinch Rotate y", "value":"pinch_rotate_y"}, {"label":"Pinch Rotate Z", "value":"pinch_rotate_z"}, {"label":"Pinch Swipe X", "value":"pinch_swipe_x"}, {"label":"Pinch Swipe Y", "value":"pinch_swipe_y"}, {"label":"Finger Tap Near", "value":"finger_tap_near"}, {"label":"Finger Tap Surface", "value":"finger_tap_surface"}, {"label":"Finger Swipe X", "value":"finger_swipe_x"}, {"label":"Finger Swipe Y", "value":"finger_swipe_y"}, {"label":"Finger Scroll Mirco", "value":"finger_scroll_micro"}, {"label":"Palm Touch Near", "value":"palm_touch_near"}, {"label":"Palm Touch Surface", "value":"palm_touch_surface"}, {"label":"Palm Swipe X", "value":"palm_swipe_x"}, {"label":"Palm Grab X", "value":"palm_grab_x"}, {"label":"Palm Grab Y", "value":"palm_grab_y"}], "showIf":"handType", "showIfValue":1}'
+    - '@property {string} twoHandedAnimation = two_hands_pinch_scale {"widget":"combobox", "values":[{"label":"System Tap Settings", "value":"system_tap_settings"}, {"label":"System Tap Rotate Down", "value":"system_tap_rotate_down"}, {"label":"System Tap Rotate Up", "value":"system_tap_rotate_up"}, {"label":"System Tap Watch", "value":"system_tap_watch"}, {"label":"System Tap Exit", "value":"system_tap_exit"}, {"label":"Two Hands Pinch Scale", "value":"two_hands_pinch_scale"}, {"label":"Two Hands Pinch Rotate Y", "value":"two_hands_pinch_rotate_y"}, {"label":"Two Hands Pinch Rotate Z", "value":"two_hands_pinch_rotate_z"}, {"label":"Two Hands Palm Grab X", "value":"two_hands_palm_grab_x"}, {"label":"Two Hands Palm Grab Y", "value":"two_hands_palm_grab_y"}], "showIf":"handType", "showIfValue":2}'
+    - "@property {vec3} position "
+    - "*/"
+    - '// @input HintAnimation[] hintAnimations {"showIf":"sequence", "showIfValue":true}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

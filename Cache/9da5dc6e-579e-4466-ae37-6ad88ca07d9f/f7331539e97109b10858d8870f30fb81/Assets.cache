@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    89eca14f-a73a-44d4-b026-57e8070497de: 9da5dc6e-579e-4466-ae37-6ad88ca07d9f/f7331539e97109b10858d8870f30fb81/Data/LeftHandGeo.mesh
+  Assets:
+    - !<FileMesh/89eca14f-a73a-44d4-b026-57e8070497de>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 9440
+        Vertices: 5456
+        Blendshapes:
+          - LeftHandScaleShape
+        Joints: 26
+        AabbSize: {x: 14.444530, y: 9.231695, z: 22.226103}
+  SourceHash: f7331539e97109b10858d8870f30fb81
+  FileHash: 6d1339e2e891774f4f81026b424f49be
+  NativePackageItems:
+    []

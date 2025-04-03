@@ -1,0 +1,2836 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: daeab4e396864f08e722b2f857fb6b2f
+  FileHash: 843c2f4bc490cd0ec471b5856497d244
+  NativePackageItems:
+    - !<own> cdbe8ebc-76e9-4aa6-b38b-884827037c77
+    - !<own> 826bc064-d44c-48b8-a76e-257c99e6cc64
+    - !<own> 0a7a57f3-234b-4b53-ac83-78bef7327295
+    - !<own> 9f6df6db-9c64-48dd-bfc4-29e5e182106d
+    - !<own> c15e6e67-1f90-473b-9e5b-2da674f27099
+    - !<own> 140f388a-b4ab-4e66-a497-7681aeb8091a
+    - !<own> 5c73b712-456b-4f3b-ad0e-d31ea560db0d
+    - !<own> bf9cf57c-c23f-407f-beb2-c1dcb2e490cf
+    - !<own> f6aeadc7-c7f8-492c-ace5-499730f39c8b
+    - !<own> 07362069-f90b-49f6-81ce-3dc836f8ed40
+    - !<own> 0253b378-3127-4d18-80ee-267cd22fe240
+    - !<own> ab8471a0-2121-414a-b7e2-11156eac4b5e
+    - !<own> eb2d1b17-2b25-4a63-aec8-da16d78292b6
+    - !<own> 2a536c65-78a9-45f8-86c0-cbf4339a9d3a
+    - !<own> 8ec39eef-9e7e-437d-b689-5e4d75803424
+    - !<own> a416a1f0-dcae-4f15-8d4b-8887a6b2d38c
+    - !<own> 4e9f7af0-bd62-4c2f-9212-bdfdbde4974c
+    - !<own> a6849993-1556-4d11-9c06-111b3b1012c3
+    - !<own> 03c0a527-221f-4a9c-9e32-0b934e2ce448
+    - !<own> 999f9399-b119-4675-9a42-2d4aa10a072e
+    - !<own> 2f4d4d14-320a-4aff-b081-287b2db8c372
+    - !<own> c7eae8f9-9fa2-40e2-97e2-6fc6a1702fe5
+    - !<own> 06d95837-c7bc-4bd5-ab6e-acddac12f550
+    - !<own> f800ad64-f520-4918-8d8f-e317c01a79be
+    - !<own> 8fc57167-91d6-41b1-9e17-e59ba97020e2
+    - !<own> 9047eac0-0878-496c-a039-9ec6f6a6afee
+    - !<own> 9b02c9fd-a7fa-488e-8071-d5fbef87106b
+    - !<own> bc60116e-25fe-4f55-8a75-aac31e61d455
+    - !<own> f51447cd-aad1-4b1d-bfaf-1266d24aa858
+    - !<own> 729ae811-df68-4aef-87b2-b901e0cbcb1c
+    - !<own> b7adef83-3164-4e31-8557-8c771ee9614a
+    - !<own> 5bbc259d-c162-4d08-97a2-f7bcb4053afc
+    - !<own> 324ad4e0-49b7-4f52-87a2-ccd24c2d995f
+    - !<own> 573f6b2b-8b97-416a-8398-af3f45b7a6cd
+    - !<own> 4f077c93-cacb-450f-8097-817ccd0509c8
+    - !<own> 35bae490-495a-4275-94b2-b2dc52689eb6
+    - !<own> 54bc0a36-21f0-4694-9e54-3d8b6e57dfaf
+    - !<own> 8710a0b2-be2e-42bf-bac3-84e029895eb3
+    - !<own> af55c29a-678e-4e1a-b88c-bba4bb271064
+    - !<own> e7bb03d7-949b-4b40-8170-06814e684fdc
+    - !<own> e957a421-4d59-4251-ac25-93a13e2aacd8
+    - !<own> d85e7fcf-b192-49e1-afe0-879309a5ed58
+    - !<own> e20af512-607e-4aa2-b72d-e532e2939607
+    - !<own> 4e11b11f-f7a4-4c39-9367-a4393d8671f5
+    - !<own> b527be1e-5a55-48b6-9a41-7bb397ada49f
+    - !<own> b5502b8a-d4f4-4596-8f90-e0ee1dde2fe0
+    - !<own> 3751a469-c238-453d-89d0-968ccfce6fd2
+    - !<own> 00d76922-59be-4158-b96b-9f32abdba37d
+    - !<own> 45077576-b71b-4364-974a-52dd524815b0
+    - !<own> 949c7030-98c4-417d-903f-82e1ed73d1f9
+    - !<own> 3cb3694f-d81b-4ecb-a79e-d1d35c30b78f
+    - !<own> 9da5dc6e-579e-4466-ae37-6ad88ca07d9f
+    - !<own> 7842ee2c-c457-414c-a137-86fb3845ba4c
+    - !<own> 88244b29-1eff-420d-853e-bb69a2491b74
+    - !<own> 776d418c-574c-4f90-b02e-f9eebc138e6b
+    - !<own> 82519476-a653-4a3c-9250-d85c2b3a4165
+    - !<own> 8600d710-4f75-47e7-880d-1b5b6a8dd558
+    - !<own> d8a15907-0ae6-452b-8827-9eb5fc25c7a8
+    - !<own> a230b88d-2204-46a8-8e5c-3fff8d15cfad
+    - !<own> 15716499-8b34-4c72-b412-f9e676196d3d
+- !<AssetImportMetadata/00d76922-59be-4158-b96b-9f32abdba37d>
+  ImportedAssetIds:
+    Material: !<reference> 95d1461f-fb70-434e-8911-6eb785991b99
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 95d1461f-fb70-434e-8911-6eb785991b99
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/0253b378-3127-4d18-80ee-267cd22fe240>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> bd9e53e1-e4ab-43b7-a6f3-15afb1f8602b
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> bd9e53e1-e4ab-43b7-a6f3-15afb1f8602b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/03c0a527-221f-4a9c-9e32-0b934e2ce448>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 08f74303-c6e3-4019-915e-59040af5aa89
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 08f74303-c6e3-4019-915e-59040af5aa89
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/06d95837-c7bc-4bd5-ab6e-acddac12f550>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> f57e4af4-68aa-41dc-8a8e-a5ac21ead5ba
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> f57e4af4-68aa-41dc-8a8e-a5ac21ead5ba
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/07362069-f90b-49f6-81ce-3dc836f8ed40>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 4c89279b-da6c-4c43-9165-28b632acb875
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 4c89279b-da6c-4c43-9165-28b632acb875
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/0741c929-6cca-4589-adc6-38afe3c24a88>
+  PrefabRemaps:
+    []
+  Name: pinky_3_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.578214, z: 0.000000}
+    rotation: {x: -0.499670, y: -0.039094, z: -4.397766}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d269bbb-6be2-4b06-bacd-cd3000c391e9
+  Components:
+    []
+- !<AssetImportMetadata/0a7a57f3-234b-4b53-ac83-78bef7327295>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 433b2750-7e7f-4c0f-bd02-9b802507493c
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 433b2750-7e7f-4c0f-bd02-9b802507493c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/0e5461ab-bd2f-4cd3-b9f8-87d7b5545f53>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3fb390e6-132e-404d-b2cb-76a61fb7fda3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/12a1c054-9d6c-4307-9379-32724714fa26>
+  PrefabRemaps:
+    []
+  Name: ring_2_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000001, y: 3.803970, z: -0.000012}
+    rotation: {x: 0.059506, y: 0.004453, z: -4.282380}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c5033e84-f0ae-4a8c-8064-4c6f9447f128
+  Components:
+    []
+- !<TypeScriptAssetData/13c8e432-8060-4e20-a8db-8a46c06ca687>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1f576eaa-1f01-45cb-87d5-828ab8c862cf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    demoOption: false
+    interactionHintController: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactionHintController: !<MappingBased.InteractionHintController> 00000000-0000-0000-0000-000000000000
+      demoOption: 0
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input InteractionHintController interactionHintController
+    - '// @input int demoOption {"widget":"combobox", "values":[{"label":"Demo Single Animation", "value":0}, {"label":"Demo Animation Sequence", "value":1}]}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/140f388a-b4ab-4e66-a497-7681aeb8091a>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 0f205484-ad15-4d9a-9873-77ad3bb7f32f
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 0f205484-ad15-4d9a-9873-77ad3bb7f32f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/15716499-8b34-4c72-b412-f9e676196d3d>
+  ImportedAssetIds:
+    Texture: !<reference> ea9a8626-d82d-4cae-968a-93204de83e63
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> ea9a8626-d82d-4cae-968a-93204de83e63
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/1b590ff9-a1b9-4eda-b9e4-288e9a59a64a>
+  PrefabRemaps:
+    []
+  Name: thumb_1_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 3.148000, y: 2.715180, z: 1.438130}
+    rotation: {x: -20.739389, y: 15.759766, z: 125.651466}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> deaf8958-6e2f-436f-a738-ae61da2edb8f
+  Components:
+    []
+- !<TypeScriptAssetData/24b567ab-cd77-4aa3-a53b-8e9bfc51b0a9>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 85a67003-33bf-4e47-a383-87df9575ab58
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/260a4422-69b7-4cc9-9660-ef70d413f458>
+  PrefabRemaps:
+    []
+  Name: wrist_to_pinky_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -70.957245, y: -4.766995, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f0ee9404-ff4a-4a7e-af37-74290cf7b59d
+  Components:
+    []
+- !<SceneObject/265df075-6c88-4733-8500-45ea643edd4f>
+  PrefabRemaps:
+    []
+  Name: mid_3_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -3.372554, z: -0.000000}
+    rotation: {x: -0.319562, y: -0.026106, z: -4.095376}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f6be77a3-1261-4212-a8ff-8e9651784fe1
+  Components:
+    []
+- !<SceneObject/283bed82-6399-498e-985b-04e52087469f>
+  PrefabRemaps:
+    []
+  Name: index_2_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.001583, y: 3.270586, z: 0.000000}
+    rotation: {x: -0.263109, y: -0.021350, z: -4.083573}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bbfdf5b9-3124-4997-8717-d206602e1423
+  Components:
+    []
+- !<SceneObject/29fa9fe7-42f5-4da9-9f2f-ee5564089efa>
+  PrefabRemaps:
+    []
+  Name: pinky_3_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000001, y: -2.578220, z: -0.000006}
+    rotation: {x: -0.499670, y: -0.039094, z: -4.397766}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b2563310-69dd-42dc-ba2f-644e24c5f310
+  Components:
+    []
+- !<AssetImportMetadata/2a536c65-78a9-45f8-86c0-cbf4339a9d3a>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 04e11e09-57f5-4160-993f-6ea596178b0b
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 04e11e09-57f5-4160-993f-6ea596178b0b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/2bcae7ba-52d1-4112-811b-2b145b7d1c97>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a4ed58ab-c3bd-4de2-9127-1e2fc88f12a1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2c0743b8-a14f-4eb0-9143-82692a5020de>
+  PrefabRemaps:
+    []
+  Name: ring_1_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.143696, y: -11.624846, z: -0.000736}
+    rotation: {x: -9.301908, y: -0.257544, z: -1.474589}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5bd4927a-5e59-40fa-b5d7-e4873439e239
+  Components:
+    []
+- !<AnimationPlayer/2e521ea8-dfa0-4b5c-b4f3-b0e196d2cc93>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 732ff540-6905-43fb-b6e1-c84891f1fb03
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d5547e14-7151-4b16-a678-c512bdd7819b
+      Name: pinch_near
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 77954506-28b8-419e-9419-c5c229ff6625
+      Name: pinch_far
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> e0df67fc-e3c7-440e-bf16-fe122389194c
+      Name: pinch_move_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 04e11e09-57f5-4160-993f-6ea596178b0b
+      Name: pinch_move_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0e71a02f-8769-49b9-8c17-dfef6a2ce235
+      Name: pinch_move_z
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 362ac011-87a4-4bc7-b572-11f4d93565e1
+      Name: pinch_rotate_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 46bf6b4f-f14f-4252-a355-a475f9bc4983
+      Name: pinch_rotate_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 08f74303-c6e3-4019-915e-59040af5aa89
+      Name: pinch_rotate_z
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5c82ec41-2321-42dc-a3c7-f1bb1eeea501
+      Name: pinch_swipe_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> fc1aec08-3e3f-4527-8c7b-c61ee35c776c
+      Name: pinch_swipe_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 169e7d94-f0b5-4979-8775-4b74517f165a
+      Name: finger_tap_near
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0f205484-ad15-4d9a-9873-77ad3bb7f32f
+      Name: finger_tap_surface
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 433b2750-7e7f-4c0f-bd02-9b802507493c
+      Name: finger_swipe_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 30.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 45f28b57-3d5a-4863-b287-242c6671d5be
+      Name: finger_swipe_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 30.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d46ae4d8-811d-4655-818a-06226eb2a720
+      Name: finger_scroll_micro
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 30.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4c89279b-da6c-4c43-9165-28b632acb875
+      Name: palm_touch_near
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> bd9e53e1-e4ab-43b7-a6f3-15afb1f8602b
+      Name: palm_touch_surface
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8124e0e3-f8f4-4700-b16f-15ea216023db
+      Name: palm_swipe_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1b5bf25f-8d4c-44f8-ae91-b90394f78d72
+      Name: palm_grab_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> c5f4a84d-83e6-4150-aeda-c3e999a36346
+      Name: palm_grab_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 28e99dac-836f-405c-bb3d-234ab552a336
+      Name: system_tap_settings
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f57e4af4-68aa-41dc-8a8e-a5ac21ead5ba
+      Name: system_tap_rotate_down
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 2f4fe0f0-bff2-4ff8-a1c9-a47049b032a1
+      Name: system_tap_rotate_up
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 60.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8cee36dc-b30d-4619-a89e-94697e027cc6
+      Name: system_tap_watch
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5ea8ca18-b017-4a76-bcce-2cd5bac8aff5
+      Name: system_tap_save
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 46602c05-65df-443d-9e29-d495bf383064
+      Name: system_tap_exit
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> be240975-c6c5-4967-997d-c640fca0e6a0
+      Name: two_hands_pinch_scale
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> e170856d-ae4f-4444-8657-e56c4ae66fcc
+      Name: two_hands_pinch_rotate_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> bef9fde9-50a1-484f-b13d-f23695d38bae
+      Name: two_hands_pinch_rotate_z
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 120.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f25700f5-b1c3-435b-a8f3-e7a8d4f5b3c5
+      Name: two_hands_palm_grab_x
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0c5785ab-f2c9-40b4-8e4c-fd68a637b138
+      Name: two_hands_palm_grab_y
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 90.000000
+      Reversed: false
+      Disabled: true
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Single
+- !<AssetImportMetadata/2f4d4d14-320a-4aff-b081-287b2db8c372>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> fc1aec08-3e3f-4527-8c7b-c61ee35c776c
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> fc1aec08-3e3f-4527-8c7b-c61ee35c776c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/324ad4e0-49b7-4f52-87a2-ccd24c2d995f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bb5ea0af-09fd-4178-8008-b708f3c5f7e5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bb5ea0af-09fd-4178-8008-b708f3c5f7e5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 24b567ab-cd77-4aa3-a53b-8e9bfc51b0a9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/32e92bec-24a1-4801-aff5-6265dd51b6b7>
+  PrefabRemaps:
+    []
+  Name: wrist_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -12.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -180.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fdfbe164-a782-4b96-b456-8842808ef03f
+    - !<own> c7427ce0-b339-4d6c-855a-675a2ff67a66
+    - !<own> 5e7a738d-fb2d-4a0e-afeb-c91c6b76d315
+    - !<own> c8ea0596-af30-46d7-b4e5-f8f1602712c9
+    - !<own> 260a4422-69b7-4cc9-9660-ef70d413f458
+  Components:
+    []
+- !<AssetImportMetadata/35bae490-495a-4275-94b2-b2dc52689eb6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0f21ade4-3bb1-4164-b8c3-e563ba7771b3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0f21ade4-3bb1-4164-b8c3-e563ba7771b3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8f87ef8a-0dcf-4aee-a545-add5adc48461
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/3751a469-c238-453d-89d0-968ccfce6fd2>
+  ImportedAssetIds:
+    Material: !<reference> 77ae12cc-fe42-4e15-9edd-8d521ad995a6
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 77ae12cc-fe42-4e15-9edd-8d521ad995a6
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  AssetDataMap:
+    Material: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/3cb3694f-d81b-4ecb-a79e-d1d35c30b78f>
+  ImportedAssetIds:
+    FileMesh: !<reference> e5a9bbf5-ec52-492b-806b-e584af06c86f
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> e5a9bbf5-ec52-492b-806b-e584af06c86f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/43330a0d-3173-4238-8e78-192501c6c489>
+  PrefabRemaps:
+    []
+  Name: wrist_to_ring_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000006}
+    rotation: {x: -81.018883, y: -3.554933, z: -89.999985}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d720ebf8-734e-477b-98d2-b0c5e7045ff5
+  Components:
+    []
+- !<SceneObject/449daea5-4be9-4931-96a1-fea0d0107c13>
+  PrefabRemaps:
+    []
+  Name: index_4_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -3.094351, z: 0.000007}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277001}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AssetImportMetadata/45077576-b71b-4364-974a-52dd524815b0>
+  ImportedAssetIds:
+    Material: !<reference> 82780365-742d-45a0-b20d-53ed65b56b7c
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 82780365-742d-45a0-b20d-53ed65b56b7c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/4e11b11f-f7a4-4c39-9367-a4393d8671f5>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> e705ef38-1254-4e5d-86ea-9c7e7c62837b
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> e705ef38-1254-4e5d-86ea-9c7e7c62837b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/4e9f7af0-bd62-4c2f-9212-bdfdbde4974c>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 362ac011-87a4-4bc7-b572-11f4d93565e1
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 362ac011-87a4-4bc7-b572-11f4d93565e1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/4f077c93-cacb-450f-8097-817ccd0509c8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9633f479-6626-4419-a511-917e74b81800
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9633f479-6626-4419-a511-917e74b81800
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> d4152b32-ac71-4fd3-82df-65cd8d7c6f3f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/4f1658ee-0658-40d0-b670-2e04907a0ba5>
+  PrefabRemaps:
+    []
+  Name: thumb_3_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.119327, y: -3.829532, z: -0.131534}
+    rotation: {x: 1.966574, y: -1.101703, z: -1.822505}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 609afbaa-18af-4447-a0f1-8781e57622c2
+  Components:
+    []
+- !<AssetImportMetadata/54bc0a36-21f0-4694-9e54-3d8b6e57dfaf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 47683e2e-cb69-48a6-bb09-e7122026ccf4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 47683e2e-cb69-48a6-bb09-e7122026ccf4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6e82cbef-a4f6-4511-83e4-4419268e0588
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/55f916f4-87ef-41be-82c7-c7b8402d2719>
+  PrefabRemaps:
+    []
+  Name: ring_3_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000001, y: -3.294740, z: 0.000000}
+    rotation: {x: 0.009794, y: 0.000732, z: -4.273915}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e481052c-dbcc-4ed6-aafb-2f65a84134f4
+  Components:
+    []
+- !<AssetImportMetadata/573f6b2b-8b97-416a-8398-af3f45b7a6cd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d748ba25-fe21-4fc4-a7c9-f82115f56079
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d748ba25-fe21-4fc4-a7c9-f82115f56079
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> e2c23034-f709-49d1-8c27-c4c4beb88d3d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/5bbc259d-c162-4d08-97a2-f7bcb4053afc>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> be240975-c6c5-4967-997d-c640fca0e6a0
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> be240975-c6c5-4967-997d-c640fca0e6a0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/5bd4927a-5e59-40fa-b5d7-e4873439e239>
+  PrefabRemaps:
+    []
+  Name: ring_2_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -3.803909, z: 0.000014}
+    rotation: {x: 0.059506, y: 0.004453, z: -4.282380}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 55f916f4-87ef-41be-82c7-c7b8402d2719
+  Components:
+    []
+- !<AssetImportMetadata/5c73b712-456b-4f3b-ad0e-d31ea560db0d>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 1b5bf25f-8d4c-44f8-ae91-b90394f78d72
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 1b5bf25f-8d4c-44f8-ae91-b90394f78d72
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/5e7a738d-fb2d-4a0e-afeb-c91c6b76d315>
+  PrefabRemaps:
+    []
+  Name: wrist_to_mid_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -92.651337, y: -2.639888, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 726acc14-b45f-4d1a-89a7-be62d6975a0a
+  Components:
+    []
+- !<SceneObject/609afbaa-18af-4447-a0f1-8781e57622c2>
+  PrefabRemaps:
+    []
+  Name: thumb_4_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.198076, y: -3.555867, z: 0.000025}
+    rotation: {x: 0.000000, y: 0.000000, z: -10.858089}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/622f0285-60a4-4e14-ae7f-1b291a0f6916>
+  PrefabRemaps:
+    []
+  Name: mid_2_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000362, y: -3.729083, z: -0.003020}
+    rotation: {x: -0.189854, y: -0.014161, z: -4.254453}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 265df075-6c88-4733-8500-45ea643edd4f
+  Components:
+    []
+- !<SceneObject/62f4d4d7-c2a8-43a7-bc60-fb1dda2e29b5>
+  PrefabRemaps:
+    []
+  Name: ring_4_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.648873, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/643418e2-d61a-42d4-ba02-0761e8f52897>
+  PrefabRemaps:
+    []
+  Name: index_1_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.017057, y: 11.959476, z: 0.000000}
+    rotation: {x: 14.249050, y: 0.750213, z: -2.993087}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 283bed82-6399-498e-985b-04e52087469f
+  Components:
+    []
+- !<SceneObject/65a5a6b9-055f-4798-98ea-e6e3dea4479a>
+  PrefabRemaps:
+    []
+  Name: thumb_1_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.148000, y: -2.715180, z: -1.438126}
+    rotation: {x: -20.739389, y: 15.759766, z: 125.651466}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f6bd9968-32f5-4dd0-9d33-075f88b0701a
+  Components:
+    []
+- !<SceneObject/65c2f596-e2e7-4f3c-add4-4b75e8c43f1c>
+  PrefabRemaps:
+    []
+  Name: wrist_to_index_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000006}
+    rotation: {x: -104.761360, y: -2.116731, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 643418e2-d61a-42d4-ba02-0761e8f52897
+  Components:
+    []
+- !<TypeScriptAssetData/6e82cbef-a4f6-4511-83e4-4419268e0588>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9645915c-34e8-4b4d-a450-9b3bf8698886
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/726acc14-b45f-4d1a-89a7-be62d6975a0a>
+  PrefabRemaps:
+    []
+  Name: mid_1_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.073471, y: -11.652538, z: 0.006263}
+    rotation: {x: 2.198358, y: 0.074857, z: -2.345959}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 622f0285-60a4-4e14-ae7f-1b291a0f6916
+  Components:
+    []
+- !<AssetImportMetadata/729ae811-df68-4aef-87b2-b901e0cbcb1c>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> e170856d-ae4f-4444-8657-e56c4ae66fcc
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> e170856d-ae4f-4444-8657-e56c4ae66fcc
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/776d418c-574c-4f90-b02e-f9eebc138e6b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8c55403a-b1a2-4f0d-859d-bc1f0d3a9f54
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8c55403a-b1a2-4f0d-859d-bc1f0d3a9f54
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> c7ce7c83-ada9-464c-a323-b7d05da86393
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7842ee2c-c457-414c-a137-86fb3845ba4c>
+  ImportedAssetIds:
+    FileMesh: !<reference> 9f18546f-72e9-4a74-bba4-8430bad5face
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 9f18546f-72e9-4a74-bba4-8430bad5face
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      boneData: Float
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+      texture1: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/7b7c773f-2c03-40e3-8050-6fa5fc1ce044>
+  PrefabRemaps:
+    []
+  Name: pinky_2_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000215, y: -3.102519, z: -0.000171}
+    rotation: {x: 0.058945, y: 0.003433, z: -4.351720}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 29fa9fe7-42f5-4da9-9f2f-ee5564089efa
+  Components:
+    []
+- !<SceneObject/82196b6a-1e5f-4a72-81a3-c4a75e297e6d>
+  PrefabRemaps:
+    []
+  Name: pinky_2_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000215, y: 3.102562, z: 0.000170}
+    rotation: {x: 0.058945, y: 0.003433, z: -4.351720}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0741c929-6cca-4589-adc6-38afe3c24a88
+  Components:
+    []
+- !<AssetImportMetadata/82519476-a653-4a3c-9250-d85c2b3a4165>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2436c9af-71a3-4c3b-be72-8d79d607bde3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2436c9af-71a3-4c3b-be72-8d79d607bde3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d4e39e59-f874-411a-ab5a-d8e4c925280b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/826bc064-d44c-48b8-a76e-257c99e6cc64>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> d46ae4d8-811d-4655-818a-06226eb2a720
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> d46ae4d8-811d-4655-818a-06226eb2a720
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/8600d710-4f75-47e7-880d-1b5b6a8dd558>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5330310d-ff67-4c8d-9e97-1967a8229121
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5330310d-ff67-4c8d-9e97-1967a8229121
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 13c8e432-8060-4e20-a8db-8a46c06ca687
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8710a0b2-be2e-42bf-bac3-84e029895eb3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9b10085e-5ece-4235-b6b3-1562372bef6b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9b10085e-5ece-4235-b6b3-1562372bef6b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 88838281-2aec-4039-83e9-45ebad66de42
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/88244b29-1eff-420d-853e-bb69a2491b74>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> aff51577-09a2-4e10-bcb8-2cb2bb54c8b4
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> aff51577-09a2-4e10-bcb8-2cb2bb54c8b4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/883038e2-1dd2-421d-b67d-251eab8dfd27>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 82780365-742d-45a0-b20d-53ed65b56b7c
+    - !<reference> 95d1461f-fb70-434e-8911-6eb785991b99
+    - !<reference> fa8518a8-60c2-4a00-bf3b-9e594a3e7069
+  Mesh: !<reference> 9f18546f-72e9-4a74-bba4-8430bad5face
+  Skin: !<reference> ec7e764b-d563-4388-a7f3-7824eac3010b
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    RightHandScaleShape: 0.000000
+- !<SceneObject/8873a90b-ec85-4d64-994a-1746ff209b87>
+  PrefabRemaps:
+    []
+  Name: index_3_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -3.000806, z: -0.000009}
+    rotation: {x: 0.178236, y: 0.015736, z: -4.456100}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 449daea5-4be9-4931-96a1-fea0d0107c13
+  Components:
+    []
+- !<TypeScriptAssetData/88838281-2aec-4039-83e9-45ebad66de42>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d5ca5d06-6e6c-4435-82b2-c625c25bdecc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/898679fc-86ab-48b1-b1e1-200b0f6c059f>
+  PrefabRemaps:
+    []
+  Name: wrist_to_mid_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000006}
+    rotation: {x: -92.651337, y: -2.639888, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b65dc461-7fb9-432c-bdbb-370ce93659c3
+  Components:
+    []
+- !<AssetImportMetadata/8ec39eef-9e7e-437d-b689-5e4d75803424>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 0e71a02f-8769-49b9-8c17-dfef6a2ce235
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 0e71a02f-8769-49b9-8c17-dfef6a2ce235
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/8f87ef8a-0dcf-4aee-a545-add5adc48461>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 61f76cf0-46bf-44f4-918e-4b4b31f08494
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/8f99b3d3-00e4-45b2-9ed8-a86f5136a256>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 82780365-742d-45a0-b20d-53ed65b56b7c
+    - !<reference> 95d1461f-fb70-434e-8911-6eb785991b99
+    - !<reference> fa8518a8-60c2-4a00-bf3b-9e594a3e7069
+  Mesh: !<reference> 89eca14f-a73a-44d4-b026-57e8070497de
+  Skin: !<reference> ec7e764b-d563-4388-a7f3-7824eac3010b
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    LeftHandScaleShape: 0.000000
+- !<AssetImportMetadata/8fc57167-91d6-41b1-9e17-e59ba97020e2>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 5ea8ca18-b017-4a76-bcce-2cd5bac8aff5
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 5ea8ca18-b017-4a76-bcce-2cd5bac8aff5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/9047eac0-0878-496c-a039-9ec6f6a6afee>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 28e99dac-836f-405c-bb3d-234ab552a336
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 28e99dac-836f-405c-bb3d-234ab552a336
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/92e30c20-eaed-4286-8a8c-51e7af0ea1dc>
+  PrefabRemaps:
+    []
+  Name: mid_2_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000362, y: 3.729086, z: 0.003020}
+    rotation: {x: -0.189854, y: -0.014161, z: -4.254453}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 98071fac-0968-4264-b044-5a95899d5c88
+  Components:
+    []
+- !<AssetImportMetadata/949c7030-98c4-417d-903f-82e1ed73d1f9>
+  ImportedAssetIds:
+    Material: !<reference> fa8518a8-60c2-4a00-bf3b-9e594a3e7069
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> fa8518a8-60c2-4a00-bf3b-9e594a3e7069
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/98071fac-0968-4264-b044-5a95899d5c88>
+  PrefabRemaps:
+    []
+  Name: mid_3_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.372555, z: 0.000000}
+    rotation: {x: -0.319562, y: -0.026106, z: -4.095376}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d81ce319-66ed-4fe2-b343-1c97dedf768d
+  Components:
+    []
+- !<AssetImportMetadata/999f9399-b119-4675-9a42-2d4aa10a072e>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 5c82ec41-2321-42dc-a3c7-f1bb1eeea501
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 5c82ec41-2321-42dc-a3c7-f1bb1eeea501
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/9b02c9fd-a7fa-488e-8071-d5fbef87106b>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 8cee36dc-b30d-4619-a89e-94697e027cc6
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 8cee36dc-b30d-4619-a89e-94697e027cc6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/9c2f71f8-7190-4b87-bd9b-a23d7348be02>
+  PrefabRemaps:
+    []
+  Name: hands_ROOT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b50839b5-3698-4d69-b16e-3f45a91f2ee1
+    - !<own> 32e92bec-24a1-4801-aff5-6265dd51b6b7
+  Components:
+    []
+- !<SceneObject/9d269bbb-6be2-4b06-bacd-cd3000c391e9>
+  PrefabRemaps:
+    []
+  Name: pinky_4_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.393880, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AssetImportMetadata/9da5dc6e-579e-4466-ae37-6ad88ca07d9f>
+  ImportedAssetIds:
+    FileMesh: !<reference> 89eca14f-a73a-44d4-b026-57e8070497de
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 89eca14f-a73a-44d4-b026-57e8070497de
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      boneData: Float
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+      texture1: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/9f6df6db-9c64-48dd-bfc4-29e5e182106d>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 45f28b57-3d5a-4863-b287-242c6671d5be
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 45f28b57-3d5a-4863-b287-242c6671d5be
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/a230b88d-2204-46a8-8e5c-3fff8d15cfad>
+  ImportedAssetIds:
+    Texture: !<reference> 30762dc2-20bd-4624-9a29-5d79dcbb7f41
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 30762dc2-20bd-4624-9a29-5d79dcbb7f41
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/a416a1f0-dcae-4f15-8d4b-8887a6b2d38c>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> d5547e14-7151-4b16-a678-c512bdd7819b
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> d5547e14-7151-4b16-a678-c512bdd7819b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/a6849993-1556-4d11-9c06-111b3b1012c3>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 46bf6b4f-f14f-4252-a355-a475f9bc4983
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 46bf6b4f-f14f-4252-a355-a475f9bc4983
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ObjectPrefab/a87bf580-7cd7-4ae7-8f48-ccbed7374a90>
+  PackagePath: ""
+  objects:
+    - !<own> eef4ddf5-c017-476f-a757-a6290db6a207
+  LazyLoading: false
+  RetainAssets: true
+- !<AssetImportMetadata/ab8471a0-2121-414a-b7e2-11156eac4b5e>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 77954506-28b8-419e-9419-c5c229ff6625
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 77954506-28b8-419e-9419-c5c229ff6625
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/af55c29a-678e-4e1a-b88c-bba4bb271064>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1b74a273-a9b0-4963-bd70-426e0c44ed18
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1b74a273-a9b0-4963-bd70-426e0c44ed18
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> eb9b989d-efde-489d-ad9e-b61facb4dfaa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/b045a9a2-09cb-44ba-b87e-7755800c1c30>
+  PrefabRemaps:
+    []
+  Name: wrist_to_pinky_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000006}
+    rotation: {x: -70.957245, y: -4.766995, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bbc6d04a-1042-41c5-9f94-2057d4d8363a
+  Components:
+    []
+- !<SceneObject/b17dded0-620a-4936-8ee3-e0b06964308b>
+  PrefabRemaps:
+    []
+  Name: index_4_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.094376, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b2563310-69dd-42dc-ba2f-644e24c5f310>
+  PrefabRemaps:
+    []
+  Name: pinky_4_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000008, y: -2.393935, z: 0.000007}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/b427fc3e-ce01-46c3-8a80-c3df1972e1aa>
+  PrefabRemaps:
+    []
+  Name: index_2_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.001583, y: -3.270573, z: 0.000003}
+    rotation: {x: -0.263109, y: -0.021350, z: -4.083573}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8873a90b-ec85-4d64-994a-1746ff209b87
+  Components:
+    []
+- !<SceneObject/b50839b5-3698-4d69-b16e-3f45a91f2ee1>
+  PrefabRemaps:
+    []
+  Name: wrist_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 12.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ea3700e9-f6ad-45e9-b642-53e5041969c0
+    - !<own> 65c2f596-e2e7-4f3c-add4-4b75e8c43f1c
+    - !<own> 898679fc-86ab-48b1-b1e1-200b0f6c059f
+    - !<own> 43330a0d-3173-4238-8e78-192501c6c489
+    - !<own> b045a9a2-09cb-44ba-b87e-7755800c1c30
+  Components:
+    []
+- !<SceneObject/b521016f-f7ec-4d6c-aac9-9ad9ec0c3610>
+  PrefabRemaps:
+    []
+  Name: LeftHandGeo
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8f99b3d3-00e4-45b2-9ed8-a86f5136a256
+- !<AssetImportMetadata/b527be1e-5a55-48b6-9a41-7bb397ada49f>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 69985b12-80d5-4d4c-895d-59892159ceab
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 69985b12-80d5-4d4c-895d-59892159ceab
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/b5502b8a-d4f4-4596-8f90-e0ee1dde2fe0>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> a474fad9-37e4-4482-93eb-66f0de1979bb
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> a474fad9-37e4-4482-93eb-66f0de1979bb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/b65dc461-7fb9-432c-bdbb-370ce93659c3>
+  PrefabRemaps:
+    []
+  Name: mid_1_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.073469, y: 11.652494, z: -0.006265}
+    rotation: {x: 2.198358, y: 0.074857, z: -2.345959}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 92e30c20-eaed-4286-8a8c-51e7af0ea1dc
+  Components:
+    []
+- !<AssetImportMetadata/b7adef83-3164-4e31-8557-8c771ee9614a>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> bef9fde9-50a1-484f-b13d-f23695d38bae
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> bef9fde9-50a1-484f-b13d-f23695d38bae
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/bbc6d04a-1042-41c5-9f94-2057d4d8363a>
+  PrefabRemaps:
+    []
+  Name: pinky_1_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.160317, y: 11.646847, z: 0.000586}
+    rotation: {x: -18.296124, y: 0.105871, z: 0.135593}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 82196b6a-1e5f-4a72-81a3-c4a75e297e6d
+  Components:
+    []
+- !<SceneObject/bbfdf5b9-3124-4997-8717-d206602e1423>
+  PrefabRemaps:
+    []
+  Name: index_3_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.000751, z: 0.000000}
+    rotation: {x: 0.178236, y: 0.015736, z: -4.456100}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b17dded0-620a-4936-8ee3-e0b06964308b
+  Components:
+    []
+- !<AssetImportMetadata/bc60116e-25fe-4f55-8a75-aac31e61d455>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> f25700f5-b1c3-435b-a8f3-e7a8d4f5b3c5
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> f25700f5-b1c3-435b-a8f3-e7a8d4f5b3c5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/bf9cf57c-c23f-407f-beb2-c1dcb2e490cf>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> c5f4a84d-83e6-4150-aeda-c3e999a36346
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> c5f4a84d-83e6-4150-aeda-c3e999a36346
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/c15e6e67-1f90-473b-9e5b-2da674f27099>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 169e7d94-f0b5-4979-8775-4b74517f165a
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 169e7d94-f0b5-4979-8775-4b74517f165a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/c3c787ee-835c-4669-ae97-55389d80a384>
+  SvgIcon: ""
+  Description: A suite of animated hand gestures for educating users on how to interact with your lens
+  InternalVersion: 1
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 75fec9e2-67d3-4283-a034-7247af31b984
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animationSpeed: false
+    autoPlay: false
+    hintAnimations: false
+    numberOfLoops: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - autoPlay: true
+      numberOfLoops: 1
+      animationSpeed: !<float> 1.000000
+      hintAnimations:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool autoPlay
+    - '// @input float animationSpeed = 1 {"widget":"slider", "min":0.5, "max":3, "step":0.1}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input int numberOfLoops = 1 {"widget":"slider", "min":1, "max":10, "step":1, "showIf":"loop", "showIfValue":true}'
+    - '// @ui {"widget":"separator"}'
+    - /*
+    - "@typedef HintAnimation"
+    - '@property {int} handType {"widget":"combobox", "values":[{"label":"Left", "value":0}, {"label":"Right", "value":1}, {"label":"Both", "value":2}]}'
+    - '@property {string} oneHandedAnimation_l = pinch_near {"widget":"combobox", "values":[{"label":"Pinch Near", "value":"pinch_near"}, {"label":"Pinch Far", "value":"pinch_far"}, {"label":"Pinch Move X", "value":"pinch_move_x"}, {"label":"Pinch Move Y", "value":"pinch_move_y"}, {"label":"Pinch Move Z", "value":"pinch_move_z"}, {"label":"Pinch Rotate X", "value":"pinch_rotate_x"}, {"label":"Pinch Rotate Y", "value":"pinch_rotate_y"}, {"label":"Pinch Rotate Z", "value":"pinch_rotate_z"}, {"label":"Pinch Swipe X", "value":"pinch_swipe_x"}, {"label":"Pinch Swipe Y", "value":"pinch_swipe_y"}, {"label":"Finger Tap Near", "value":"finger_tap_near"}, {"label":"Finger Tap Surface", "value":"finger_tap_surface"}, {"label":"Finger Swipe X", "value":"finger_swipe_x"}, {"label":"Finger Swipe Y", "value":"finger_swipe_y"}, {"label":"Finger Scroll Mirco", "value":"finger_scroll_micro"}, {"label":"Palm Touch Near", "value":"palm_touch_near"}, {"label":"Palm Touch Surface", "value":"palm_touch_surface"}, {"label":"Palm Swipe X", "value":"palm_swipe_x"}, {"label":"Palm Grab X", "value":"palm_grab_x"}, {"label":"Palm Grab Y", "value":"palm_grab_y"}], "showIf":"handType", "showIfValue":0}'
+    - '@property {string} oneHandedAnimation_r = pinch_near {"widget":"combobox", "values":[{"label":"Pinch Near", "value":"pinch_near"}, {"label":"Pinch Far", "value":"pinch_far"}, {"label":"Pinch Move X", "value":"pinch_move_x"}, {"label":"Pinch Move Y", "value":"pinch_move_y"}, {"label":"Pinch Move Z", "value":"pinch_move_z"}, {"label":"Pinch Rotate X", "value":"pinch_rotate_x"}, {"label":"Pinch Rotate y", "value":"pinch_rotate_y"}, {"label":"Pinch Rotate Z", "value":"pinch_rotate_z"}, {"label":"Pinch Swipe X", "value":"pinch_swipe_x"}, {"label":"Pinch Swipe Y", "value":"pinch_swipe_y"}, {"label":"Finger Tap Near", "value":"finger_tap_near"}, {"label":"Finger Tap Surface", "value":"finger_tap_surface"}, {"label":"Finger Swipe X", "value":"finger_swipe_x"}, {"label":"Finger Swipe Y", "value":"finger_swipe_y"}, {"label":"Finger Scroll Mirco", "value":"finger_scroll_micro"}, {"label":"Palm Touch Near", "value":"palm_touch_near"}, {"label":"Palm Touch Surface", "value":"palm_touch_surface"}, {"label":"Palm Swipe X", "value":"palm_swipe_x"}, {"label":"Palm Grab X", "value":"palm_grab_x"}, {"label":"Palm Grab Y", "value":"palm_grab_y"}], "showIf":"handType", "showIfValue":1}'
+    - '@property {string} twoHandedAnimation = two_hands_pinch_scale {"widget":"combobox", "values":[{"label":"System Tap Settings", "value":"system_tap_settings"}, {"label":"System Tap Rotate Down", "value":"system_tap_rotate_down"}, {"label":"System Tap Rotate Up", "value":"system_tap_rotate_up"}, {"label":"System Tap Watch", "value":"system_tap_watch"}, {"label":"System Tap Exit", "value":"system_tap_exit"}, {"label":"Two Hands Pinch Scale", "value":"two_hands_pinch_scale"}, {"label":"Two Hands Pinch Rotate Y", "value":"two_hands_pinch_rotate_y"}, {"label":"Two Hands Pinch Rotate Z", "value":"two_hands_pinch_rotate_z"}, {"label":"Two Hands Palm Grab X", "value":"two_hands_palm_grab_x"}, {"label":"Two Hands Palm Grab Y", "value":"two_hands_palm_grab_y"}], "showIf":"handType", "showIfValue":2}'
+    - "@property {vec3} position "
+    - "*/"
+    - '// @input HintAnimation[] hintAnimations {"showIf":"sequence", "showIfValue":true}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c5033e84-f0ae-4a8c-8064-4c6f9447f128>
+  PrefabRemaps:
+    []
+  Name: ring_3_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.294708, z: 0.000000}
+    rotation: {x: 0.009794, y: 0.000732, z: -4.273954}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 62f4d4d7-c2a8-43a7-bc60-fb1dda2e29b5
+  Components:
+    []
+- !<SceneObject/c7427ce0-b339-4d6c-855a-675a2ff67a66>
+  PrefabRemaps:
+    []
+  Name: wrist_to_index_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -104.761360, y: -2.116731, z: -90.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ce01eaee-0fc1-4905-9213-718ed6e19f11
+  Components:
+    []
+- !<ObjectPrefabAssetData/c7ce7c83-ada9-464c-a323-b7d05da86393>
+  SourceRemaps:
+    - 02a91946-ca42-4446-99f6-6e2448fb46ee: eef4ddf5-c017-476f-a757-a6290db6a207
+    - 0835763e-3d58-427f-a90a-d641e842be1f: 883038e2-1dd2-421d-b67d-251eab8dfd27
+    - 0dcec84f-cc75-448a-9706-675b261bf788: ec7e764b-d563-4388-a7f3-7824eac3010b
+    - 18830252-5144-43a7-812f-9eb7a4781ce4: bbfdf5b9-3124-4997-8717-d206602e1423
+    - 26930d0e-81f3-4a99-b001-1350d89cab9b: 12a1c054-9d6c-4307-9379-32724714fa26
+    - 26955e2e-2777-4ea1-82e6-5205d751b8b7: 98071fac-0968-4264-b044-5a95899d5c88
+    - 2a9ef482-a102-44fe-ad8d-6242f987fb87: deaf8958-6e2f-436f-a738-ae61da2edb8f
+    - 34aac032-f291-4588-aa6b-57964745fbcd: 4f1658ee-0658-40d0-b670-2e04907a0ba5
+    - 35bd788b-15d1-4f90-aa1b-cdd73b4a80b2: 2c0743b8-a14f-4eb0-9143-82692a5020de
+    - 3bbc9ce2-c59b-4b3f-902a-9b616ec1db5f: 898679fc-86ab-48b1-b1e1-200b0f6c059f
+    - 3dc43faa-f5c1-4d69-b324-c50b1cd5df92: 609afbaa-18af-4447-a0f1-8781e57622c2
+    - 44288242-a959-4838-b444-ec0b7c472829: 449daea5-4be9-4931-96a1-fea0d0107c13
+    - 4a6a63ee-5fc5-43da-897a-6a4da4bed2dd: f0ee9404-ff4a-4a7e-af37-74290cf7b59d
+    - 4c7c93d0-fe5e-4a2e-b978-29e5a43e3768: 92e30c20-eaed-4286-8a8c-51e7af0ea1dc
+    - 54957d29-7996-422b-a529-27cb9e3c4b7c: b50839b5-3698-4d69-b16e-3f45a91f2ee1
+    - 5eba9c05-4934-4dd4-8773-0e4b50df9914: c8ea0596-af30-46d7-b4e5-f8f1602712c9
+    - 616f916c-3009-4acd-8b1f-d3093ffbc5e6: ce01eaee-0fc1-4905-9213-718ed6e19f11
+    - 66568fcc-6379-4d10-85f8-9ee56aaca477: 283bed82-6399-498e-985b-04e52087469f
+    - 71364e0f-34fc-45c3-a704-bf2a0650ce34: b65dc461-7fb9-432c-bdbb-370ce93659c3
+    - 74f16d11-6fdd-4109-bf0b-96e346fa7dab: f6bd9968-32f5-4dd0-9d33-075f88b0701a
+    - 758b9df1-caea-471d-8ac1-92cbca4a67c2: d81ce319-66ed-4fe2-b343-1c97dedf768d
+    - 768180d7-83f0-4a73-8ace-a368e0fa0eca: b045a9a2-09cb-44ba-b87e-7755800c1c30
+    - 7b17e0ab-dfa1-49f4-bee0-754f2ff1dfb4: 260a4422-69b7-4cc9-9660-ef70d413f458
+    - 805ac520-5b4e-4d1f-a648-e994c813f807: c5033e84-f0ae-4a8c-8064-4c6f9447f128
+    - 8066451b-f1bd-4210-bcc2-b23630c8d1fe: eb6757af-d553-4fb4-8d88-c013558f6601
+    - 81633adc-a6d4-44be-885f-c8198b264b51: 43330a0d-3173-4238-8e78-192501c6c489
+    - 82dd2aed-f072-4c27-978d-f74c78de424d: 8873a90b-ec85-4d64-994a-1746ff209b87
+    - 89903253-c610-47ef-ba63-6e3e3e5498cc: 643418e2-d61a-42d4-ba02-0761e8f52897
+    - 8a7e24dd-9a17-44e9-bc91-bafa9e09a24c: f4493428-0f20-4b84-82ad-38bd42efd2df
+    - 8c55403a-b1a2-4f0d-859d-bc1f0d3a9f54: a87bf580-7cd7-4ae7-8f48-ccbed7374a90
+    - 8ef50ceb-518f-43f5-9855-cb562305214c: 5bd4927a-5e59-40fa-b5d7-e4873439e239
+    - 95f8282d-6bec-4a38-be54-909494e2abef: 82196b6a-1e5f-4a72-81a3-c4a75e297e6d
+    - 99ca3133-c019-40f7-ae27-efffa706c679: b521016f-f7ec-4d6c-aac9-9ad9ec0c3610
+    - 9ce4bcba-a4fd-43a8-b49d-9d2d4f0e17a4: 32e92bec-24a1-4801-aff5-6265dd51b6b7
+    - a8512e60-3798-4e33-b9b8-609e2a35ac23: 265df075-6c88-4733-8500-45ea643edd4f
+    - ae044c8c-9600-4954-8304-a5cb6ac7f04d: 2e521ea8-dfa0-4b5c-b4f3-b0e196d2cc93
+    - b08c1b7a-6e9f-41a0-87c3-a89b5ea97026: 9d269bbb-6be2-4b06-bacd-cd3000c391e9
+    - b0a584d4-5d7f-44b4-bfff-35a49622a323: 65a5a6b9-055f-4798-98ea-e6e3dea4479a
+    - bb08779e-cd7e-4095-9f38-df57ad7730ed: 8f99b3d3-00e4-45b2-9ed8-a86f5136a256
+    - bd7c45b0-a99a-4570-a719-d6e4f86a7bc2: fdfbe164-a782-4b96-b456-8842808ef03f
+    - be20f98a-a840-473c-a766-329bea371854: 622f0285-60a4-4e14-ae7f-1b291a0f6916
+    - c0896ea3-bd51-4db8-9cb8-97f78d4e4241: ea3700e9-f6ad-45e9-b642-53e5041969c0
+    - c8fcb125-3f21-4ef7-b4e2-84519b6d6e20: e481052c-dbcc-4ed6-aafb-2f65a84134f4
+    - d1edbfc8-d084-4b1f-8688-a96f2e00e65a: 5e7a738d-fb2d-4a0e-afeb-c91c6b76d315
+    - d6348974-c162-4bf3-9843-442a8b372e67: 1b590ff9-a1b9-4eda-b9e4-288e9a59a64a
+    - d683a483-562e-40a1-adff-0abc9fe3078d: d720ebf8-734e-477b-98d2-b0c5e7045ff5
+    - d69ea4cc-d20e-4848-8e1b-f62d20567dcb: d53f15d9-abef-4178-834d-a64a94d2bf26
+    - db86817c-455a-44a5-981a-a61d21f2eb8f: 29fa9fe7-42f5-4da9-9f2f-ee5564089efa
+    - e14f0a76-ca01-48e0-8fa8-34652caaef46: b17dded0-620a-4936-8ee3-e0b06964308b
+    - e1e4550d-ff94-4378-979b-f568d4fc3e56: b2563310-69dd-42dc-ba2f-644e24c5f310
+    - e7bbd308-61a2-4a8b-b390-d7a163296eaa: 62f4d4d7-c2a8-43a7-bc60-fb1dda2e29b5
+    - ea34527f-a058-46c8-8308-fefd525bb1bd: e08e78e7-a33a-4934-86e6-e910fc55ab29
+    - eb47715f-e5db-456f-904e-a692279e4e52: 9c2f71f8-7190-4b87-bd9b-a23d7348be02
+    - ee32ac02-dabb-412e-9aa9-a0341eba6517: bbc6d04a-1042-41c5-9f94-2057d4d8363a
+    - f007d061-a0ff-4f7c-9e55-d0b5b0638a28: f6be77a3-1261-4212-a8ff-8e9651784fe1
+    - f0cccd5c-8ba0-4b5b-9108-06bd78487549: 0741c929-6cca-4589-adc6-38afe3c24a88
+    - f201a411-d295-4f4b-9999-cd151cb60157: 7b7c773f-2c03-40e3-8050-6fa5fc1ce044
+    - f449a3c2-40c9-427b-9ad6-b79768b8c8f8: c7427ce0-b339-4d6c-855a-675a2ff67a66
+    - f78c6375-1378-47a6-857f-715ca70b34b2: 726acc14-b45f-4d1a-89a7-be62d6975a0a
+    - f792ca37-312f-42b4-b3a8-52c9ba9d2573: e3980500-1f23-44da-a88c-451d5f26e35c
+    - f9bc5246-f968-4e3f-a07c-a740673fb0b6: 65c2f596-e2e7-4f3c-add4-4b75e8c43f1c
+    - fbb6ab66-44e1-4987-b9fa-5fe33621fc68: 55f916f4-87ef-41be-82c7-c7b8402d2719
+    - ff58943c-c3ef-4a51-a306-6540d0c47b28: b427fc3e-ce01-46c3-8a80-c3df1972e1aa
+  SourceState: !<own> a87bf580-7cd7-4ae7-8f48-ccbed7374a90
+- !<AssetImportMetadata/c7eae8f9-9fa2-40e2-97e2-6fc6a1702fe5>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 46602c05-65df-443d-9e29-d495bf383064
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 46602c05-65df-443d-9e29-d495bf383064
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/c8ea0596-af30-46d7-b4e5-f8f1602712c9>
+  PrefabRemaps:
+    []
+  Name: wrist_to_ring_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -81.018883, y: -3.554933, z: -89.999985}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c0743b8-a14f-4eb0-9143-82692a5020de
+  Components:
+    []
+- !<AssetImportMetadata/cdbe8ebc-76e9-4aa6-b38b-884827037c77>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 732ff540-6905-43fb-b6e1-c84891f1fb03
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 732ff540-6905-43fb-b6e1-c84891f1fb03
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/ce01eaee-0fc1-4905-9213-718ed6e19f11>
+  PrefabRemaps:
+    []
+  Name: index_1_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.017058, y: -11.959446, z: 0.000009}
+    rotation: {x: 14.249050, y: 0.750213, z: -2.993087}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b427fc3e-ce01-46c3-8a80-c3df1972e1aa
+  Components:
+    []
+- !<TypeScriptAssetData/d4152b32-ac71-4fd3-82df-65cd8d7c6f3f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0b9d49c6-e3b9-4575-95fd-3a8feadb7c61
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d4e39e59-f874-411a-ab5a-d8e4c925280b>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 49feb405-48fb-4235-9a93-1dc837f74138
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    demoOption: false
+    interactionHintController: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - inputMode: ""
+      interactionHintController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      demoOption: ""
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/d53f15d9-abef-4178-834d-a64a94d2bf26>
+  PrefabRemaps:
+    []
+  Name: HandHints_Cursor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 20.000000, z: -65.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e08e78e7-a33a-4934-86e6-e910fc55ab29
+- !<SceneObject/d720ebf8-734e-477b-98d2-b0c5e7045ff5>
+  PrefabRemaps:
+    []
+  Name: ring_1_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.143697, y: 11.624825, z: 0.000735}
+    rotation: {x: -9.301908, y: -0.257544, z: -1.474589}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12a1c054-9d6c-4307-9379-32724714fa26
+  Components:
+    []
+- !<SceneObject/d81ce319-66ed-4fe2-b343-1c97dedf768d>
+  PrefabRemaps:
+    []
+  Name: mid_4_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.441111, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AssetImportMetadata/d85e7fcf-b192-49e1-afe0-879309a5ed58>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 7a379ade-3440-474b-94ae-93adca746372
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 7a379ade-3440-474b-94ae-93adca746372
+  PackageType: NotAPackage
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  AssetDataMap:
+    ShaderGraph: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/d8a15907-0ae6-452b-8827-9eb5fc25c7a8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 368a50b0-46ef-439a-a332-a34b6e33313f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 368a50b0-46ef-439a-a332-a34b6e33313f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> c3c787ee-835c-4669-ae97-55389d80a384
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/deaf8958-6e2f-436f-a738-ae61da2edb8f>
+  PrefabRemaps:
+    []
+  Name: thumb_2_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000004, y: -3.519515, z: -0.000002}
+    rotation: {x: -2.368695, y: 7.930899, z: -8.414380}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4f1658ee-0658-40d0-b670-2e04907a0ba5
+  Components:
+    []
+- !<RenderMeshVisual/e08e78e7-a33a-4934-86e6-e910fc55ab29>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77ae12cc-fe42-4e15-9edd-8d521ad995a6
+  Mesh: !<reference> e5a9bbf5-ec52-492b-806b-e584af06c86f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/e20af512-607e-4aa2-b72d-e532e2939607>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 67c0b9b4-5927-433c-b5d7-4429083ef078
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 67c0b9b4-5927-433c-b5d7-4429083ef078
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e2c23034-f709-49d1-8c27-c4c4beb88d3d>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4daad278-3605-4ba1-855a-0e0f6455fd90
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/e3980500-1f23-44da-a88c-451d5f26e35c>
+  PrefabRemaps:
+    []
+  Name: thumb_4_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.198057, y: 3.555898, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e481052c-dbcc-4ed6-aafb-2f65a84134f4>
+  PrefabRemaps:
+    []
+  Name: ring_4_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000002, y: -2.648871, z: 0.000002}
+    rotation: {x: 0.000038, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AssetImportMetadata/e7bb03d7-949b-4b40-8170-06814e684fdc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fb8aa79b-a56c-4939-837f-b62255a416b5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fb8aa79b-a56c-4939-837f-b62255a416b5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0e5461ab-bd2f-4cd3-b9f8-87d7b5545f53
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/e957a421-4d59-4251-ac25-93a13e2aacd8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0f922376-e259-40fc-9a97-a3396cfe6d7d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0f922376-e259-40fc-9a97-a3396cfe6d7d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2bcae7ba-52d1-4112-811b-2b145b7d1c97
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/ea3700e9-f6ad-45e9-b642-53e5041969c0>
+  PrefabRemaps:
+    []
+  Name: wrist_to_thumb_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 270.000000, y: -90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 65a5a6b9-055f-4798-98ea-e6e3dea4479a
+  Components:
+    []
+- !<AssetImportMetadata/eb2d1b17-2b25-4a63-aec8-da16d78292b6>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> e0df67fc-e3c7-440e-bf16-fe122389194c
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> e0df67fc-e3c7-440e-bf16-fe122389194c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/eb6757af-d553-4fb4-8d88-c013558f6601>
+  PrefabRemaps:
+    []
+  Name: thumb_3_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.119323, y: 3.829534, z: 0.131533}
+    rotation: {x: 1.966574, y: -1.101703, z: -1.822505}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e3980500-1f23-44da-a88c-451d5f26e35c
+  Components:
+    []
+- !<TypeScriptAssetData/eb9b989d-efde-489d-ad9e-b61facb4dfaa>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b1e20ca0-bf67-4db2-be48-5100bf7fbb1d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Skin/ec7e764b-d563-4388-a7f3-7824eac3010b>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  skinBones:
+    Aim_Down: !<reference> 15c65f08-9c18-4a0d-82ec-d83566caaaac
+    Aim_Down_Far: !<reference> 5ff0d60b-6e57-42b5-a768-34e9f6bf66d2
+    Aim_Left: !<reference> ba3c113f-a771-453e-a759-e45d7b7ff8c1
+    Aim_Left_Far: !<reference> fa86781a-35a0-41de-8e37-147816b00d0f
+    Aim_Middle: !<reference> b1b8f572-9e13-473f-a92b-1d5d78480791
+    Aim_Middle_Far: !<reference> d52bd806-074f-407b-835a-1b8dbd00a36a
+    Aim_Right: !<reference> 35971500-0f1e-4644-b4f4-adc615efd0fd
+    Aim_Right_Far: !<reference> e0de61f0-9450-4f00-a28b-533693fd5929
+    Aim_Up: !<reference> f2c5efca-7626-446d-b915-fa9c99466a28
+    Aim_Up_Far: !<reference> ebac2826-a3c5-45ca-8aad-11ce998076d3
+    Button_Burger_Menu: !<reference> 035dc708-b411-4c85-a1e3-c2d02a705e06
+    Button_Star_Menu: !<reference> 4bdb44e1-65b0-4027-b4a4-7e373c91e51b
+    Button_X_Menu: !<reference> 2b7e8007-bfbb-4aab-9648-ef1ff208bcf9
+    LeftHandGeo: !<reference> b521016f-f7ec-4d6c-aac9-9ad9ec0c3610
+    Lens_Menu: !<reference> 41c982f8-6f7c-46e0-89a2-daf476a28343
+    RightHandGeo: !<reference> f4493428-0f20-4b84-82ad-38bd42efd2df
+    Settings_Menu: !<reference> 8f561fb3-30bd-4240-b594-ee5e88ac4927
+    Spectacles_Hands_Hints: !<reference> eef4ddf5-c017-476f-a757-a6290db6a207
+    System_UI: !<reference> 7e8b35d3-e906-42ca-833e-2b01fd832556
+    System_Watch: !<reference> 95a9d51b-4e02-4255-959d-518e1507fe22
+    hands_ROOT: !<reference> 9c2f71f8-7190-4b87-bd9b-a23d7348be02
+    index_1_L: !<reference> ce01eaee-0fc1-4905-9213-718ed6e19f11
+    index_1_R: !<reference> 643418e2-d61a-42d4-ba02-0761e8f52897
+    index_2_L: !<reference> b427fc3e-ce01-46c3-8a80-c3df1972e1aa
+    index_2_R: !<reference> 283bed82-6399-498e-985b-04e52087469f
+    index_3_L: !<reference> 8873a90b-ec85-4d64-994a-1746ff209b87
+    index_3_R: !<reference> bbfdf5b9-3124-4997-8717-d206602e1423
+    index_4_L: !<reference> 449daea5-4be9-4931-96a1-fea0d0107c13
+    index_4_R: !<reference> b17dded0-620a-4936-8ee3-e0b06964308b
+    mid_1_L: !<reference> 726acc14-b45f-4d1a-89a7-be62d6975a0a
+    mid_1_R: !<reference> b65dc461-7fb9-432c-bdbb-370ce93659c3
+    mid_2_L: !<reference> 622f0285-60a4-4e14-ae7f-1b291a0f6916
+    mid_2_R: !<reference> 92e30c20-eaed-4286-8a8c-51e7af0ea1dc
+    mid_3_L: !<reference> 265df075-6c88-4733-8500-45ea643edd4f
+    mid_3_R: !<reference> 98071fac-0968-4264-b044-5a95899d5c88
+    mid_4_L: !<reference> f6be77a3-1261-4212-a8ff-8e9651784fe1
+    mid_4_R: !<reference> d81ce319-66ed-4fe2-b343-1c97dedf768d
+    pinky_1_L: !<reference> f0ee9404-ff4a-4a7e-af37-74290cf7b59d
+    pinky_1_R: !<reference> bbc6d04a-1042-41c5-9f94-2057d4d8363a
+    pinky_2_L: !<reference> 7b7c773f-2c03-40e3-8050-6fa5fc1ce044
+    pinky_2_R: !<reference> 82196b6a-1e5f-4a72-81a3-c4a75e297e6d
+    pinky_3_L: !<reference> 29fa9fe7-42f5-4da9-9f2f-ee5564089efa
+    pinky_3_R: !<reference> 0741c929-6cca-4589-adc6-38afe3c24a88
+    pinky_4_L: !<reference> b2563310-69dd-42dc-ba2f-644e24c5f310
+    pinky_4_R: !<reference> 9d269bbb-6be2-4b06-bacd-cd3000c391e9
+    ring_1_L: !<reference> 2c0743b8-a14f-4eb0-9143-82692a5020de
+    ring_1_R: !<reference> d720ebf8-734e-477b-98d2-b0c5e7045ff5
+    ring_2_L: !<reference> 5bd4927a-5e59-40fa-b5d7-e4873439e239
+    ring_2_R: !<reference> 12a1c054-9d6c-4307-9379-32724714fa26
+    ring_3_L: !<reference> 55f916f4-87ef-41be-82c7-c7b8402d2719
+    ring_3_R: !<reference> c5033e84-f0ae-4a8c-8064-4c6f9447f128
+    ring_4_L: !<reference> e481052c-dbcc-4ed6-aafb-2f65a84134f4
+    ring_4_R: !<reference> 62f4d4d7-c2a8-43a7-bc60-fb1dda2e29b5
+    thumb_1_L: !<reference> 1b590ff9-a1b9-4eda-b9e4-288e9a59a64a
+    thumb_1_R: !<reference> 65a5a6b9-055f-4798-98ea-e6e3dea4479a
+    thumb_2_L: !<reference> deaf8958-6e2f-436f-a738-ae61da2edb8f
+    thumb_2_R: !<reference> f6bd9968-32f5-4dd0-9d33-075f88b0701a
+    thumb_3_L: !<reference> 4f1658ee-0658-40d0-b670-2e04907a0ba5
+    thumb_3_R: !<reference> eb6757af-d553-4fb4-8d88-c013558f6601
+    thumb_4_L: !<reference> 609afbaa-18af-4447-a0f1-8781e57622c2
+    thumb_4_R: !<reference> e3980500-1f23-44da-a88c-451d5f26e35c
+    wrist_L: !<reference> 32e92bec-24a1-4801-aff5-6265dd51b6b7
+    wrist_R: !<reference> b50839b5-3698-4d69-b16e-3f45a91f2ee1
+    wrist_to_index_L: !<reference> c7427ce0-b339-4d6c-855a-675a2ff67a66
+    wrist_to_index_R: !<reference> 65c2f596-e2e7-4f3c-add4-4b75e8c43f1c
+    wrist_to_mid_L: !<reference> 5e7a738d-fb2d-4a0e-afeb-c91c6b76d315
+    wrist_to_mid_R: !<reference> 898679fc-86ab-48b1-b1e1-200b0f6c059f
+    wrist_to_pinky_L: !<reference> 260a4422-69b7-4cc9-9660-ef70d413f458
+    wrist_to_pinky_R: !<reference> b045a9a2-09cb-44ba-b87e-7755800c1c30
+    wrist_to_ring_L: !<reference> c8ea0596-af30-46d7-b4e5-f8f1602712c9
+    wrist_to_ring_R: !<reference> 43330a0d-3173-4238-8e78-192501c6c489
+    wrist_to_thumb_L: !<reference> fdfbe164-a782-4b96-b456-8842808ef03f
+    wrist_to_thumb_R: !<reference> ea3700e9-f6ad-45e9-b642-53e5041969c0
+- !<SceneObject/eef4ddf5-c017-476f-a757-a6290db6a207>
+  PrefabRemaps:
+    []
+  Name: HandHints
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b521016f-f7ec-4d6c-aac9-9ad9ec0c3610
+    - !<own> f4493428-0f20-4b84-82ad-38bd42efd2df
+    - !<own> 9c2f71f8-7190-4b87-bd9b-a23d7348be02
+    - !<own> d53f15d9-abef-4178-834d-a64a94d2bf26
+  Components:
+    - !<own> ec7e764b-d563-4388-a7f3-7824eac3010b
+    - !<own> 2e521ea8-dfa0-4b5c-b4f3-b0e196d2cc93
+- !<SceneObject/f0ee9404-ff4a-4a7e-af37-74290cf7b59d>
+  PrefabRemaps:
+    []
+  Name: pinky_1_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.160319, y: -11.646870, z: -0.000575}
+    rotation: {x: -18.296124, y: 0.105871, z: 0.135593}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b7c773f-2c03-40e3-8050-6fa5fc1ce044
+  Components:
+    []
+- !<SceneObject/f4493428-0f20-4b84-82ad-38bd42efd2df>
+  PrefabRemaps:
+    []
+  Name: RightHandGeo
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 883038e2-1dd2-421d-b67d-251eab8dfd27
+- !<AssetImportMetadata/f51447cd-aad1-4b1d-bfaf-1266d24aa858>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 0c5785ab-f2c9-40b4-8e4c-fd68a637b138
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 0c5785ab-f2c9-40b4-8e4c-fd68a637b138
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/f6aeadc7-c7f8-492c-ace5-499730f39c8b>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 8124e0e3-f8f4-4700-b16f-15ea216023db
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 8124e0e3-f8f4-4700-b16f-15ea216023db
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/f6bd9968-32f5-4dd0-9d33-075f88b0701a>
+  PrefabRemaps:
+    []
+  Name: thumb_2_R
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.519519, z: 0.000000}
+    rotation: {x: -2.368695, y: 7.930899, z: -8.414380}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> eb6757af-d553-4fb4-8d88-c013558f6601
+  Components:
+    []
+- !<SceneObject/f6be77a3-1261-4212-a8ff-8e9651784fe1>
+  PrefabRemaps:
+    []
+  Name: mid_4_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000001, y: -3.441122, z: -0.000001}
+    rotation: {x: 0.000000, y: 0.000000, z: -4.277272}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<AssetImportMetadata/f800ad64-f520-4918-8d8f-e317c01a79be>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 2f4fe0f0-bff2-4ff8-a1c9-a47049b032a1
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 2f4fe0f0-bff2-4ff8-a1c9-a47049b032a1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/fdfbe164-a782-4b96-b456-8842808ef03f>
+  PrefabRemaps:
+    []
+  Name: wrist_to_thumb_L
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 270.000000, y: -90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b590ff9-a1b9-4eda-b9e4-288e9a59a64a
+  Components:
+    []

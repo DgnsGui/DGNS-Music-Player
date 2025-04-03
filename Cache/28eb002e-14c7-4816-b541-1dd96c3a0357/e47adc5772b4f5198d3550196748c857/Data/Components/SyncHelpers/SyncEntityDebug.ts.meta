@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/9df86ce2-0537-495b-8804-2d8cf85605e3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d380b9c7-8f88-4b6c-928d-3f6f7e8656b3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d380b9c7-8f88-4b6c-928d-3f6f7e8656b3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 21e7fae0-fe2c-48a2-8305-d131f1545774
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/21e7fae0-fe2c-48a2-8305-d131f1545774>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a62fe2d6-1ec0-4a1d-acbf-a0c82ddd4174
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    networkIdText: false
+    ownerDisplayNameText: false
+    ownerIdText: false
+    ownershipButton: false
+    storagePropertyText: false
+    syncEntityScript: false
+    targetTypeString: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - targetTypeString: SyncEntity
+      syncEntityScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      networkIdText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      ownerDisplayNameText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      ownershipButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      ownerIdText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      storagePropertyText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Entity Target"}'
+    - '// @input string targetTypeString = "SyncEntity" {"label":"Target Type", "widget":"combobox", "values":[{"label":"Sync Entity", "value":"SyncEntity"}, {"label":"Network Root", "value":"NetworkRoot"}]}'
+    - '// @input Component.ScriptComponent syncEntityScript {"showIf":"targetTypeString", "showIfValue":"SyncEntity"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Text Labels"}'
+    - // @input Component.Text networkIdText
+    - '// @ui {"widget":"label", "label":"Owner Info"}'
+    - // @input Component.Text ownerDisplayNameText
+    - // @input PinchButton ownershipButton
+    - // @input Component.Text ownerIdText
+    - '// @ui {"widget":"label", "label":"Store Info"}'
+    - // @input Component.Text storagePropertyText
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

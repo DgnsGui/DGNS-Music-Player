@@ -1,0 +1,226 @@
+- !<AssetCache>
+  AssetFiles:
+    485726d1-6a47-4b9e-8626-df4dd43afa02: 738ec9ff-0125-4a39-b070-dfd85cdbecf6/01f669101e540539e5fdd95a4207860a/Data/CalibrationShader.ss_graph
+  Assets:
+    - !<ShaderGraphPass/485726d1-6a47-4b9e-8626-df4dd43afa02>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N014:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N026:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Dimension_N014:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N008:
+          typeIdx: 1
+          value: 0.250000
+        Port_Input0_N018:
+          typeIdx: 1
+          value: 0.250000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Offset_N013:
+          typeIdx: 3
+          value: {x: -0.500000, y: -0.500000}
+        Port_RangeMaxA_N010:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N029:
+          typeIdx: 1
+          value: 0.100000
+        Port_RangeMaxB_N010:
+          typeIdx: 1
+          value: 3.200000
+        Port_RangeMaxB_N029:
+          typeIdx: 1
+          value: 7.000000
+        Port_RangeMaxB_N032:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N010:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N032:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N010:
+          typeIdx: 1
+          value: -3.200000
+        Port_RangeMinB_N029:
+          typeIdx: 1
+          value: 3.000000
+        Port_RangeMinB_N032:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Rotation_N014:
+          typeIdx: 1
+          value: -90.000000
+        Port_Value3_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N030:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N030:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: CurrSize
+            mType: Property
+            mName: CurrSize
+            mWidget: slider
+            mHint: "Property: CurrSize"
+            mMin: 0.000000
+            mMax: 0.100000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: LoadingColor
+            mType: Property
+            mName: LoadingColor
+            mWidget: color
+            mHint: "Property: LoadingColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Amount
+            mType: Property
+            mName: Amount
+            mWidget: slider
+            mHint: "Property: Amount"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: StartColor
+            mType: Property
+            mName: StartColor
+            mWidget: color
+            mHint: "Property: StartColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: StartSize
+            mType: Property
+            mName: StartSize
+            mWidget: slider
+            mHint: "Property: StartSize"
+            mMin: 0.000000
+            mMax: 0.030000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: IconTex
+            mType: Property
+            mName: IconTex
+            mWidget: texture_group
+            mHint: "Property: IconTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 738ec9ff-0125-4a39-b070-dfd85cdbecf6/01f669101e540539e5fdd95a4207860a/Data/cfd37fa/CalibrationShader.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 01f669101e540539e5fdd95a4207860a
+  FileHash: 34cad70b826b43bfc58efb2c613d42b6
+  NativePackageItems:
+    []

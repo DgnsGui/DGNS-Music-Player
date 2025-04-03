@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9b2a6890-66d0-47d9-a9ba-908b4ed45a14: 10d41c3e-b4c7-4128-bb1d-5628b76ee259/04dd499c985ac7e2e861dedb85de480f/Data/RIO.jpg
+  Assets:
+    - !<FileTexture/9b2a6890-66d0-47d9-a9ba-908b4ed45a14>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: 04dd499c985ac7e2e861dedb85de480f
+  FileHash: 9079c47a126a79d18537d1608daa2c40
+  NativePackageItems:
+    []

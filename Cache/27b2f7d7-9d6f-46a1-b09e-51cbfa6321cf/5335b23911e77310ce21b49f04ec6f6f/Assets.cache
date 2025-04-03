@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2dc61a35-e6cf-4f05-9460-04dfe08309be: 27b2f7d7-9d6f-46a1-b09e-51cbfa6321cf/5335b23911e77310ce21b49f04ec6f6f/Data/statue.mesh
+  Assets:
+    - !<FileMesh/2dc61a35-e6cf-4f05-9460-04dfe08309be>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 606
+        Vertices: 399
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 75.044632, y: 155.003967, z: 75.044632}
+  SourceHash: 5335b23911e77310ce21b49f04ec6f6f
+  FileHash: 24feec79ce9a30128cddad5c26a6c4f0
+  NativePackageItems:
+    []

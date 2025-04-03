@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    0e8fdffd-13c1-4578-93f7-1e08fbc30fc0: ccdf1c50-acff-47be-8b3d-169825caf54e/30651a72825930e35caa9b1376b746c2/Data/1035 I Turn off Camera 3(1).mp3
+  Assets:
+    - !<FileAudioTrack/0e8fdffd-13c1-4578-93f7-1e08fbc30fc0>
+      PackagePath: ""
+  SourceHash: 30651a72825930e35caa9b1376b746c2
+  FileHash: 44d4f17235af62409d1f037d2ad026b6
+  NativePackageItems:
+    []

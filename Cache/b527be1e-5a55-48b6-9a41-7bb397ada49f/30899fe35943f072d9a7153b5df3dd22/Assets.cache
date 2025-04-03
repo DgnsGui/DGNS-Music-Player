@@ -1,0 +1,164 @@
+- !<AssetCache>
+  AssetFiles:
+    69985b12-80d5-4d4c-895d-59892159ceab: b527be1e-5a55-48b6-9a41-7bb397ada49f/30899fe35943f072d9a7153b5df3dd22/Data/HandHints_Outline_Glow_Combined.ss_graph
+  Assets:
+    - !<ShaderGraphPass/69985b12-80d5-4d4c-895d-59892159ceab>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Mask_N011:
+          typeIdx: 1
+          value: 1.000000
+        Port_Normal_N041:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N006:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value_N017:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.795438, z: 0.000000, w: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: Tweak_N44
+            mWidget: slider
+            mHint: "Property: Tweak_N44"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: fadeLevel
+            mWidget: slider
+            mHint: "Property: fadeLevel"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Glow Map
+            mType: Property
+            mName: Tweak_N6
+            mWidget: texture_group
+            mHint: "Property: Tweak_N6"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Glow Intensity
+            mType: Property
+            mName: glowIntensity
+            mWidget: slider
+            mHint: "Property: glowIntensity"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Opacity Map
+            mType: Property
+            mName: Tweak_N0
+            mWidget: texture_group
+            mHint: "Property: Tweak_N0"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: b527be1e-5a55-48b6-9a41-7bb397ada49f/30899fe35943f072d9a7153b5df3dd22/Data/cfd37fa/HandHints_Outline_Glow_Combined.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 30899fe35943f072d9a7153b5df3dd22
+  FileHash: e0d9ffaaa169438e62d2c947d0b01e52
+  NativePackageItems:
+    []

@@ -1,0 +1,3612 @@
+- !<AssetCache>
+  AssetFiles:
+    5842b9b1-323e-4747-a047-587abe275387: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.003.mesh
+    bdb56ce7-5b1d-4aac-ba65-f3fe5248d470: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.002.mesh
+    04107863-2c8a-42ea-b425-930edfa48396: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.001.mesh
+    61f71756-fdb6-416a-931e-8a21669ac71e: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.mesh
+    40e473a7-792a-4872-9fa6-af8b7e14e89e: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.004.mesh
+    71c4bb1e-e0ce-4f45-ad0e-733dc4c3e8cb: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.007.mesh
+    b9dff32a-0e46-46b9-9851-6b40d1f4d24a: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.005.mesh
+    c2682aaf-e103-45c6-8a61-d185220685e4: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.006.mesh
+    1bd7534e-09c2-4b4d-b006-ca497f9d3aa2: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.008.mesh
+    d42d79c9-3c7c-47da-bb11-c5e099a97484: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.009.mesh
+    94c58088-53e8-4e01-9881-f5b83bb35e1c: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/Meshes/Curve.010.mesh
+    0bf7556c-faac-4fbd-8e03-b96104b2d96c: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/.hidden/SVGMat.ss_graph
+  Assets:
+    - !<ObjectPrefab/04ff016e-a6b5-44fa-b4ac-a8d973521b80>
+      PackagePath: ""
+      objects:
+        - !<own> cd84383a-884f-4e32-acb1-fdc909a5c78b
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/5842b9b1-323e-4747-a047-587abe275387>
+      PackagePath: Meshes/Curve.003
+      Info: !<MeshInfo>
+        Triangles: 668
+        Vertices: 922
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.006209, y: 0.000537, z: 0.006208}
+    - !<FileMesh/bdb56ce7-5b1d-4aac-ba65-f3fe5248d470>
+      PackagePath: Meshes/Curve.002
+      Info: !<MeshInfo>
+        Triangles: 80
+        Vertices: 132
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.005082, y: 0.000546, z: 0.005645}
+    - !<FileMesh/04107863-2c8a-42ea-b425-930edfa48396>
+      PackagePath: Meshes/Curve.001
+      Info: !<MeshInfo>
+        Triangles: 672
+        Vertices: 922
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.006209, y: 0.000604, z: 0.006208}
+    - !<FileMesh/61f71756-fdb6-416a-931e-8a21669ac71e>
+      PackagePath: Meshes/Curve
+      Info: !<MeshInfo>
+        Triangles: 76
+        Vertices: 132
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.004516, y: 0.000601, z: 0.004515}
+    - !<FileMesh/40e473a7-792a-4872-9fa6-af8b7e14e89e>
+      PackagePath: Meshes/Curve.004
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 66
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.003951, y: 0.000345, z: 0.002370}
+    - !<FileMesh/71c4bb1e-e0ce-4f45-ad0e-733dc4c3e8cb>
+      PackagePath: Meshes/Curve.007
+      Info: !<MeshInfo>
+        Triangles: 36
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.003669, y: 0.001857, z: 0.003386}
+    - !<FileMesh/b9dff32a-0e46-46b9-9851-6b40d1f4d24a>
+      PackagePath: Meshes/Curve.005
+      Info: !<MeshInfo>
+        Triangles: 1164
+        Vertices: 1752
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.005645, y: 0.002548, z: 0.005643}
+    - !<FileMesh/c2682aaf-e103-45c6-8a61-d185220685e4>
+      PackagePath: Meshes/Curve.006
+      Info: !<MeshInfo>
+        Triangles: 36
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.003669, y: 0.001821, z: 0.003386}
+    - !<FileMesh/1bd7534e-09c2-4b4d-b006-ca497f9d3aa2>
+      PackagePath: Meshes/Curve.008
+      Info: !<MeshInfo>
+        Triangles: 2040
+        Vertices: 2880
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.004798, y: 0.002706, z: 0.006208}
+    - !<FileMesh/d42d79c9-3c7c-47da-bb11-c5e099a97484>
+      PackagePath: Meshes/Curve.009
+      Info: !<MeshInfo>
+        Triangles: 9120
+        Vertices: 14000
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.005773, y: 0.002545, z: 0.005772}
+    - !<FileMesh/94c58088-53e8-4e01-9881-f5b83bb35e1c>
+      PackagePath: Meshes/Curve.010
+      Info: !<MeshInfo>
+        Triangles: 3248
+        Vertices: 4874
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.005489, y: 0.002415, z: 0.005487}
+    - !<Material/37c8f5be-ec6c-4f2f-befd-5d4ce25eb710>
+      PackagePath: Materials/SVGMat.003
+      PassesInfo:
+        - !<own> 6949c434-1588-45d7-b742-9128106b88cf
+    - !<ShaderGraphPass/0bf7556c-faac-4fbd-8e03-b96104b2d96c>
+      PackagePath: .hidden/SVGMat
+      DefaultDefines:
+        - NODE_10_DROPLIST_ITEM 0
+        - NODE_11_DROPLIST_ITEM 0
+        - NODE_30_DROPLIST_ITEM 0
+        - NODE_32_DROPLIST_ITEM 0
+        - NODE_37_DROPLIST_ITEM 0
+        - NODE_44_DROPLIST_ITEM 0
+        - NODE_47_DROPLIST_ITEM 0
+        - NODE_60_DROPLIST_ITEM 0
+        - NODE_7_DROPLIST_ITEM 0
+        - NODE_8_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_AO_N405:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N405:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_DebugSheenEnvLightMult_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_DebugSheenPunctualLightMult_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N405:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N043:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N062:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N405:
+          typeIdx: 1
+          value: 0.000000
+        Port_Opacity_N405:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_SpecularAO_N036:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_SpecularAO_N405:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Vertex Color
+            mType: Define
+            mName: ENABLE_VERTEX_COLOR_BASE
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_VERTEX_COLOR_BASE
+              
+              When enabled, vertex color acts as an linear multiplier to Albedo.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Lighting
+            mType: Define
+            mName: ENABLE_GLTF_LIGHTING
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_GLTF_LIGHTING
+              
+              Enable Lighting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic-Roughness
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColorFactor
+            mWidget: color
+            mHint: |-
+              Property: baseColorFactor
+              
+              Specifies the base color (albedo) of the material if the 'Base Texture' is disabled.  Multiplied with the 'Base Texture' otherwise. 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEX
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseColorTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: baseColorTexture
+              
+              Base Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_7_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_7_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive Factor
+            mType: Property
+            mName: emissiveFactor
+            mWidget: color
+            mHint: |-
+              Property: emissiveFactor
+              
+              The factors for the emissive color of the material.  1 means high intensity, 0 means no light being emitted by the material.  Multiplies the Emissive Texture if enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Emissive Texture
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE
+              
+              Enables the emissive texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: emissiveTexture
+              
+              Emissive Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_10_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_10_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              Enables the normal map texture and normal mapping. When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: normalTextureScale
+            mWidget: slider
+            mHint: |-
+              Property: normalTextureScale
+              
+              This parameter applied to each normal vector of the 'Normal Map'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: normalTexture
+              
+              Enables metallic roughness normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_8_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_8_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallicFactor
+            mWidget: slider
+            mHint: |-
+              Property: metallicFactor
+              
+              1 means metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: roughnessFactor
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny.  Multiplies the roughness channel of the Material Params texture if enabled.  If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Metallic-Roughness Texture
+            mType: Define
+            mName: ENABLE_METALLIC_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_METALLIC_ROUGHNESS_TEX
+              
+              If enabled, it multiplies each channel with the Metallic, Roughness and Occlusion factor.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Occlusion Strength
+            mType: Property
+            mName: occlusionTextureStrength
+            mWidget: slider
+            mHint: |-
+              Property: occlusionTextureStrength
+              
+              1 means full indirect lighting, 0 means no indirect lighting. Multiplies the occlusion channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: metallicRoughnessTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: metallicRoughnessTexture
+              
+              Material params texture should have: R - metalness,  G - roughness,  B - ambient occlusion.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_11_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_11_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_METALLIC_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transmission
+            mType: Define
+            mName: ENABLE_TRANSMISSION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION
+              
+              Enables transmission for simulating optical transparency on thin materials
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Screen Texture
+            mType: Property
+            mName: screenTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: screenTexture
+              
+              Texture for sampling the background.
+              
+              WARNING:
+              a Screen Texture *must* be assigned here for Transmission to work!
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Factor
+            mType: Property
+            mName: transmissionFactor
+            mWidget: slider
+            mHint: |-
+              Property: transmissionFactor
+              
+              1 means fully transmitted through, 0 means none.  Multiplies the Transmission Texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Transmission Texture
+            mType: Define
+            mName: ENABLE_TRANSMISSION_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION_TEX
+              
+              Enables transmission texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: transmissionTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: transmissionTexture
+              
+              Transmission value from R channel.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N30 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N30 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen
+            mType: Define
+            mName: ENABLE_SHEEN
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN
+              
+              Enable Sheen on top of glTF to represent cloth and fabric materials.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: sheenColorFactor
+            mWidget: color
+            mHint: |-
+              Property: sheenColorFactor
+              
+              The factors for the Sheen Color, multiplies the Sheen Color Texture if enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Texture
+            mType: Define
+            mName: ENABLE_SHEEN_COLOR_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_COLOR_TEX
+              
+              Enable Sheen Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: sheenColorTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: sheenColorTexture
+              
+              Sheen Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N32 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N32 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_COLOR_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Roughness Factor
+            mType: Property
+            mName: sheenRoughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: sheenRoughnessFactor
+              
+              0 means sharp specular, 1 means smooth specular.  Multiplies the Sheen Roughness texture if enabled.  The sheen roughness is independent from the material parameter roughness. 
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness Texture
+            mType: Define
+            mName: ENABLE_SHEEN_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_ROUGHNESS_TEX
+              
+              Enable Sheen Roughness Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: sheenRoughnessTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: sheenRoughnessTexture
+              
+              Sheen Roughness Texture value from alpha channel.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N37 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N37 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clear Coat
+            mType: Define
+            mName: ENABLE_CLEARCOAT
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT
+              
+              Enables a clear coating that layers on top of the base material.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Factor
+            mType: Property
+            mName: clearcoatFactor
+            mWidget: slider
+            mHint: |-
+              Property: clearcoatFactor
+              
+              1 means fully coated, 0 means no clear coat.  Multiplies the Clear Coat Texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Clear Coat Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_TEX
+              
+              Enables clear coat intensity texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: clearcoatTexture
+              
+              R channel controls the clear coat intensity.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N44 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N44 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Roughness Factor
+            mType: Property
+            mName: clearcoatRoughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: clearcoatRoughnessFactor
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny.  Multiplies the Roughness texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Roughness Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+              
+              Enables clear coat roughness texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatRoughnessTexture
+            mWidget: texture_group
+            mHint: "Property: clearcoatRoughnessTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N60 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N60 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal
+            mType: Define
+            mName: ENABLE_CLEARCOAT_NORMAL_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_NORMAL_TEX
+              
+              Enables the clear coat normal map texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatNormalTexture
+            mWidget: texture_group
+            mHint: "Property: clearcoatNormalTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N47 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N47 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_NORMAL_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture Transform
+            mType: Define
+            mName: ENABLE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TEXTURE_TRANSFORM
+              
+              Enable Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEXTURE_TRANSFORM
+              
+              Enable Base Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: baseColorTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_offset
+              
+              Base Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: baseColorTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_scale
+              
+              Base Texture size transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: baseColorTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_rotation
+              
+              Base Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive Texture
+            mType: Define
+            mName: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+              
+              Enable Emissive Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: emissiveTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_offset
+              
+              Emissive Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: emissiveTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_scale
+              
+              Emissive Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: emissiveTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_rotation
+              
+              Emissive Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Texture
+            mType: Define
+            mName: ENABLE_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMAL_TEXTURE_TRANSFORM
+              
+              Enable Normal Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: normalTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_offset
+              
+              Normal Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: normalTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_scale
+              
+              Normal Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: normalTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_rotation
+              
+              Normal Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic Roughness Texture
+            mType: Define
+            mName: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Metallic Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: metallicRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_offset
+              
+              Metallic Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: metallicRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_scale
+              
+              Metallic Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: metallicRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_rotation
+              
+              Metallic Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transmission Texture
+            mType: Define
+            mName: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+              
+              Enable Transmission Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: transmissionTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_offset
+              
+              Transmission Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: transmissionTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_scale
+              
+              Transmission Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: transmissionTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_rotation
+              
+              Transmission Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen Color Texture
+            mType: Define
+            mName: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+              
+              Enable Sheen Color Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: sheenColorTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_offset
+              
+              Sheen Color Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: sheenColorTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_scale
+              
+              Sheen Color Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: sheenColorTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_rotation
+              
+              Sheen Color Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen Roughness Texture
+            mType: Define
+            mName: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Sheen Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: sheenRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_offset
+              
+              Sheen Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: sheenRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_scale
+              
+              Sheen Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: sheenRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_rotation
+              
+              Sheen Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_offset
+              
+              Clearcoat Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_scale
+              
+              Clearcoat Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_rotation
+              
+              Clearcoat Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Normal Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Normal Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatNormalTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_offset
+              
+              Clearcoat Normal Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatNormalTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_scale
+              
+              Clearcoat Noraml Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatNormalTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_rotation
+              
+              Clearcoat Normal Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Roughness Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_offset
+              
+              Clearcoat Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_scale
+              
+              Clearcoat Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_rotation
+              
+              Clearcoat Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 58222ba6-9b46-4753-9000-8d4f10e25303/90b1d92829d67c8b20bc93c72e0a0904/Data/.hidden/cfd37fa/SVGMat.003.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<Material/eb26f809-b38e-4ffb-826a-3f9d13bae5b2>
+      PackagePath: Materials/SVGMat.002
+      PassesInfo:
+        - !<own> 5b44388a-8b9c-4358-896a-6fb66717f731
+    - !<Material/113713c6-6453-4ba7-8520-58b72b106ecb>
+      PackagePath: Materials/SVGMat.001
+      PassesInfo:
+        - !<own> 93a0ba59-9420-439c-8a05-6a7a1f653ae5
+    - !<Material/988cba38-e024-4a24-b0c0-78fd757c78e3>
+      PackagePath: Materials/SVGMat
+      PassesInfo:
+        - !<own> fbc5b46f-25cc-438f-8cd5-7dc3a0bc7afe
+    - !<Material/91405103-5e1f-4f69-b822-adc3bf8a3667>
+      PackagePath: Materials/SVGMat.004
+      PassesInfo:
+        - !<own> 87cf3a83-dc01-4d1e-8368-d11026a6c522
+    - !<Material/ff36fd79-6c13-4f81-90bc-e4516f8635f1>
+      PackagePath: Materials/SVGMat.007
+      PassesInfo:
+        - !<own> e9e205ea-c155-448e-ad25-58ac339ad03f
+    - !<Material/c6423b62-7d23-4f27-8274-82c95adbadad>
+      PackagePath: Materials/SVGMat.005
+      PassesInfo:
+        - !<own> 52720cac-79bc-4501-91b4-fbcfd07d2f3a
+    - !<Material/076218fd-44c4-4f89-aa8a-06f950013d4a>
+      PackagePath: Materials/SVGMat.006
+      PassesInfo:
+        - !<own> 6b729fe3-8e65-4076-9398-d23ff2e7cc78
+    - !<Material/f4a96d3b-0223-49f2-b699-aa2b5f37c94f>
+      PackagePath: Materials/SVGMat.008
+      PassesInfo:
+        - !<own> c7459b5a-e8f9-41fd-9140-4ca1588c31b4
+    - !<Material/e4a48d4a-42ac-4422-81e9-b57a886eb9b6>
+      PackagePath: Materials/SVGMat.009
+      PassesInfo:
+        - !<own> cc3b83fc-e41f-40f4-848c-39a3ba07704b
+    - !<Material/ceb84e5c-a366-454c-a33e-0e5d1a7e8e9b>
+      PackagePath: Materials/SVGMat.010
+      PassesInfo:
+        - !<own> fd499058-fbb7-4d66-a3e4-7a8029533b6d
+  SourceHash: 90b1d92829d67c8b20bc93c72e0a0904
+  FileHash: b91e740b1fc1abd288d9c1ef8aefa6e8
+  NativePackageItems:
+    []
+- !<SceneObject/02f1cd43-1516-4549-8249-ae05ce9d6fe7>
+  PrefabRemaps:
+    []
+  Name: Style
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.003774, y: 0.000000, z: -0.001744}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 31.733927, y: 31.733927, z: 31.733927}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 296c62ff-60ca-49f7-acb4-7cade58e0a17
+- !<SceneObject/14b1ae02-b695-4814-a4be-8cc56886c5f9>
+  PrefabRemaps:
+    []
+  Name: Shuffle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.620559, y: 0.000000, z: 0.000028}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 24.795931, y: 127.495659, z: 24.795931}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15c94022-abbe-4531-bfd0-2970dc63bffe
+- !<RenderMeshVisual/15c94022-abbe-4531-bfd0-2970dc63bffe>
+  PrefabRemaps:
+    []
+  Name: Curve
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 988cba38-e024-4a24-b0c0-78fd757c78e3
+  Mesh: !<reference> 61f71756-fdb6-416a-931e-8a21669ac71e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1d81f07f-e53b-4c5b-b169-c94023530c25>
+  PrefabRemaps:
+    []
+  Name: Stop
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.383830, y: 0.000000, z: 0.001728}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 30.073997, y: 30.073997, z: 30.073997}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b715a854-ba83-4ab2-bbc0-d7af92e175e7
+- !<RenderMeshVisual/23ef500b-ea02-4894-9b4f-9c69085f2145>
+  PrefabRemaps:
+    []
+  Name: Curve.002
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eb26f809-b38e-4ffb-826a-3f9d13bae5b2
+  Mesh: !<reference> bdb56ce7-5b1d-4aac-ba65-f3fe5248d470
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2410a96a-18b6-44b3-a43a-c9b0cde1eda2>
+  PrefabRemaps:
+    []
+  Name: Next
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.113857, y: 0.000000, z: -0.002851}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 42.086018, y: 42.086018, z: 42.086018}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b8b18be7-d909-4aee-bf35-856ba36e5b77
+- !<RenderMeshVisual/296c62ff-60ca-49f7-acb4-7cade58e0a17>
+  PrefabRemaps:
+    []
+  Name: Curve.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ceb84e5c-a366-454c-a33e-0e5d1a7e8e9b
+  Mesh: !<reference> 94c58088-53e8-4e01-9881-f5b83bb35e1c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3754d42c-3b87-4293-a403-eb3d180d01d0>
+  PrefabRemaps:
+    []
+  Name: Curve.004
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 91405103-5e1f-4f69-b822-adc3bf8a3667
+  Mesh: !<reference> 40e473a7-792a-4872-9fa6-af8b7e14e89e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3baec3bc-9528-4b6b-9a7e-04eeed7dfe7f>
+  PrefabRemaps:
+    []
+  Name: Hand
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.526987, y: 0.000000, z: -0.014189}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 28.314289, y: 28.314289, z: 28.314289}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 52ea71a7-ec33-4381-8d72-a3f135403f68
+- !<SceneObject/4d6088e1-75ad-412f-8610-0d25e8ed6410>
+  PrefabRemaps:
+    []
+  Name: RepeatOn
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.886438, y: 0.000000, z: -0.002710}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 27.760603, y: 142.739395, z: 27.760603}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 55a089dc-900a-4668-9eb7-7583f4a4a91e
+- !<PassInfo/52720cac-79bc-4501-91b4-fbcfd07d2f3a>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<RenderMeshVisual/52ea71a7-ec33-4381-8d72-a3f135403f68>
+  PrefabRemaps:
+    []
+  Name: Curve.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f4a96d3b-0223-49f2-b699-aa2b5f37c94f
+  Mesh: !<reference> 1bd7534e-09c2-4b4d-b006-ca497f9d3aa2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/55a089dc-900a-4668-9eb7-7583f4a4a91e>
+  PrefabRemaps:
+    []
+  Name: Curve.003
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 37c8f5be-ec6c-4f2f-befd-5d4ce25eb710
+  Mesh: !<reference> 5842b9b1-323e-4747-a047-587abe275387
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/576dd2b8-cd3d-431c-b44e-d6d0cc6037e7>
+  PrefabRemaps:
+    []
+  Name: Curve.009
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4a48d4a-42ac-4422-81e9-b57a886eb9b6
+  Mesh: !<reference> d42d79c9-3c7c-47da-bb11-c5e099a97484
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<PassInfo/5b44388a-8b9c-4358-896a-6fb66717f731>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<PassInfo/6949c434-1588-45d7-b742-9128106b88cf>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<SceneObject/6b0e1bcc-73f7-4dc1-a27a-82f75f2a9e6a>
+  PrefabRemaps:
+    []
+  Name: Play/pause
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.602363, y: 0.000000, z: -0.003371}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 43.192989, y: 222.089630, z: 43.192989}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3754d42c-3b87-4293-a403-eb3d180d01d0
+- !<PassInfo/6b729fe3-8e65-4076-9398-d23ff2e7cc78>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<RenderMeshVisual/74e45d48-be8a-4e85-be7f-94e74f36f48b>
+  PrefabRemaps:
+    []
+  Name: Curve.007
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ff36fd79-6c13-4f81-90bc-e4516f8635f1
+  Mesh: !<reference> 71c4bb1e-e0ce-4f45-ad0e-733dc4c3e8cb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/7d9c21ef-f25d-4964-be42-1031ed92e9f2>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<PassInfo/87cf3a83-dc01-4d1e-8368-d11026a6c522>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<SceneObject/8e2548cc-7738-41de-bf15-087ab1878f84>
+  PrefabRemaps:
+    []
+  Name: Repeat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.103917, y: 0.000000, z: 0.000799}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 27.283600, y: 140.286758, z: 27.283600}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 23ef500b-ea02-4894-9b4f-9c69085f2145
+- !<PassInfo/93a0ba59-9420-439c-8a05-6a7a1f653ae5>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<SceneObject/9ae1744a-0e59-4a46-aace-d3429e9278e7>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4d6088e1-75ad-412f-8610-0d25e8ed6410
+    - !<own> 8e2548cc-7738-41de-bf15-087ab1878f84
+    - !<own> 9f915495-1ad5-4775-a138-5ac702d9024e
+    - !<own> 14b1ae02-b695-4814-a4be-8cc56886c5f9
+    - !<own> 6b0e1bcc-73f7-4dc1-a27a-82f75f2a9e6a
+    - !<own> d68dc4f3-eeda-4388-8de0-0b051215045c
+    - !<own> 1d81f07f-e53b-4c5b-b169-c94023530c25
+    - !<own> 2410a96a-18b6-44b3-a43a-c9b0cde1eda2
+    - !<own> 3baec3bc-9528-4b6b-9a7e-04eeed7dfe7f
+    - !<own> d70de4e3-7782-4f4b-b64c-6f2152f6f865
+    - !<own> 02f1cd43-1516-4549-8249-ae05ce9d6fe7
+  Components:
+    - !<own> 7d9c21ef-f25d-4964-be42-1031ed92e9f2
+- !<SceneObject/9f915495-1ad5-4775-a138-5ac702d9024e>
+  PrefabRemaps:
+    []
+  Name: ShuffleOn
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.371851, y: 0.000000, z: 0.000850}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 24.690285, y: 126.952454, z: 24.690285}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dcf183c4-8bfd-47f1-89c4-ccdcbdd3e42c
+- !<SceneObject/ac553819-d706-477a-91ac-d016298c14cf>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ae1744a-0e59-4a46-aace-d3429e9278e7
+  Components:
+    []
+- !<RenderMeshVisual/b715a854-ba83-4ab2-bbc0-d7af92e175e7>
+  PrefabRemaps:
+    []
+  Name: Curve.005
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c6423b62-7d23-4f27-8274-82c95adbadad
+  Mesh: !<reference> b9dff32a-0e46-46b9-9851-6b40d1f4d24a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b8b18be7-d909-4aee-bf35-856ba36e5b77>
+  PrefabRemaps:
+    []
+  Name: Curve.006
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 076218fd-44c4-4f89-aa8a-06f950013d4a
+  Mesh: !<reference> c2682aaf-e103-45c6-8a61-d185220685e4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<PassInfo/c7459b5a-e8f9-41fd-9140-4ca1588c31b4>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<PassInfo/cc3b83fc-e41f-40f4-848c-39a3ba07704b>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<SceneObject/cd84383a-884f-4e32-acb1-fdc909a5c78b>
+  PrefabRemaps:
+    []
+  Name: ButtonsIcons2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac553819-d706-477a-91ac-d016298c14cf
+  Components:
+    []
+- !<SceneObject/d68dc4f3-eeda-4388-8de0-0b051215045c>
+  PrefabRemaps:
+    []
+  Name: Previous
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.807937, y: 0.000000, z: -0.003403}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 41.267658, y: 41.267658, z: 41.267658}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 74e45d48-be8a-4e85-be7f-94e74f36f48b
+- !<SceneObject/d70de4e3-7782-4f4b-b64c-6f2152f6f865>
+  PrefabRemaps:
+    []
+  Name: Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.271906, y: 0.000000, z: -0.000214}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 30.113316, y: 30.113316, z: 30.113316}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 576dd2b8-cd3d-431c-b44e-d6d0cc6037e7
+- !<RenderMeshVisual/dcf183c4-8bfd-47f1-89c4-ccdcbdd3e42c>
+  PrefabRemaps:
+    []
+  Name: Curve.001
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 113713c6-6453-4ba7-8520-58b72b106ecb
+  Mesh: !<reference> 04107863-2c8a-42ea-b425-930edfa48396
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<PassInfo/e9e205ea-c155-448e-ad25-58ac339ad03f>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<PassInfo/fbc5b46f-25cc-438f-8cd5-7dc3a0bc7afe>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c
+- !<PassInfo/fd499058-fbb7-4d66-a3e4-7a8029533b6d>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+  BlendMode: Disabled
+  Properties:
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.768151, y: 0.768151, z: 0.768151, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.400000
+  Pass: !<reference> 0bf7556c-faac-4fbd-8e03-b96104b2d96c

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    46df821c-a05a-42b2-b776-c27fe6cd3138: a9ad050e-951b-4943-b0b1-63eb410f8684/44373279244766c26810be06cae60eb2/Data/icon_geo_ghost.png
+  Assets:
+    - !<FileTexture/46df821c-a05a-42b2-b776-c27fe6cd3138>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 44373279244766c26810be06cae60eb2
+  FileHash: 0156a1f9a945f3220702bf6ce9d1374e
+  NativePackageItems:
+    []

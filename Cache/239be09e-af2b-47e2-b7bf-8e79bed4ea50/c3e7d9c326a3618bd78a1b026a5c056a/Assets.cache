@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5564b4a3-4dc4-478f-ae2a-a2df2c5a5ef6: 239be09e-af2b-47e2-b7bf-8e79bed4ea50/c3e7d9c326a3618bd78a1b026a5c056a/Data/clouf_face1.mesh
+  Assets:
+    - !<FileMesh/5564b4a3-4dc4-478f-ae2a-a2df2c5a5ef6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 30
+        Vertices: 65
+        Blendshapes:
+          []
+        Joints: 6
+        AabbSize: {x: 37.491375, y: 21.156057, z: 4.893482}
+  SourceHash: c3e7d9c326a3618bd78a1b026a5c056a
+  FileHash: 1b41e4d2fb13971b5ad75bcef85b2ec1
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    41d535b7-30d7-44a3-bc94-8b840f84da4d: 32ef2adc-3121-4f9a-ba6f-22e9cba3918d/acaf1df18606b567656a761ff480c075/Data/TutorialTileMask.jpg
+  Assets:
+    - !<FileTexture/41d535b7-30d7-44a3-bc94-8b840f84da4d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: acaf1df18606b567656a761ff480c075
+  FileHash: 62c1e8c6518c87ec1ad01401c3a812bb
+  NativePackageItems:
+    []

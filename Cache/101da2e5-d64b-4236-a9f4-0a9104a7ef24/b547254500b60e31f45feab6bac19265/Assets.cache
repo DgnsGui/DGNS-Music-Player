@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e49ce416-bd85-4d7f-89d3-90cdfe1849f5: 631acf94-58b0-4f2c-af24-f7ccb8ebef70/b547254500b60e31f45feab6bac19265/Data/soft-reflection.jpg
+  Assets:
+    - !<FileTexture/e49ce416-bd85-4d7f-89d3-90cdfe1849f5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: b547254500b60e31f45feab6bac19265
+  FileHash: 6695424fa96469475155a40874a337e3
+  NativePackageItems:
+    []

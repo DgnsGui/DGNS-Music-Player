@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    55bbc930-2a15-493a-a36a-3bacb03b7571: 93256023-add1-442a-acfe-adb19aa7a1d4/c225d3eafa3d8810895bcc77e5e6c6ef/Data/TriggerStartAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/55bbc930-2a15-493a-a36a-3bacb03b7571>
+      PackagePath: ""
+  SourceHash: c225d3eafa3d8810895bcc77e5e6c6ef
+  FileHash: 77644694204b04ceedc6bd8247c2b0ab
+  NativePackageItems:
+    []

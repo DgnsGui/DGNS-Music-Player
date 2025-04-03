@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3e3dc67e-f8de-4502-b790-51fa5c73c19b: c03566f1-b363-4f8b-80d4-f25b036afb6b/3fb636c3cbc26188ff6a7b5d1fc07d5d/Data/Rocket_sparks.mesh
+  Assets:
+    - !<FileMesh/3e3dc67e-f8de-4502-b790-51fa5c73c19b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 224
+        Vertices: 240
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 35.180294, y: 102.692032, z: 0.000000}
+  SourceHash: 3fb636c3cbc26188ff6a7b5d1fc07d5d
+  FileHash: cf254ec88d2b661bf4c6df72ed672bdd
+  NativePackageItems:
+    []

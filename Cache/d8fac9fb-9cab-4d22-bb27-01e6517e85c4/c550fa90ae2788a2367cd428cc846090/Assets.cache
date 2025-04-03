@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    962fe96e-aa8d-4ea3-8a35-09c60ce3f4dc: d8fac9fb-9cab-4d22-bb27-01e6517e85c4/c550fa90ae2788a2367cd428cc846090/Data/A-icon.png
+  Assets:
+    - !<FileTexture/962fe96e-aa8d-4ea3-8a35-09c60ce3f4dc>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: c550fa90ae2788a2367cd428cc846090
+  FileHash: eb948f8eb108d141c2808a47d07fa1ab
+  NativePackageItems:
+    []

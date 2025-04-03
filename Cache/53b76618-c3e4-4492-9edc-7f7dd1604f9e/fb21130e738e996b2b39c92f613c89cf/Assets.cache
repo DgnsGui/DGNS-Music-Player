@@ -1,0 +1,259 @@
+- !<AssetCache>
+  AssetFiles:
+    75434038-f7af-4ca1-a986-216fc63040e0: 53b76618-c3e4-4492-9edc-7f7dd1604f9e/fb21130e738e996b2b39c92f613c89cf/Data/FrustumTeachingMode.ss_graph
+  Assets:
+    - !<ShaderGraphPass/75434038-f7af-4ca1-a986-216fc63040e0>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Center_N088:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N092:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Default_N204:
+          typeIdx: 1
+          value: 1.000000
+        Port_Default_N369:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Exponent_N081:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N057:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N074:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N073:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N075:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N095:
+          typeIdx: 1
+          value: 0.200000
+        Port_Input1_N097:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Intensity_N081:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N041:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N042:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N086:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N099:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N157:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N389:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N081:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_RangeMaxA_N070:
+          typeIdx: 1
+          value: 180.000000
+        Port_RangeMaxB_N070:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMinA_N070:
+          typeIdx: 1
+          value: -180.000000
+        Port_RangeMinB_N070:
+          typeIdx: 1
+          value: -0.500000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N088:
+          typeIdx: 3
+          value: {x: 20.000000, y: 20.000000}
+        Port_Scale_N092:
+          typeIdx: 3
+          value: {x: 200.000000, y: 200.000000}
+        Port_Seed_N083:
+          typeIdx: 3
+          value: {x: 3.000000, y: 3.000000}
+        Port_Speed_N022:
+          typeIdx: 1
+          value: 1.000000
+        Port_Speed_N063:
+          typeIdx: 1
+          value: 1.000000
+        Port_UVCoord_N041:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N042:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N099:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N076:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Albedo Map
+            mType: Property
+            mName: Tweak_N42
+            mWidget: texture_group
+            mHint: "Property: Tweak_N42"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Saturation
+            mType: Property
+            mName: Tweak_N80
+            mWidget: spinbox
+            mHint: "Property: Tweak_N80"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Map
+            mType: Property
+            mName: Tweak_N41
+            mWidget: texture_group
+            mHint: "Property: Tweak_N41"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Property
+            mName: Tweak_N46
+            mWidget: color
+            mHint: "Property: Tweak_N46"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Custom Map
+            mType: Property
+            mName: Tweak_N99
+            mWidget: texture_group
+            mHint: "Property: Tweak_N99"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: alpha
+            mType: Property
+            mName: alpha
+            mWidget: slider
+            mHint: "Property: alpha"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 53b76618-c3e4-4492-9edc-7f7dd1604f9e/fb21130e738e996b2b39c92f613c89cf/Data/cfd37fa/FrustumTeachingMode.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: fb21130e738e996b2b39c92f613c89cf
+  FileHash: 72a296001ef153630876e0dcfa60cdf7
+  NativePackageItems:
+    []

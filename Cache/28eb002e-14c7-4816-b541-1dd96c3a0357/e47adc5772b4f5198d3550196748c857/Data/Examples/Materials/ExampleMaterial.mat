@@ -1,0 +1,52 @@
+- !<Material/700f0979-4b01-4cfc-a5ed-c75ba0abae0f>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> f7cc8404-f544-44ad-964e-176cd40297ea
+- !<PassInfo/f7cc8404-f544-44ad-964e-176cd40297ea>
+  CachedProperties:
+    []
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+  BlendMode: Disabled
+  Properties:
+    Port_Input1_N002:
+      typeIdx: 3
+      value: {x: 5.000000, y: 5.000000}
+    Port_Input1_N007:
+      typeIdx: 3
+      value: {x: 5.000000, y: 5.000000}
+    Port_Value2_N001:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    enableStripes:
+      typeIdx: 2
+      value: true
+    stripeColor:
+      typeIdx: 5
+      value: {x: 0.999420, y: 0.985550, z: 0.000000, w: 1.000000}
+    stripeScale:
+      typeIdx: 3
+      value: {x: 20.000000, y: 20.000000}
+    stripes:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> 0f1295c7-6a20-4cad-a242-03005bf01cef

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    71878f26-5822-4578-aca4-f23f5b09486d: 45201752-1642-4fe8-a514-ee00650c2428/3e9b4a63dc10c28963f79e430bd76cdc/Data/Acme-Regular.ttf
+  Assets:
+    - !<Font/71878f26-5822-4578-aca4-f23f5b09486d>
+      PackagePath: ""
+  SourceHash: 3e9b4a63dc10c28963f79e430bd76cdc
+  FileHash: 3489aa33f7776c72ee52661719276e8f
+  NativePackageItems:
+    []

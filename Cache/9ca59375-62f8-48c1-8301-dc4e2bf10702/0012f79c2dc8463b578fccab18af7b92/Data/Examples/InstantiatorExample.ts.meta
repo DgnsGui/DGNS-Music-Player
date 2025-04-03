@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/edc15648-8ae3-4e0e-87fc-dc2d44001c9b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a02a4074-8a4b-4741-94f8-395363bdff5b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a02a4074-8a4b-4741-94f8-395363bdff5b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3ffdbcb8-d0fd-4c6a-92ce-ee73ff8d82d3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/3ffdbcb8-d0fd-4c6a-92ce-ee73ff8d82d3>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 397ffdaf-8227-458f-81fc-b6c36ab86889
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    instantiator: false
+    prefab: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - instantiator: !<MappingBased.Instantiator> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Instantiator instantiator
+    - // @input Asset.ObjectPrefab prefab
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

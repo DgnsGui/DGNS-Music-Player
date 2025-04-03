@@ -1,0 +1,96 @@
+- !<AssetCache>
+  AssetFiles:
+    9aa269f6-5a5f-46d4-91fd-792a511e4cf6: 574d5f53-1794-40db-b51d-c7ef08a07376/273f09542d37bf3adad6034c72c6e42f/Data/WaterCaustics 2.ss_graph
+  Assets:
+    - !<ShaderGraphPass/9aa269f6-5a5f-46d4-91fd-792a511e4cf6>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N003:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N005:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Offset_N005:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Position_N005:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N003:
+          typeIdx: 3
+          value: {x: 700.000000, y: 700.000000}
+        Port_Scale_N005:
+          typeIdx: 4
+          value: {x: 0.001000, y: 0.001000, z: 0.001000}
+        Port_Sharpness_N005:
+          typeIdx: 1
+          value: 1.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_resolution_N009:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_uv_input_N009:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 574d5f53-1794-40db-b51d-c7ef08a07376/273f09542d37bf3adad6034c72c6e42f/Data/cfd37fa/WaterCaustics 2.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 69d700a41d4de67730dc0aa0d21f06bd
+  FileHash: f9bbf5194d7afa13208736a1df19589f
+  NativePackageItems:
+    []

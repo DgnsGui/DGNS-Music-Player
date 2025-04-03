@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e49fb15a-e6cc-4d74-b1e5-d4e8b026b301: 6d7dba19-efa9-465f-bfc6-c456e6beea91/1133d6ebac7e6602c72fa3665210e8eb/Data/RoundButtonGlow.mesh
+  Assets:
+    - !<FileMesh/e49fb15a-e6cc-4d74-b1e5-d4e8b026b301>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 72
+        Vertices: 69
+        Blendshapes:
+          - Pinch
+        Joints: 0
+        AabbSize: {x: 3.622771, y: 3.622775, z: 0.000002}
+  SourceHash: 1133d6ebac7e6602c72fa3665210e8eb
+  FileHash: 5743877d7e071cff18bc3988646b8940
+  NativePackageItems:
+    []

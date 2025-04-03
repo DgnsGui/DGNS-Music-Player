@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7897c251-48b5-47a9-b668-96aaa7bfc56d: 14d29061-2bf6-4370-bf9a-5319ad0b52d0/abecc7a9c482224a9ee67162f603ead7/Data/Tire_normal.pvr
+  Assets:
+    - !<FileTexture/7897c251-48b5-47a9-b668-96aaa7bfc56d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: abecc7a9c482224a9ee67162f603ead7
+  FileHash: 0703c21f340a6a89b0a942cb213ae2d5
+  NativePackageItems:
+    []

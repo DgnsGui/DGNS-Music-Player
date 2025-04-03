@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/0ef66395-bd9f-4afc-a1e5-75269581f7a3>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c5e850ed-2e5c-4206-b59a-e06b3b39c3d4
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c5e850ed-2e5c-4206-b59a-e06b3b39c3d4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 1d5567f4-d246-428c-a9fa-7e2a80a98627
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ObjectPrefab/116d2b93-64a3-4069-93c1-9bebd8d4f6bd>
+  PackagePath: ""
+  objects:
+    - !<own> 6a6e67d0-3604-456d-a507-b648a71ed484
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/1d5567f4-d246-428c-a9fa-7e2a80a98627>
+  SourceRemaps:
+    - 55ddc08c-6d2f-4db4-ab45-805f2d3e970d: f822ddee-eca8-427b-aa43-bb6dd8f9a707
+    - 8dcf197f-93ec-4f0a-a72a-dc1fee6dc8de: 6a6e67d0-3604-456d-a507-b648a71ed484
+  SourceState: !<own> 116d2b93-64a3-4069-93c1-9bebd8d4f6bd
+- !<SceneObject/6a6e67d0-3604-456d-a507-b648a71ed484>
+  PrefabRemaps:
+    []
+  Name: Sleek Body Tube
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 11.006973, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f822ddee-eca8-427b-aa43-bb6dd8f9a707
+- !<RenderMeshVisual/f822ddee-eca8-427b-aa43-bb6dd8f9a707>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d28b00cb-80f7-4cd1-bc01-907c28ad0b0e
+  Mesh: !<reference> 45ddd44a-e328-416a-85b5-ad9a509b1277
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

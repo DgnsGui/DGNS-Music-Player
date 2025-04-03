@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    28a4cfd6-f33e-4019-8e06-1fc6e399128d: 475249cb-b291-422c-98ef-3dfadbb74656/c9345f3973138fbe1ea0a400dde6fc01/Data/RubikMonoOne-Regular.ttf
+  Assets:
+    - !<Font/28a4cfd6-f33e-4019-8e06-1fc6e399128d>
+      PackagePath: ""
+  SourceHash: c9345f3973138fbe1ea0a400dde6fc01
+  FileHash: c1d6c3f95e4fc0f6888b0760c153eead
+  NativePackageItems:
+    []

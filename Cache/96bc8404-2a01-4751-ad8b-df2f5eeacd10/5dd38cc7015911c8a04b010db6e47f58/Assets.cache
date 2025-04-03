@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5a4008eb-0f7f-4b43-8331-279ce2625d03: e2a2fbd0-2551-4118-a9c6-85ec1d08beab/5dd38cc7015911c8a04b010db6e47f58/Data/KeepLookingButtonText.png
+  Assets:
+    - !<FileTexture/5a4008eb-0f7f-4b43-8331-279ce2625d03>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 496
+        Height: 120
+  SourceHash: 5dd38cc7015911c8a04b010db6e47f58
+  FileHash: 56e72de07ff9d69a52a6abbe17cef0cb
+  NativePackageItems:
+    []

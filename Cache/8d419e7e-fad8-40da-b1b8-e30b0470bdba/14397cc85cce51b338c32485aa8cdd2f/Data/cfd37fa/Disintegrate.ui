@@ -1,0 +1,147 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "baseColor",
+                	"label":       "Base Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "density",
+                	"label":       "Density",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         10,
+                	"step":        "0.1",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "metallic",
+                	"label":       "Metallic",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "roughness",
+                	"label":       "Roughness",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "2",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Opacity Texture",
+                	"bindingName": "Tweak_N27",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "opacityTexture", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N27",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label": "Disintegrate",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "animate",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Animate",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "4",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "edgeColor",
+                    	"label":       "Edge Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "disintegrate",
+                    	"label":       "Disintegrate",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.02",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseFrequency",
+                    	"label":       "Noise Frequency",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

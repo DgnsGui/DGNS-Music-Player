@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    73f28699-03fd-42c1-a4a0-b77d7221ec0d: fad9dbe6-fb61-4cff-a582-80f45cad32fb/acaf1df18606b567656a761ff480c075/Data/UnsuccessNotificationTile.jpg
+  Assets:
+    - !<FileTexture/73f28699-03fd-42c1-a4a0-b77d7221ec0d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: acaf1df18606b567656a761ff480c075
+  FileHash: 62c1e8c6518c87ec1ad01401c3a812bb
+  NativePackageItems:
+    []

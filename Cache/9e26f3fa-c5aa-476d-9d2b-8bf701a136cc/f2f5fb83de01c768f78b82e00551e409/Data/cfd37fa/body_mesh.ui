@@ -1,0 +1,101 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "baseColor",
+                	"label":       "Base Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label": "Textures",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Base Texture",
+                    	"bindingName": "Tweak_N11",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "baseTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "1",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N11",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Specular",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "metallic",
+                    	"label":       "Metallic",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "3",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "roughness",
+                    	"label":       "Roughness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

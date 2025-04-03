@@ -1,0 +1,215 @@
+- !<ObjectPrefab/b1f250a9-a06b-486b-98ac-c772a159e4d7>
+  PackagePath: ""
+  objects:
+    - !<own> 4ce9f7d8-0ab8-4311-bc8d-0a879c2b57a3
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/2aeef2e6-f712-4b83-b524-da18c0f828fc>
+  PrefabRemaps:
+    []
+  Name: InteractableAudioFeedback
+  Enabled: true
+  ScriptAsset: !<reference> aa1b42ae-e997-4ab7-9da1-e1c9ad5cffcd
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      hoverAudioTrack: !<reference.AudioTrackAsset> dc16d61c-c9ec-4370-a23f-612bd4f6d5a2
+      triggerStartAudioTrack: !<reference.AudioTrackAsset> 69d655d0-dc5b-43fb-912d-bf5cc4c0a3f7
+      triggerEndAudioTrack: !<reference.AudioTrackAsset> eac28ff9-3dfe-4062-8f5c-6fdf518f9bf4
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4ce9f7d8-0ab8-4311-bc8d-0a879c2b57a3>
+  PrefabRemaps:
+    []
+  Name: Manipulate Example Prefab
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a850edcf-d4d4-432b-b756-9416769cbc98
+    - !<own> f201346a-2bf5-455f-8d85-44b5ec170292
+    - !<own> b850862a-7d10-47bc-856c-5863e249d080
+    - !<own> e62fc07c-0a12-4ded-b143-aeb8032df9d3
+    - !<own> b73b96e5-9337-45e7-8809-7f1c9cc3e957
+    - !<own> 2aeef2e6-f712-4b83-b524-da18c0f828fc
+    - !<own> c99a57ca-8304-4e7b-a0f0-07e33b8590c5
+- !<ScriptComponent/a850edcf-d4d4-432b-b756-9416769cbc98>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 552e398d-2412-4eb0-abd7-fe404fcf00f8
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/b73b96e5-9337-45e7-8809-7f1c9cc3e957>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 5d88026e-2cca-4ac7-86b5-786a247a77a3
+  ScriptInputsDefault:
+    hoveringColor: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 987e4e8a-bb0a-4b54-8ab8-2c5b996426a7
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.075000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> e62fc07c-0a12-4ded-b143-aeb8032df9d3
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/b850862a-7d10-47bc-856c-5863e249d080>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> d657486a-ddcb-4724-8870-ee74f711f37a
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    enableStretchZ: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 4ce9f7d8-0ab8-4311-bc8d-0a879c2b57a3
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: true
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c99a57ca-8304-4e7b-a0f0-07e33b8590c5>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> 1c8dd619-bba9-4dff-b978-3ba4073b69f1
+  ScriptInputsDefault:
+    networkIdTypeString: true
+    customNetworkId: true
+    persistenceString: true
+    sendsPerSecondLimit: true
+    useSmoothing: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdTypeString: objectId
+      customNetworkId: enter_unique_id
+      positionSyncString: Location
+      rotationSyncString: Location
+      scaleSyncString: Location
+      persistenceString: Session
+      sendsPerSecondLimit: 10
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/e62fc07c-0a12-4ded-b143-aeb8032df9d3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dc339721-2381-41f5-84c1-baf4b492e12f
+  Mesh: !<reference> 9a50037c-9823-4d2e-8f4c-98233b3c7e99
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/f201346a-2bf5-455f-8d85-44b5ec170292>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 9a50037c-9823-4d2e-8f4c-98233b3c7e99
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000

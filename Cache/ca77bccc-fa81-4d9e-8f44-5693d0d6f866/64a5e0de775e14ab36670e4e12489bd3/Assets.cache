@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a5eefc74-384b-4384-9189-258bcfa6b5f0: ca77bccc-fa81-4d9e-8f44-5693d0d6f866/64a5e0de775e14ab36670e4e12489bd3/Data/LeftThigh.mesh
+  Assets:
+    - !<FileMesh/a5eefc74-384b-4384-9189-258bcfa6b5f0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 224
+        Vertices: 148
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 6.668889, y: 18.962963, z: 6.501686}
+  SourceHash: 64a5e0de775e14ab36670e4e12489bd3
+  FileHash: 12a65d2b64b0e06766e272101fc6d3d2
+  NativePackageItems:
+    []

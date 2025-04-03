@@ -1,0 +1,41 @@
+studioVersion:
+  major: 5
+  minor: 7
+  patch: 2
+  build: 25030805
+  type: Public
+coreVersion: 301
+clientVersion: 13.300000
+updateCheckpoint: 55
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: Spectacles (2024)
+    cameraFov: nan
+    fullFrameAspect: 0.666660
+    resolutionScale: 1.000000
+    viewport: Normal
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Spectacles
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: DGNS Music Player
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Spectacles
+  platformBundlesEnabled: false
+  iconHash: ef47ae14a0208378918b9655a6f79f05
+  videoPreviewHash: ""
+  fromTemplateName: Spectacles
+  fromTemplateUrl: Lens Studio 5.4.1.24123021
+  activationCamera: Front
+  sourceMapEnabled: false

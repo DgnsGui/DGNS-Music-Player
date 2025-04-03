@@ -1,0 +1,62 @@
+- !<ObjectPrefab/7180d1cd-1a28-48d0-af22-3a508955807c>
+  PackagePath: ""
+  objects:
+    - !<own> d8646fa1-1ce8-40aa-99f9-4c3cec0b7eb9
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/2b123b2a-053f-47a0-9a42-c0d88e83dfd4>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dae43c7a-915b-48dd-a159-18cc639467eb
+  Mesh: !<reference> 03557b88-c4e0-4c73-b93e-3262a1744d4f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cc0f0f16-6222-425b-bcfb-3fd793d7bbcf>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3504b40c-f85c-4dba-a821-ba982864cafc
+  Mesh: !<reference> 7b3f6541-7410-4e07-b3a3-c55e73680d7b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d8646fa1-1ce8-40aa-99f9-4c3cec0b7eb9>
+  PrefabRemaps:
+    []
+  Name: Space Age Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.794556, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b123b2a-053f-47a0-9a42-c0d88e83dfd4
+    - !<own> cc0f0f16-6222-425b-bcfb-3fd793d7bbcf

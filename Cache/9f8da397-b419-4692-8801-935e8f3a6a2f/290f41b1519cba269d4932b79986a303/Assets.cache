@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5e6ed18b-4fe2-4d53-b4d1-f2b1cbdc9089: 9f8da397-b419-4692-8801-935e8f3a6a2f/290f41b1519cba269d4932b79986a303/Data/Backroomz_Dreamcode.jpg
+  Assets:
+    - !<FileTexture/5e6ed18b-4fe2-4d53-b4d1-f2b1cbdc9089>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: 290f41b1519cba269d4932b79986a303
+  FileHash: eda4f020a9ad9aa3d9e38315385f065a
+  NativePackageItems:
+    []

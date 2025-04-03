@@ -1,0 +1,541 @@
+- !<AssetCache>
+  AssetFiles:
+    ed6c04cf-45a6-40ce-8cb3-1e1dd0ea6229: 588cfff3-38cf-4102-b450-d667a11d878d/2671476ebb9555080bb58615b6897134/Data/.hidden/Disintegrate.ss_graph
+  Assets:
+    - !<Material/365ae337-63ec-443a-9df1-31fcfbc1f554>
+      PackagePath: Disintegrate
+      PassesInfo:
+        - !<own> 5257d4ad-d799-40f6-90d9-402b16543a73
+    - !<ShaderGraphPass/ed6c04cf-45a6-40ce-8cb3-1e1dd0ea6229>
+      PackagePath: .hidden/Disintegrate
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N081:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N049:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N076:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N082:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N044:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N049:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N076:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N082:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N034:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Opacity_N006:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N017:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N064:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMaxB_N017:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMaxB_N064:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N064:
+          typeIdx: 1
+          value: 0.100000
+        Port_RangeMinB_N017:
+          typeIdx: 1
+          value: -0.800000
+        Port_RangeMinB_N064:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N054:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_TimeA_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_TimeB_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_TimeBias_N028:
+          typeIdx: 1
+          value: 1.000000
+        Port_TimeTransition_N028:
+          typeIdx: 1
+          value: 3.000000
+        Port_UVCoord_N034:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value1_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value2_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_ValueA_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_ValueB_N028:
+          typeIdx: 1
+          value: 1.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Density
+            mType: Property
+            mName: density
+            mWidget: slider
+            mHint: "Property: density"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: "Property: metallic"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: "Property: roughness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: Tweak_N27
+            mWidget: group_start
+            mHint: "Define: Tweak_N27"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTexture
+            mWidget: texture_group
+            mHint: "Property: opacityTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N27
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Disintegrate
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Animate
+            mType: Define
+            mName: animate
+            mWidget: checkbox
+            mHint: "Define: animate"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Edge Color
+            mType: Property
+            mName: edgeColor
+            mWidget: color
+            mHint: "Property: edgeColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Disintegrate
+            mType: Property
+            mName: disintegrate
+            mWidget: slider
+            mHint: "Property: disintegrate"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.020000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Frequency
+            mType: Property
+            mName: noiseFrequency
+            mWidget: spinbox
+            mHint: "Property: noiseFrequency"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 588cfff3-38cf-4102-b450-d667a11d878d/2671476ebb9555080bb58615b6897134/Data/.hidden/cfd37fa/Disintegrate.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 2671476ebb9555080bb58615b6897134
+  FileHash: 00bd2d6a3862268d656acd9bf43edb7f
+  NativePackageItems:
+    []
+- !<PassInfo/5257d4ad-d799-40f6-90d9-402b16543a73>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_LODValue_N034:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Normal_N006:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_UVCoord_N034:
+        typeIdx: 3
+        value: {x: 0.000000, y: 0.000000}
+    - Port_Value3_N060:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N011:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N060:
+        typeIdx: 1
+        value: 0.000000
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewNodeID:
+        typeIdx: 0
+        value: -1
+    - isProxyMode:
+        typeIdx: 2
+        value: false
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - receivesRayTracedAo:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedDiffuseIndirect:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedReflections:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedShadows:
+        typeIdx: 2
+        value: false
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - animate
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N006:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Import_N081:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N049:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N076:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N082:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N044:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N049:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N076:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N082:
+      typeIdx: 1
+      value: 1.000000
+    Port_Opacity_N006:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N017:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N064:
+      typeIdx: 1
+      value: 0.500000
+    Port_RangeMaxB_N017:
+      typeIdx: 1
+      value: 0.500000
+    Port_RangeMaxB_N064:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N017:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N064:
+      typeIdx: 1
+      value: 0.100000
+    Port_RangeMinB_N017:
+      typeIdx: 1
+      value: -0.800000
+    Port_RangeMinB_N064:
+      typeIdx: 1
+      value: 0.000000
+    Port_Scale_N054:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_SpecularAO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_TimeA_N028:
+      typeIdx: 1
+      value: 0.000000
+    Port_TimeB_N028:
+      typeIdx: 1
+      value: 0.000000
+    Port_TimeBias_N028:
+      typeIdx: 1
+      value: 1.000000
+    Port_TimeTransition_N028:
+      typeIdx: 1
+      value: 3.000000
+    Port_Value1_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value2_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_ValueA_N028:
+      typeIdx: 1
+      value: 0.000000
+    Port_ValueB_N028:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.823270, y: 0.184314, z: 1.000000, w: 1.000000}
+    density:
+      typeIdx: 1
+      value: 3.000000
+    edgeColor:
+      typeIdx: 5
+      value: {x: 0.101961, y: 1.000000, z: 0.775494, w: 1.000000}
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    noiseFrequency:
+      typeIdx: 4
+      value: {x: 0.300000, y: 0.300000, z: 0.300000}
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    roughness:
+      typeIdx: 1
+      value: 0.500000
+  Pass: !<reference> ed6c04cf-45a6-40ce-8cb3-1e1dd0ea6229

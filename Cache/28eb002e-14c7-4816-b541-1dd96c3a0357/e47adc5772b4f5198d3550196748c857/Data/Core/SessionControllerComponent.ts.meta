@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/08989caa-1e97-4d16-ba0b-01d5ddfb3cdf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> dac546d7-cf62-482c-9031-2fb17b50150c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> dac546d7-cf62-482c-9031-2fb17b50150c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 42e945ca-80fa-4fab-b358-969317c384bc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/42e945ca-80fa-4fab-b358-969317c384bc>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 06c9ee4b-307d-474f-b7a0-9cc83b34aa5f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    connectedLensModule: false
+    isColocated: false
+    landmarksVisual3d: false
+    locatedAtComponent: false
+    locationCloudStorageModule: false
+    skipUiInStudio: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - connectedLensModule: !<reference.ConnectedLensModule> 00000000-0000-0000-0000-000000000000
+      locationCloudStorageModule: !<reference.LocationCloudStorageModule> 00000000-0000-0000-0000-000000000000
+      skipUiInStudio: false
+      isColocated: false
+      locatedAtComponent: !<reference.LocatedAtComponent> 00000000-0000-0000-0000-000000000000
+      landmarksVisual3d: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.ConnectedLensModule connectedLensModule
+    - // @input Asset.LocationCloudStorageModule locationCloudStorageModule
+    - '// @input boolean skipUiInStudio = "false" {"label":"Skip UI in Lens Studio"}'
+    - '// @input boolean isColocated = "true"'
+    - '// @ui {"widget":"group_start", "label":"Colocation", "showIf":"isColocated"}'
+    - // @input Component.LocatedAtComponent locatedAtComponent
+    - // @input Component.RenderMeshVisual landmarksVisual3d
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

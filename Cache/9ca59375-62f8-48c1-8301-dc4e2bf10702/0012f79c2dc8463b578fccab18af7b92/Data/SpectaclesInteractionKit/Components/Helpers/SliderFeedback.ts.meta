@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/5dfbedd8-4863-434f-8db2-9348461c27f5>
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a0c01132-7360-48bd-9be6-5473b282921d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a0c01132-7360-48bd-9be6-5473b282921d
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> b0bb15bd-f5fa-4514-8e1d-34e8b1917cc4
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/b0bb15bd-f5fa-4514-8e1d-34e8b1917cc4>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2d0997cc-b283-4f71-b957-aad29d834d74
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    knobObject: false
+    renderMeshVisual: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - renderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      knobObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.RenderMeshVisual renderMeshVisual
+    - // @input SceneObject knobObject
+  SvgIcon: ""
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

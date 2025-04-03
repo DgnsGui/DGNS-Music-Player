@@ -1,0 +1,203 @@
+- !<AssetCache>
+  AssetFiles:
+    95b39472-73b2-4414-bf95-7cd887676d7d: 0b9399a4-624d-4956-ab44-0816c7127dd4/6bf3645d750723e949073bc34f9a7e31/Data/GlassesInner.ss_graph
+  Assets:
+    - !<ShaderGraphPass/95b39472-73b2-4414-bf95-7cd887676d7d>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Color_N094:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_Column3_N087:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Default_N204:
+          typeIdx: 1
+          value: 1.000000
+        Port_Default_N369:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N042:
+          typeIdx: 1
+          value: 1.000000
+        Port_Import_N077:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N078:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N088:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Input0_N127:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Input1_N070:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N075:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N083:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N092:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: -1.000000}
+        Port_Input1_N113:
+          typeIdx: 1
+          value: 100.000000
+        Port_Input1_N127:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Input2_N127:
+          typeIdx: 5
+          value: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.500000}
+        Port_LODValue_N098:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N099:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N157:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N389:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationAngle_N087:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAxis_N087:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationXYZ_N087:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Speed_N022:
+          typeIdx: 1
+          value: 1.000000
+        Port_Speed_N063:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N079:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N079:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value_N116:
+          typeIdx: 1
+          value: 0.200000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Property
+            mName: Tweak_N95
+            mWidget: color
+            mHint: "Property: Tweak_N95"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: alpha
+            mType: Property
+            mName: alpha
+            mWidget: slider
+            mHint: "Property: alpha"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 0b9399a4-624d-4956-ab44-0816c7127dd4/6bf3645d750723e949073bc34f9a7e31/Data/cfd37fa/GlassesInner.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 6bf3645d750723e949073bc34f9a7e31
+  FileHash: 5f3a09ebb047fa2db6a1237b02124ef0
+  NativePackageItems:
+    []

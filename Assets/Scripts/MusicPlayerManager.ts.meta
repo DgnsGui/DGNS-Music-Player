@@ -1,0 +1,116 @@
+- !<AssetImportMetadata/66bef151-c68d-4714-80a6-05f897bf360d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b81afd21-5156-4df3-bf60-1d8dca9cfd9b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b81afd21-5156-4df3-bf60-1d8dca9cfd9b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e7f75fa7-9e65-4dbc-8cd1-f4998e0ac8dd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e7f75fa7-9e65-4dbc-8cd1-f4998e0ac8dd>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9328f31b-24b3-4fa5-aea3-9ca9e135be62
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    artistNameText: false
+    audioComponent: false
+    earthSphere: false
+    earthSphereXOffset: false
+    localArtists: false
+    localTitles: false
+    localTrackPrefabs: false
+    localTracks: false
+    loopPlayback: false
+    nextTrackButton: false
+    playPauseButton: false
+    prevTrackButton: false
+    progressBar: false
+    remoteArtists: false
+    remoteTitles: false
+    remoteTrackPrefabs: false
+    remoteTracks: false
+    repeatButton: false
+    rotationSpeed: false
+    shuffleButton: false
+    stopButton: false
+    stoppedPrefab: false
+    timecodeText: false
+    trackTitleText: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - artistNameText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timecodeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      trackTitleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      playPauseButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prevTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      loopPlayback: true
+      progressBar: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earthSphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earthSphereXOffset: !<float> 0.000000
+      repeatButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shuffleButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stopButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      rotationSpeed: !<float> 30.000000
+      stoppedPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      localTracks: !<reference.AudioTrackAsset[]>
+        []
+      localArtists: !<string[]>
+        []
+      localTitles: !<string[]>
+        []
+      localTrackPrefabs: !<reference.SceneObject[]>
+        []
+      remoteTracks: !<reference.RemoteReferenceAsset[]>
+        []
+      remoteArtists: !<string[]>
+        []
+      remoteTitles: !<string[]>
+        []
+      remoteTrackPrefabs: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input Asset.AudioTrackAsset[] localTracks"
+    - "// @input string[] localArtists"
+    - "// @input string[] localTitles"
+    - "// @input SceneObject[] localTrackPrefabs"
+    - "// @input Asset.RemoteReferenceAsset[] remoteTracks"
+    - "// @input string[] remoteArtists"
+    - "// @input string[] remoteTitles"
+    - "// @input SceneObject[] remoteTrackPrefabs"
+    - // @input SceneObject stoppedPrefab
+    - // @input Component.Text artistNameText
+    - // @input Component.Text timecodeText
+    - // @input Component.Text trackTitleText
+    - // @input Component.ScriptComponent playPauseButton
+    - // @input Component.ScriptComponent nextTrackButton
+    - // @input Component.ScriptComponent prevTrackButton
+    - // @input Component.ScriptComponent repeatButton
+    - // @input Component.ScriptComponent shuffleButton
+    - // @input Component.ScriptComponent stopButton
+    - // @input SceneObject progressBar
+    - // @input SceneObject earthSphere
+    - // @input Component.AudioComponent audioComponent
+    - // @input bool loopPlayback = true
+    - // @input number earthSphereXOffset
+    - // @input number rotationSpeed = 30

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    da23445a-9797-459f-a4f4-4b226b5fcfb1: 3d95857e-39d7-477e-af54-552996750d46/1a128dc8f526a1758b31666feaa6a2e8/Data/OpenSans-Bold.ttf
+  Assets:
+    - !<Font/da23445a-9797-459f-a4f4-4b226b5fcfb1>
+      PackagePath: ""
+  SourceHash: 1a128dc8f526a1758b31666feaa6a2e8
+  FileHash: c6bd842d72c52709abfc749f181644e5
+  NativePackageItems:
+    []

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/4be6fcd2-26b4-4762-b221-77f06243336a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8714428c-8392-4bf9-bb2c-2bc05aea836d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8714428c-8392-4bf9-bb2c-2bc05aea836d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2f01fa0c-90ab-4fe6-a05e-ec8cc5b51c10
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/2f01fa0c-90ab-4fe6-a05e-ec8cc5b51c10>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e981657f-4e9e-4f88-a012-f77d403e7d18
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    enableOnSingleplayerNodes: false
+    multiPlayerButton: false
+    singlePlayerButton: false
+    singlePlayerType: false
+    startMenuDistanceFromUser: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - singlePlayerButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      multiPlayerButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      startMenuDistanceFromUser: !<float> 150.000000
+      singlePlayerType: manual
+      enableOnSingleplayerNodes: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input PinchButton singlePlayerButton
+    - // @input PinchButton multiPlayerButton
+    - '// @input float startMenuDistanceFromUser = "150.0"'
+    - '// @input string singlePlayerType = "manual" {"widget":"combobox", "values":[{"label":"Manual", "value":"manual"}, {"label":"Mocked Online (Automatic)", "value":"mocked_online"}]}'
+    - "// @input SceneObject[] enableOnSingleplayerNodes"
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

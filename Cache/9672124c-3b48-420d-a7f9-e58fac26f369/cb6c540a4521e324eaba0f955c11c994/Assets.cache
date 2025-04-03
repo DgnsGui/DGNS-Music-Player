@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    7fe55430-3dd7-46ec-a165-c7495c0bbdbc: 9672124c-3b48-420d-a7f9-e58fac26f369/cb6c540a4521e324eaba0f955c11c994/Data/fade_apparition.t3d
+    572f181f-e5ca-4397-9816-e39a2b13b935: 9672124c-3b48-420d-a7f9-e58fac26f369/cb6c540a4521e324eaba0f955c11c994/Data/atlas_0.jpg
+  Assets:
+    - !<AnimatedTexture/7fe55430-3dd7-46ec-a165-c7495c0bbdbc>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 1.000000
+            value: 37
+      ReverseSupported: true
+      FrameSize: {x: 146, y: 146}
+      AnimationSequences:
+        default: 37
+      AutoPlay: true
+      Reversed: true
+      PingPong: true
+      CurrentSequence: default
+    - !<FileTexture/572f181f-e5ca-4397-9816-e39a2b13b935>
+      PackagePath: atlas_0.jpg
+      FileInfo: !<FileTextureInfo>
+        Width: 1022
+        Height: 876
+  SourceHash: cb6c540a4521e324eaba0f955c11c994
+  FileHash: b3a9966ba19f83a3482276c1d80ebdb0
+  NativePackageItems:
+    []

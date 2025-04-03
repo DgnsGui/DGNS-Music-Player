@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/e8d8e47a-db6f-4862-984f-e3fa67de43c5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f33f7288-753a-4f37-ab43-404311ef6ccd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f33f7288-753a-4f37-ab43-404311ef6ccd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 88b72332-27c8-4fe3-9567-859c24314f89
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/88b72332-27c8-4fe3-9567-859c24314f89>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5e384a45-2e2e-4fc1-bde0-6780f18d102b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    distance: false
+    hintsText: false
+    hintsTitle: false
+    keepLookingButton: false
+    keepLookingButtonMesh: false
+    root: false
+    tile: false
+    titleText: false
+  ScriptTypesHidden:
+    PinchButton: false
+  DefaultScriptInputs:
+    - root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distance: !<float> 160.000000
+      tile: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      titleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintsText: !<reference.Text[]>
+        []
+      keepLookingButton: !<Typename.PinchButton> 00000000-0000-0000-0000-000000000000
+      keepLookingButtonMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      hintsTitle: !<reference.Text[]>
+        []
+  ScriptTypes:
+    - PinchButton: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
+  InputLines:
+    - // @input SceneObject root
+    - // @typename PinchButton
+    - '// @input float distance = "160.0"'
+    - // @input Component.RenderMeshVisual tile
+    - // @input Component.Text titleText
+    - "// @input Component.Text[] hintsTitle"
+    - "// @input Component.Text[] hintsText"
+    - // @input PinchButton keepLookingButton
+    - // @input Component.RenderMeshVisual keepLookingButtonMesh
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

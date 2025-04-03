@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    566b016c-d13f-4324-8921-aece74ba1753: 16200450-176e-462b-9955-3fd329014240/5b5309a48ca39e3858a250e898f6ced0/Data/ScarfTop.mesh
+  Assets:
+    - !<FileMesh/566b016c-d13f-4324-8921-aece74ba1753>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 400
+        Vertices: 274
+        Blendshapes:
+          []
+        Joints: 6
+        AabbSize: {x: 61.319244, y: 36.235687, z: 50.358147}
+  SourceHash: 5b5309a48ca39e3858a250e898f6ced0
+  FileHash: 591942c3e3b3cbde08e9125d2ff6a9b2
+  NativePackageItems:
+    []

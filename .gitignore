@@ -1,0 +1,24 @@
+# Fichiers et dossiers générés par Lens Studio ou le système d'exploitation
+Library/
+Temp/
+Logs/
+UserSettings/
+Build/
+Builds/
+*.private
+*.backup
+*.log
+
+# Fichiers système macOS
+.DS_Store
+._*
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
+
+# Fichiers d'éditeurs de code (optionnel, adapte selon ton éditeur)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

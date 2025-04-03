@@ -1,0 +1,69 @@
+- !<AssetCache>
+  AssetFiles:
+    a9e4cdf3-bcdd-4c6e-87b0-39923d8ec159: 72b94dda-b59a-42fb-984e-45e915a0b38f/6a85d4af0ac79493e393611600c54a56/Data/pbr.ss_graph
+  Assets:
+    - !<ShaderGraphPass/a9e4cdf3-bcdd-4c6e-87b0-39923d8ec159>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor_N004:
+          typeIdx: 5
+          value: {x: 0.574151, y: 0.574166, z: 0.574151, w: 0.494820}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 72b94dda-b59a-42fb-984e-45e915a0b38f/6a85d4af0ac79493e393611600c54a56/Data/cfd37fa/pbr.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 6a85d4af0ac79493e393611600c54a56
+  FileHash: c42adcfae4ebb0ff4f1811de59ed253a
+  NativePackageItems:
+    []

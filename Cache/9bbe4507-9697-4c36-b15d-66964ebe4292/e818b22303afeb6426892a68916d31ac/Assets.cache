@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c67f4e30-46b0-42ca-9019-0c87af5ea3df: 9bbe4507-9697-4c36-b15d-66964ebe4292/e818b22303afeb6426892a68916d31ac/Data/Platonic.mesh
+  Assets:
+    - !<FileMesh/c67f4e30-46b0-42ca-9019-0c87af5ea3df>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 20
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 85.065216, y: 85.065216, z: 85.065216}
+  SourceHash: e818b22303afeb6426892a68916d31ac
+  FileHash: 52fe292b4b95b2673b10de534b7a8855
+  NativePackageItems:
+    []

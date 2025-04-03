@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/0063df62-f78d-4720-8128-09339ddac72b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5c7207c8-2116-47e0-958b-372da81c29b3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5c7207c8-2116-47e0-958b-372da81c29b3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 910f0354-94c4-4bfe-a322-786e7357f825
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/910f0354-94c4-4bfe-a322-786e7357f825>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1ec7f115-2b49-4761-b2ff-2497a33d57f5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    endDistance: false
+    scaleCoefficientInitial: false
+    scaleDownTime: false
+    scaleUpTime: false
+    startDistance: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - startDistance: !<float> 130.000000
+      endDistance: !<float> 300.000000
+      scaleUpTime: 0.300000
+      scaleDownTime: 0.300000
+      scaleCoefficientInitial: 0.700000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float startDistance = "150.0" {"hint":"The distance where the tutorial appears on start"}'
+    - '// @input float endDistance = "200.0" {"hint":"The distance where the tutorial appears at the end of the initial animation"}'
+    - '// @input float scaleUpTime = "0.3" {"hint":"The duration in seconds for the tutorial to gradually scale up"}'
+    - '// @input float scaleDownTime = "0.3" {"hint":"The duration in seconds for the tutorial to gradually scale down"}'
+    - '// @input float scaleCoefficientInitial = "0.7" {"hint":"Initial tutorial scale coefficient"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

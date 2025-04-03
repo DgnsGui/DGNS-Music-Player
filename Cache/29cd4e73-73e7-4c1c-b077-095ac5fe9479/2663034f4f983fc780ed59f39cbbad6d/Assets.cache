@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    664395a9-c251-45e3-af62-29297a42ca54: 29cd4e73-73e7-4c1c-b077-095ac5fe9479/2663034f4f983fc780ed59f39cbbad6d/Data/stand.mesh
+  Assets:
+    - !<FileMesh/664395a9-c251-45e3-af62-29297a42ca54>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 256
+        Vertices: 239
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 273.100494, y: 362.871063, z: 314.588013}
+  SourceHash: 2663034f4f983fc780ed59f39cbbad6d
+  FileHash: 4647bae4ddcc67cfd8d62e3aa6799c63
+  NativePackageItems:
+    []

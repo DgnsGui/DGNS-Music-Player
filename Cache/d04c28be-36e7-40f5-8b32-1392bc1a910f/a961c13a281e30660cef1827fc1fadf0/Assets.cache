@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    adfbb83c-c913-4c45-b6d7-a45ddb5eceb5: d04c28be-36e7-40f5-8b32-1392bc1a910f/a961c13a281e30660cef1827fc1fadf0/Data/head_normal.pvr
+  Assets:
+    - !<FileTexture/adfbb83c-c913-4c45-b6d7-a45ddb5eceb5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: a961c13a281e30660cef1827fc1fadf0
+  FileHash: ba83f5a115b2b84a4310467877b4c155
+  NativePackageItems:
+    []

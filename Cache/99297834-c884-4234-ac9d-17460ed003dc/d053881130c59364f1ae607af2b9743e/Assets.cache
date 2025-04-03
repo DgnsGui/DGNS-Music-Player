@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e6520ab5-5779-4069-9751-1667bfa633e1: 99297834-c884-4234-ac9d-17460ed003dc/d053881130c59364f1ae607af2b9743e/Data/icon_planar.png
+  Assets:
+    - !<FileTexture/e6520ab5-5779-4069-9751-1667bfa633e1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: d053881130c59364f1ae607af2b9743e
+  FileHash: eb0ec13116d187dd76ecc9cea9a18813
+  NativePackageItems:
+    []

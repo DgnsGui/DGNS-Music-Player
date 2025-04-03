@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fcabf9ee-6262-4f16-9c6a-988533f7f031: fe79ba7e-f659-4b8d-b07f-aa811787a7ac/524c0b8bfccfc5293dc33c9cdfc03784/Data/DGNSENTREPRISELOGO(2).png
+  Assets:
+    - !<FileTexture/fcabf9ee-6262-4f16-9c6a-988533f7f031>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1800
+        Height: 1800
+  SourceHash: 524c0b8bfccfc5293dc33c9cdfc03784
+  FileHash: 35b39b1b10e047fa4fa49a7c59d54b2d
+  NativePackageItems:
+    []

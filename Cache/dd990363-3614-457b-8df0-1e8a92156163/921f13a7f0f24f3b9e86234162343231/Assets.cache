@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    51bf72db-370e-43f4-b98a-8ed0b9f525d1: dd990363-3614-457b-8df0-1e8a92156163/921f13a7f0f24f3b9e86234162343231/Data/MAPMASK.png
+  Assets:
+    - !<FileTexture/51bf72db-370e-43f4-b98a-8ed0b9f525d1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 700
+        Height: 700
+  SourceHash: 921f13a7f0f24f3b9e86234162343231
+  FileHash: 8c847b94757368af5229effb6d4278f9
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e8e61b1d-3cb8-4ed5-8ea7-ae3b56d42b76: 57cd1004-bc75-48ab-ae01-9873bdd5a293/b0147984ee82383982aca2d6cb88f611/Data/Tire_base.pvr
+  Assets:
+    - !<FileTexture/e8e61b1d-3cb8-4ed5-8ea7-ae3b56d42b76>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b0147984ee82383982aca2d6cb88f611
+  FileHash: 26660f4056dd58bc62e0b936418c60b8
+  NativePackageItems:
+    []

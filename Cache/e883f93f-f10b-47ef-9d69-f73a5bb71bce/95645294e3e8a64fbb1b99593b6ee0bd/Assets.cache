@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ffaf3055-c248-4b31-9822-7741aa9f9c3b: e883f93f-f10b-47ef-9d69-f73a5bb71bce/95645294e3e8a64fbb1b99593b6ee0bd/Data/Favelas sky.mp3
+  Assets:
+    - !<FileAudioTrack/ffaf3055-c248-4b31-9822-7741aa9f9c3b>
+      PackagePath: ""
+  SourceHash: 95645294e3e8a64fbb1b99593b6ee0bd
+  FileHash: 064bf76f983df4a699a63070df5a2402
+  NativePackageItems:
+    []

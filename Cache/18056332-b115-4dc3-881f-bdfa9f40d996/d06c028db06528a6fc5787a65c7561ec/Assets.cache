@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f904e376-9f63-4f9b-a61e-89aa215168e7: 18056332-b115-4dc3-881f-bdfa9f40d996/d06c028db06528a6fc5787a65c7561ec/Data/VISOR_GEO.mesh
+  Assets:
+    - !<FileMesh/f904e376-9f63-4f9b-a61e-89aa215168e7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 58
+        Vertices: 46
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 115.295746, y: 71.057480, z: 62.496868}
+  SourceHash: d06c028db06528a6fc5787a65c7561ec
+  FileHash: d644ff0c4e70befeba6e6af47d4408a4
+  NativePackageItems:
+    []

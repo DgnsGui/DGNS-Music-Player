@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4d3d21f1-c0e9-4cc0-aa98-877a31f30317: 2aa6ba0c-e723-436d-be00-6c9c18006e3f/bc99dc959842d47af0e3de9a21ab4664/Data/house_params.png
+  Assets:
+    - !<FileTexture/4d3d21f1-c0e9-4cc0-aa98-877a31f30317>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: bc99dc959842d47af0e3de9a21ab4664
+  FileHash: da2b25c4190e406fad80a8d1f2a075c3
+  NativePackageItems:
+    []

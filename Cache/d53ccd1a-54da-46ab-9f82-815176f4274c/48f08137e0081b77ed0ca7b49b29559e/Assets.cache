@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ee7a5efd-6e50-45f6-96dd-2ca06c105f8a: d53ccd1a-54da-46ab-9f82-815176f4274c/48f08137e0081b77ed0ca7b49b29559e/Data/hologram3.jpg
+  Assets:
+    - !<FileTexture/ee7a5efd-6e50-45f6-96dd-2ca06c105f8a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: 48f08137e0081b77ed0ca7b49b29559e
+  FileHash: a4c67d7ff0773743c18120537c622d10
+  NativePackageItems:
+    []

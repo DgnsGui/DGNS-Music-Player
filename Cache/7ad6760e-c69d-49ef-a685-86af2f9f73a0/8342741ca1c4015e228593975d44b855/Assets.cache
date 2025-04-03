@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0baf40f2-9bd4-44d1-8cd4-a08ac2edcf47: 7ad6760e-c69d-49ef-a685-86af2f9f73a0/8342741ca1c4015e228593975d44b855/Data/mouth_open.mesh
+  Assets:
+    - !<FileMesh/0baf40f2-9bd4-44d1-8cd4-a08ac2edcf47>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 176
+        Vertices: 119
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 58.092968, y: 58.092968, z: 3.804226}
+  SourceHash: 8342741ca1c4015e228593975d44b855
+  FileHash: d4b6fcdb69fbe65df03e5c12a5a92774
+  NativePackageItems:
+    []

@@ -1,0 +1,103 @@
+NssClassType2O : xleZbleZassType1ssTypeA1etaDataTypeA1Count?OTypetX0UniqueID12818_tempDummy_mat2;
+uniform mat3 N118_tempDummy_mat3;
+uniform mat4 N118_tempDummy_mat4;
+
+float N118_system_getTimeDelta() { return N118_tempDummy_float; }
+vec3 N118_system_getParticlePosition() { return N118_tempDummy_vec3; }
+vec3 N118_system_getParticleVelocity() { return N118_tempDummy_vec3; }
+vec3 N118_system_getParticleForce() { return N118_tempDummy_vec3; }
+float N118_system_getParticleMass() { return N118_tempDummy_float; }
+
+uniform int N118_OnCollision;
+
+/*REMOVE END*/
+
+uniform vec3 N118_PlanePos;
+uniform vec3 N118_PlaneNormal;
+uniform float N118_Bounciness;
+uniform float N118_Friction;
+uniform float N118_PlaneOffset;
+uniform float N118_CollisionCount;
+uniform float N118_VelocityThreshold;
+float N118_SetCollisionCount;
+vec3 N118_SetForce;
+vec3 N118_SetVelocity;
+vec3 N118_SetPosition;
+float N118_KillParticle;
+
+vec3 N118_integrateForces() {
+	vec3 velocity = N118_system_getParticleVelocity() + N118_system_getParticleForce()/ max(0.00001, N118_system_getParticleMass()) * vec3(N118_system_getTimeDelta());
+	return velocity * vec3(N118_system_getTimeDelta()) + N118_system_getParticlePosition();
+}
+
+vec3 N118_getCollisionVelocity(vec3 N, float b, float f){
+    vec3 Vn = dot(N, N118_system_getParticleVelocity()) * N;
+    vec3 Vt = N118_system_getParticleVelocity() - Vn;
+    Vt *= (1.0 - f);
+    Vn *= b;
+    return Vt - Vn;
+}
+
+struct N118_CollisionPlane {
+    bool isColliding;
+    vec3 velocity;
+    vec3 position;
+    vec3 force;
+};
+
+N118_CollisionPlane N118_planeCollision(N118_CollisionPlane collisionPlane) {
+    
+    collisionPlane.isColliding = false;
+    collisionPlane.velocity = N118_system_getParticleVelocity();
+    collisionPlane.force = N118_system_getParticleForce();
+    collisionPlane.position = N118_system_getParticlePosition();
+
+    // Collision detection, use the next frame's position
+	vec3 ptNextFrame = N118_integrateForces();
+	vec3 planeNormal = normalize(N118_PlaneNormal);
+    float planeDotPt = dot(planeNormal, ptNextFrame - N118_PlanePos) - N118_PlaneOffset;
+
+    // Collision response
+    if(planeDotPt < 0.0) {
+        collisionPlane.isColliding = true;
+        collisionPlane.velocity = N118_getCollisionVelocity(planeNormal, N118_Bounciness, N118_Friction);
+        
+        // Kill forces if particle isn't bouncing
+        collisionPlane.force *= length(collisionPlane.velocity) > N118_VelocityThreshold ? 1.0 : 0.0;
+        
+        // Move current particle position to sit on the plane 
+        float correction = dot(planeNormal, N118_system_getParticlePosition() - N118_PlanePos) - N118_PlaneOffset;
+        collisionPlane.position += (planeNormal * -correction);
+    }
+    return collisionPlane;
+}
+
+void N118_main()
+{
+    N118_CollisionPlane collisionPlane;
+	collisionPlane = N118_planeCollision(collisionPlane);
+	N118_KillParticle = 0.0;
+    N118_SetCollisionCount = floor(N118_CollisionCount);
+
+    //Collided
+    if (collisionPlane.isColliding){
+        N118_SetCollisionCount += 1.0;
+    }
+
+    // Bounce
+    N118_SetPosition = collisionPlane.position;
+    N118_SetForce = collisionPlane.force;
+    N118_SetVelocity = collisionPlane.velocity;
+
+    // Stop
+    if(N118_OnCollision == 1 && N118_SetCollisionCount > 0.0){
+        N118_SetForce = vec3(0.0);
+        N118_SetVelocity = vec3(0.0);
+    }
+
+	//Kill
+    if(N118_OnCollision == 2 && N118_SetCollisionCount > 0.0){
+        N118_KillParticle = 1.0;
+    }
+}ionDsType2OTypetyeVersionMajorType2
+eSubGraph0

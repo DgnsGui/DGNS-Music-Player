@@ -1,0 +1,4 @@
+clearOnReset:
+  type: bool
+  value: true
+  options: 4

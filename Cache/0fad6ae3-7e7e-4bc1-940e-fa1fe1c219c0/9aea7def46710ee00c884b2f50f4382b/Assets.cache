@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f8a08eee-21e5-434e-9a12-6b7de5697a7e: 54632e73-355f-46bf-a937-32dd87b9d68a/9aea7def46710ee00c884b2f50f4382b/Data/UI_glow.jpg
+  Assets:
+    - !<FileTexture/f8a08eee-21e5-434e-9a12-6b7de5697a7e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 384
+        Height: 384
+  SourceHash: 9aea7def46710ee00c884b2f50f4382b
+  FileHash: 7fd1b76f19d6f987cb1a78eeffd22c47
+  NativePackageItems:
+    []

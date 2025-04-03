@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b23cfa52-0e36-4f19-be05-27892a61fc79: 51409edc-ff21-4ea9-8492-4289e68faf64/eae94678d0d6b4231a293657b8f0f0c4/Data/gradient_map.png
+  Assets:
+    - !<FileTexture/b23cfa52-0e36-4f19-be05-27892a61fc79>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 31
+  SourceHash: eae94678d0d6b4231a293657b8f0f0c4
+  FileHash: a4242a62049147d7e1ddcb2a025345cf
+  NativePackageItems:
+    []

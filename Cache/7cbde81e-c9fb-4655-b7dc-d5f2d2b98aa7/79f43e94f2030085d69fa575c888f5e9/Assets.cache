@@ -1,0 +1,294 @@
+- !<AssetCache>
+  AssetFiles:
+    86a0fbff-1bf1-4c4d-94a5-24310cb9e2d6: 7cbde81e-c9fb-4655-b7dc-d5f2d2b98aa7/79f43e94f2030085d69fa575c888f5e9/Data/Checkmark.ss_graph
+  Assets:
+    - !<ShaderGraphPass/86a0fbff-1bf1-4c4d-94a5-24310cb9e2d6>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N088:
+          typeIdx: 3
+          value: {x: 0.400000, y: 0.000000}
+        Port_Center_N093:
+          typeIdx: 3
+          value: {x: 0.450000, y: 0.500000}
+        Port_Center_N110:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Column3_N016:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Column3_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N010:
+          typeIdx: 1
+          value: 1.000000
+        Port_Import_N018:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Import_N040:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N042:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N052:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Import_N059:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N101:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_Import_N102:
+          typeIdx: 5
+          value: {x: 0.996078, y: 0.996078, z: 0.996078, w: 1.000000}
+        Port_Import_N108:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Import_N111:
+          typeIdx: 3
+          value: {x: -0.200000, y: -0.700000}
+        Port_Import_N113:
+          typeIdx: 1
+          value: 0.100000
+        Port_Import_N115:
+          typeIdx: 1
+          value: 0.700000
+        Port_Input1_N024:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: -1.000000}
+        Port_Input1_N031:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N035:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N037:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N058:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: -1.000000}
+        Port_Input1_N070:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N075:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N083:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N045:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N098:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N041:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_RangeMaxA_N104:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N104:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N104:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N104:
+          typeIdx: 1
+          value: -1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationAngle_N016:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAngle_N051:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAxis_N016:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationAxis_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationXYZ_N016:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationXYZ_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N088:
+          typeIdx: 3
+          value: {x: 0.015000, y: 1.000000}
+        Port_Scale_N093:
+          typeIdx: 3
+          value: {x: 0.150000, y: 1.000000}
+        Port_Value2_N006:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N020:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N043:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N061:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N127:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N020:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N043:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N061:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N127:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value_N096:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Main Color
+            mType: Property
+            mName: Tweak_N119
+            mWidget: color
+            mHint: "Property: Tweak_N119"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rim Exponent
+            mType: Property
+            mName: Tweak_N1
+            mWidget: spinbox
+            mHint: "Property: Tweak_N1"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rim Intensity
+            mType: Property
+            mName: Tweak_N8
+            mWidget: spinbox
+            mHint: "Property: Tweak_N8"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: alpha
+            mType: Property
+            mName: alpha
+            mWidget: slider
+            mHint: "Property: alpha"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 7cbde81e-c9fb-4655-b7dc-d5f2d2b98aa7/79f43e94f2030085d69fa575c888f5e9/Data/cfd37fa/Checkmark.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 79f43e94f2030085d69fa575c888f5e9
+  FileHash: e94665e2f86af1fb815b89c5ad3f54a6
+  NativePackageItems:
+    []

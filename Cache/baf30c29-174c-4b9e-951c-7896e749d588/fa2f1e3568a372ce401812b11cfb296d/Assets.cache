@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2e3fcff1-1cb4-4637-9fb9-36b51554d7ff: baf30c29-174c-4b9e-951c-7896e749d588/fa2f1e3568a372ce401812b11cfb296d/Data/PE_Screen_Vector.png
+  Assets:
+    - !<FileTexture/2e3fcff1-1cb4-4637-9fb9-36b51554d7ff>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 256
+  SourceHash: fa2f1e3568a372ce401812b11cfb296d
+  FileHash: 5fb60e8b2671e86156c5dd48a7fafa22
+  NativePackageItems:
+    []

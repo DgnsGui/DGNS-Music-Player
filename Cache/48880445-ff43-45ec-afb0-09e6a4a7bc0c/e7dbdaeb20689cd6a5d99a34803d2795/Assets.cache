@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    87cb8275-9eca-4ff9-ae0c-5abb4db13604: 48880445-ff43-45ec-afb0-09e6a4a7bc0c/e7dbdaeb20689cd6a5d99a34803d2795/Data/cloud_normal.png
+  Assets:
+    - !<FileTexture/87cb8275-9eca-4ff9-ae0c-5abb4db13604>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: e7dbdaeb20689cd6a5d99a34803d2795
+  FileHash: 6638c303c80f4de41b856d75d331d6db
+  NativePackageItems:
+    []

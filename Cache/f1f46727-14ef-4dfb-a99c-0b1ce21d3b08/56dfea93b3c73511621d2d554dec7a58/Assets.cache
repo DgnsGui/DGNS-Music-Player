@@ -1,0 +1,69 @@
+- !<AssetCache>
+  AssetFiles:
+    d16293e3-0233-4a15-a6bd-845fcd8f95bd: f1f46727-14ef-4dfb-a99c-0b1ce21d3b08/65f159c60a5358d7e3a9e548bf110798/Data/PsychePreview 3.ss_graph
+  Assets:
+    - !<ShaderGraphPass/d16293e3-0233-4a15-a6bd-845fcd8f95bd>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: f1f46727-14ef-4dfb-a99c-0b1ce21d3b08/65f159c60a5358d7e3a9e548bf110798/Data/cfd37fa/PsychePreview 3.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 56dfea93b3c73511621d2d554dec7a58
+  FileHash: e0c49ea0547cdd65d9eefc292377ac58
+  NativePackageItems:
+    []

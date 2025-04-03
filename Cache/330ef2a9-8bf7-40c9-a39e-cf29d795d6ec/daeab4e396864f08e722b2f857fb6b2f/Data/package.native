@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/aff51577-09a2-4e10-bcb8-2cb2bb54c8b4>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 6
+    patch: 2
+    build: 25021502
+    type: Unset
+  Description: |-
+    A suite of animated hand gestures for educating users on how to interact with your lens
+    
+    Instructions:
+    Add InteractionHintController  to your scene. 
+    
+    Go to Scripts > ExampleTS or ExampleJS for usage via scripts
+  SvgIcon: ""
+  InternalVersion: 3
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 55
+  ExportUid: ada332c1-772f-430f-b465-44508a7461bc
+  ComponentUid: f99cb661-b610-4d34-9d98-1b5b49b06870
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Spectacles 3D Hand Hints
+    AssetId: tXQCQPxFeTzjdpbbdwKnF
+    Hash: b9a20eebeda9ea3c656f394ca2d9ca9e
+    Version:
+      major: 1
+      minor: 0
+      patch: 0
+      build: 0

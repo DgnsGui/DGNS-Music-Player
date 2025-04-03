@@ -1,0 +1,234 @@
+- !<AssetCache>
+  AssetFiles:
+    8fd123f3-b974-4b0b-8d77-6fcda724e02e: "f6a8a208-739d-4685-9176-93ab9bc591ac/45e1d093c8ebffbbdcc3a5e25d923b06/Data/Dynamic_Water_Waves [EDIT_ME].ss_graph"
+  Assets:
+    - !<ShaderGraphPass/8fd123f3-b974-4b0b-8d77-6fcda724e02e>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N028:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input2_N011:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Input2_N019:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Input2_N059:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_LODValue_N012:
+          typeIdx: 1
+          value: 0.000000
+        Port_Position0_N018:
+          typeIdx: 1
+          value: 0.000000
+        Port_Position1_N018:
+          typeIdx: 1
+          value: 0.000000
+        Port_Position2_N018:
+          typeIdx: 1
+          value: 0.000000
+        Port_Position3_N018:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N012:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value0_N018:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_Value1_N018:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 0.498039, w: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Wave Speed
+            mType: Property
+            mName: Tweak_N2
+            mWidget: slider
+            mHint: "Property: Tweak_N2"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Wave Scale
+            mType: Property
+            mName: Tweak_N3
+            mWidget: slider
+            mHint: "Property: Tweak_N3"
+            mMin: 1.000000
+            mMax: 50.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Wave Strength
+            mType: Property
+            mName: Tweak_N24
+            mWidget: slider
+            mHint: "Property: Tweak_N24"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Custom Texture
+            mType: Define
+            mName: Tweak_N9
+            mWidget: checkbox
+            mHint: "Define: Tweak_N9"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Map
+            mType: Property
+            mName: Tweak_N12
+            mWidget: texture_group
+            mHint: "Property: Tweak_N12"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Define
+            mName: Tweak_N10
+            mWidget: checkbox
+            mHint: "Define: Tweak_N10"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: Tweak_N7
+            mWidget: color
+            mHint: "Property: Tweak_N7"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Gradient
+            mType: Define
+            mName: Tweak_N17
+            mWidget: checkbox
+            mHint: "Define: Tweak_N17"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color 1
+            mType: Property
+            mName: Color2
+            mWidget: color
+            mHint: "Property: Color2"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Property
+            mName: Tweak_N23
+            mWidget: color
+            mHint: "Property: Tweak_N23"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: "f6a8a208-739d-4685-9176-93ab9bc591ac/45e1d093c8ebffbbdcc3a5e25d923b06/Data/cfd37fa/Dynamic_Water_Waves [EDIT_ME].glsl"
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 45e1d093c8ebffbbdcc3a5e25d923b06
+  FileHash: cb639775122852501a5f532c3092c1fc
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7109a8d1-3f2f-46f4-beb0-f0635ef85529: aee70982-645a-49ee-9964-a47c89e6275c/6d5ff847f47b4e8b9566a62b859eeb11/Data/eyes.mesh
+  Assets:
+    - !<FileMesh/7109a8d1-3f2f-46f4-beb0-f0635ef85529>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 34
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 199.099884, y: 35.099888, z: 0.000000}
+  SourceHash: 6d5ff847f47b4e8b9566a62b859eeb11
+  FileHash: ce7ba9cdcb1c36056e3c78fb94ac36f3
+  NativePackageItems:
+    []

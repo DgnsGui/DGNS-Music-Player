@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2657cbeb-7b48-40dd-b603-767c38a787bb: cfcebeb2-d4f3-4337-a85d-6c6395667286/4fad70b8a13a42d50392966f204b1e13/Data/cloud_face_sad.pvr
+  Assets:
+    - !<FileTexture/2657cbeb-7b48-40dd-b603-767c38a787bb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 4fad70b8a13a42d50392966f204b1e13
+  FileHash: 25e871e3da428fe53ec6930e0cca7a29
+  NativePackageItems:
+    []

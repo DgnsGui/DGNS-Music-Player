@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f9350e9c-5d99-42cd-82f0-f9a91543367a: d3aa5dfc-1fb5-41c0-a75e-6f1a1e90b532/626a7a66da53a55c617ccc72cbbb2fab/Data/Webinar.jpg
+  Assets:
+    - !<FileTexture/f9350e9c-5d99-42cd-82f0-f9a91543367a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 500
+        Height: 500
+  SourceHash: 626a7a66da53a55c617ccc72cbbb2fab
+  FileHash: 44f156ea89b36fb8fe4f54ca9280f675
+  NativePackageItems:
+    []

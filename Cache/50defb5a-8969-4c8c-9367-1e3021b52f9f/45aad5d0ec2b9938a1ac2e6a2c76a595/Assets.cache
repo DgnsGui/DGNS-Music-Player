@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    10060df4-5c19-4630-8fc5-6663eb5de7f8: 50defb5a-8969-4c8c-9367-1e3021b52f9f/45aad5d0ec2b9938a1ac2e6a2c76a595/Data/texture_analyzer_checkerboard.png
+  Assets:
+    - !<FileTexture/10060df4-5c19-4630-8fc5-6663eb5de7f8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 45aad5d0ec2b9938a1ac2e6a2c76a595
+  FileHash: 62d8a315732db7e04b20aca924368fe6
+  NativePackageItems:
+    []

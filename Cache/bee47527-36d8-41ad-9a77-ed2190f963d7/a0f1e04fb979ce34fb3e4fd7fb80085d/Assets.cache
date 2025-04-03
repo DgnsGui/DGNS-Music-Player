@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    836ded22-fbac-4c31-ae5d-692fb9ab5fcf: bee47527-36d8-41ad-9a77-ed2190f963d7/a0f1e04fb979ce34fb3e4fd7fb80085d/Data/Body_base.pvr
+  Assets:
+    - !<FileTexture/836ded22-fbac-4c31-ae5d-692fb9ab5fcf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: a0f1e04fb979ce34fb3e4fd7fb80085d
+  FileHash: c555ced6c191cc94661d4c663dfbc442
+  NativePackageItems:
+    []

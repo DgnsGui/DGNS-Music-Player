@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fd8a3750-b2a9-4e6e-bdd2-7180746a3682: 36dfea27-e79e-4cb0-9153-3366c104668e/de0147737d66762e91f6b982c848433a/Data/TutorialRoom.webp
+  Assets:
+    - !<FileTexture/fd8a3750-b2a9-4e6e-bdd2-7180746a3682>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: de0147737d66762e91f6b982c848433a
+  FileHash: a5cbced55609294b9d3195c23a84aa29
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    014e6931-f636-4ab6-bbd0-85a028d009fc: 56e88073-b6e4-4b3b-a683-4aade8f33c00/73a2459ee3f5fc9df87d3a72b1bbfd0e/Data/ContainerFrame(1).mp3
+  Assets:
+    - !<FileAudioTrack/014e6931-f636-4ab6-bbd0-85a028d009fc>
+      PackagePath: ""
+  SourceHash: 73a2459ee3f5fc9df87d3a72b1bbfd0e
+  FileHash: 07f8f8b220716a1f4f415f5de10f2c4e
+  NativePackageItems:
+    []

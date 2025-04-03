@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    737784c7-550b-4f88-b39c-d8f68a4024fe: 4ad20ba8-6649-4a4f-83fd-9f514636a58d/74441e2d33d2d25bd99777564d39efaf/Data/cloud_params.png
+  Assets:
+    - !<FileTexture/737784c7-550b-4f88-b39c-d8f68a4024fe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 74441e2d33d2d25bd99777564d39efaf
+  FileHash: 0f7a6708612955f212cb3452529dafbd
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    495f7244-b051-4ab2-ba8e-89a3453021f0: 153053a4-92f1-4258-ac0b-d6d910141dfd/28c131c66a76419d6e5045bb8c305bed/Data/B-icon.png
+  Assets:
+    - !<FileTexture/495f7244-b051-4ab2-ba8e-89a3453021f0>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: 28c131c66a76419d6e5045bb8c305bed
+  FileHash: 52df39d69c05e739aac82e83b13aeacf
+  NativePackageItems:
+    []

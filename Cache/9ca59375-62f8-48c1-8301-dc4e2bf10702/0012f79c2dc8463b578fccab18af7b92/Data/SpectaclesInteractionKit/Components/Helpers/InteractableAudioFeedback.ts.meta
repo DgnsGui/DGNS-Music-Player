@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/0fb444ed-e7e7-4b7e-b082-51ba9986858b>
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 287eee7f-c1e4-48ff-a5dc-d1d16442466f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 287eee7f-c1e4-48ff-a5dc-d1d16442466f
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> 24a3c073-4a01-4a3a-9d3e-656d36fa9681
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/24a3c073-4a01-4a3a-9d3e-656d36fa9681>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c405bae8-d3cc-404b-a54b-7c3586d1d2d0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    hoverAudioTrack: false
+    triggerEndAudioTrack: false
+    triggerStartAudioTrack: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - hoverAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      triggerStartAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      triggerEndAudioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.AudioTrackAsset hoverAudioTrack {"hint":"This sound will play when the Interactable is hovered"}'
+    - '// @input Asset.AudioTrackAsset triggerStartAudioTrack {"hint":"This sound will play when starting the trigger the Interactable"}'
+    - '// @input Asset.AudioTrackAsset triggerEndAudioTrack {"hint":"This sound will play when ending the trigger of the Interactable"}'
+  SvgIcon: ""
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

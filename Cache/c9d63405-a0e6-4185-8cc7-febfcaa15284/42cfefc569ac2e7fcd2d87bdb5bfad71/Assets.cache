@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2caf9b41-b293-4259-8bf9-ab2a63068e28: c9d63405-a0e6-4185-8cc7-febfcaa15284/42cfefc569ac2e7fcd2d87bdb5bfad71/Data/blush.jpg
+  Assets:
+    - !<FileTexture/2caf9b41-b293-4259-8bf9-ab2a63068e28>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 42cfefc569ac2e7fcd2d87bdb5bfad71
+  FileHash: 6cf9fcde67a37603cc01bc1661418783
+  NativePackageItems:
+    []

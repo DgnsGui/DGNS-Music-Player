@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1e082dc9-d392-4980-b278-c92a77a6b979: 02479d79-5746-46cb-982c-34ffb0c66c75/447cabe3a752aef39f7adb2b2315bc17/Data/jacket_materialParams.pvr
+  Assets:
+    - !<FileTexture/1e082dc9-d392-4980-b278-c92a77a6b979>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 447cabe3a752aef39f7adb2b2315bc17
+  FileHash: ec06ae5f82c8be89b558aed4a8e7d6c9
+  NativePackageItems:
+    []

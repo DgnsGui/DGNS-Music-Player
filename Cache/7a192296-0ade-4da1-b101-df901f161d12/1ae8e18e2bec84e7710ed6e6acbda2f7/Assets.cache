@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5aafdde8-afed-40a9-bf60-341663a41129: 7a192296-0ade-4da1-b101-df901f161d12/1ae8e18e2bec84e7710ed6e6acbda2f7/Data/BadCoffee.jpg
+  Assets:
+    - !<FileTexture/5aafdde8-afed-40a9-bf60-341663a41129>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1080
+        Height: 1080
+  SourceHash: 1ae8e18e2bec84e7710ed6e6acbda2f7
+  FileHash: 162425c8e1a251a40918a25aa68dfd44
+  NativePackageItems:
+    []

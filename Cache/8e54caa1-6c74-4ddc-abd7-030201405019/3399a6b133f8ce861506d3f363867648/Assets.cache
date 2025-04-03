@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    45bdc947-86c6-4657-9b23-dbd695236b55: 8e54caa1-6c74-4ddc-abd7-030201405019/3399a6b133f8ce861506d3f363867648/Data/SoundManiaV2.(1)(1).mp3
+  Assets:
+    - !<FileAudioTrack/45bdc947-86c6-4657-9b23-dbd695236b55>
+      PackagePath: ""
+  SourceHash: 3399a6b133f8ce861506d3f363867648
+  FileHash: 03e33f8d94c810a873a62c2264ab176c
+  NativePackageItems:
+    []

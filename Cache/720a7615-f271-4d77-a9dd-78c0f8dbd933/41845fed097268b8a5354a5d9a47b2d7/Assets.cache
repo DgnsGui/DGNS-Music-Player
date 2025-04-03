@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8021858d-d780-4f6b-b1cb-8d05e3bcab0c: 720a7615-f271-4d77-a9dd-78c0f8dbd933/41845fed097268b8a5354a5d9a47b2d7/Data/jacket_base.pvr
+  Assets:
+    - !<FileTexture/8021858d-d780-4f6b-b1cb-8d05e3bcab0c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 41845fed097268b8a5354a5d9a47b2d7
+  FileHash: e5da7acb99c76da66728f143cc51c24a
+  NativePackageItems:
+    []

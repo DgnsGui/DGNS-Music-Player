@@ -1,0 +1,69 @@
+- !<AssetCache>
+  AssetFiles:
+    9cc89cd9-3b8f-4d6c-b191-c07c1ba72baa: bac02fda-0cc9-4b24-8ad8-70f5f411c3ad/c9b68392a06452a4e1b8278d985b8d96/Data/unlit 2.ss_graph
+  Assets:
+    - !<ShaderGraphPass/9cc89cd9-3b8f-4d6c-b191-c07c1ba72baa>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: bac02fda-0cc9-4b24-8ad8-70f5f411c3ad/c9b68392a06452a4e1b8278d985b8d96/Data/cfd37fa/unlit 2.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e36e61d66ad7c7bb6906e6b7df842b62
+  FileHash: b0d26f261b7ee554a488ee1486ae6e7a
+  NativePackageItems:
+    []

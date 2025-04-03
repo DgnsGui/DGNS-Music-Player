@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/f086c872-448c-41ab-8051-293af356bb32>
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 693c154a-829a-447e-b3bd-ca590473296f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 693c154a-829a-447e-b3bd-ca590473296f
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0bf44da3-2392-40ee-8b92-8be4ec4a6ccf
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/0bf44da3-2392-40ee-8b92-8be4ec4a6ccf>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 84d908dc-d226-43aa-bf6a-bf745c1738c0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    horizontalSquish: false
+    squishObject: false
+    verticalSquish: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - squishObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verticalSquish: 0.500000
+      horizontalSquish: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject squishObject {"hint":"This is the SceneObject that will be squished on hover/pinch"}'
+    - '// @input float verticalSquish = 0.5 {"hint":"This is how much the squishObject will squish along the y-axis", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input float horizontalSquish = 0.5 {"hint":"This is how much the squishObject will squish along the x-axis", "widget":"slider", "min":0, "max":1.5, "step":0.01}'
+  SvgIcon: ""
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

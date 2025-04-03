@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    770724f8-64f0-44f6-adf3-e15251b5fc60: fe73474f-304c-454c-a094-78b8e5ba5017/a5c1c798a049e890c2b4f6b755c4793d/Data/icon_geo_cube.png
+  Assets:
+    - !<FileTexture/770724f8-64f0-44f6-adf3-e15251b5fc60>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: a5c1c798a049e890c2b4f6b755c4793d
+  FileHash: 869e46080dc8b66bb4b2c498d0147206
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dfd3b3a9-0cae-4788-b3a3-1631f40e1e69: 335274eb-d932-4fb1-8994-404493dc50f7/2b2db201d025b6c73c2fe58d70be4be6/Data/chick_lo_defaultMat1_materialParams.pvr
+  Assets:
+    - !<FileTexture/dfd3b3a9-0cae-4788-b3a3-1631f40e1e69>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 2b2db201d025b6c73c2fe58d70be4be6
+  FileHash: 21e2f31065a8bd4f80b09dbc074d77e9
+  NativePackageItems:
+    []

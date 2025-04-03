@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6b95c313-33e6-4dd1-86c6-46059042cfa1: 44850f36-abde-4c77-ad0b-996d536ba6d0/b80102b5e45a9240d7f91a03b52a07a4/Data/BODY_GEO.mesh
+  Assets:
+    - !<FileMesh/6b95c313-33e6-4dd1-86c6-46059042cfa1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4178
+        Vertices: 3592
+        Blendshapes:
+          []
+        Joints: 69
+        AabbSize: {x: 193.148239, y: 259.962982, z: 89.109253}
+  SourceHash: b80102b5e45a9240d7f91a03b52a07a4
+  FileHash: ee3f1308f23b50f4f6f1c82d2f7843b6
+  NativePackageItems:
+    []

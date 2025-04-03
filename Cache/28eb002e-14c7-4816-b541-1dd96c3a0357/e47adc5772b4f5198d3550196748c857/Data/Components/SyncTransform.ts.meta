@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/79b58b3c-e312-4c8a-a23e-82de34e221a7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1c8dd619-bba9-4dff-b978-3ba4073b69f1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1c8dd619-bba9-4dff-b978-3ba4073b69f1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> c21c9b29-65ed-4caf-a1d1-20fa93f486b7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/c21c9b29-65ed-4caf-a1d1-20fa93f486b7>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5cd90067-8a58-4159-90d1-1c796c7ecde7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    customNetworkId: false
+    interpolationTarget: false
+    networkIdTypeString: false
+    persistenceString: false
+    positionSyncString: false
+    rotationSyncString: false
+    scaleSyncString: false
+    sendsPerSecondLimit: false
+    useSmoothing: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - networkIdTypeString: objectId
+      customNetworkId: enter_unique_id
+      positionSyncString: Local
+      rotationSyncString: Local
+      scaleSyncString: Local
+      persistenceString: Session
+      sendsPerSecondLimit: !<float> 10.000000
+      useSmoothing: true
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string networkIdTypeString = "objectId" {"label":"Network Id Type", "widget":"combobox", "values":[{"label":"Object Id", "value":"objectId"}, {"label":"Custom", "value":"custom"}]}'
+    - '// @input string customNetworkId = "enter_unique_id" {"showIf":"networkIdTypeString", "showIfValue":"custom"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Sync Settings"}'
+    - '// @input string positionSyncString = "Location" {"label":"Position Sync", "widget":"combobox", "values":[{"label":"None", "value":"None"}, {"label":"Location", "value":"Location"}, {"label":"Local", "value":"Local"}, {"label":"World", "value":"World"}]}'
+    - '// @input string rotationSyncString = "Location" {"label":"Rotation Sync", "widget":"combobox", "values":[{"label":"None", "value":"None"}, {"label":"Location", "value":"Location"}, {"label":"Local", "value":"Local"}, {"label":"World", "value":"World"}]}'
+    - '// @input string scaleSyncString = "Location" {"label":"Scale Sync", "widget":"combobox", "values":[{"label":"None", "value":"None"}, {"label":"Location", "value":"Location"}, {"label":"Local", "value":"Local"}, {"label":"World", "value":"World"}]}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string persistenceString = "Session" {"label":"Persistence", "widget":"combobox", "values":[{"label":"Ephemeral", "value":"Ephemeral"}, {"label":"Owner", "value":"Owner"}, {"label":"Session", "value":"Session"}, {"label":"Persist", "value":"Persist"}]}'
+    - '// @input int sendsPerSecondLimit = "10"'
+    - '// @input boolean useSmoothing = "false"'
+    - '// @input float interpolationTarget = "-0.25" {"showIf":"useSmoothing", "showIfValue":true}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

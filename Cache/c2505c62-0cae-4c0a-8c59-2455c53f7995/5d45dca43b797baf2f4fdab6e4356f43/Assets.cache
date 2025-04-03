@@ -1,0 +1,165 @@
+- !<AssetCache>
+  AssetFiles:
+    f4a7abb1-912e-4dc8-9fe5-66887f8bf3d0: c2505c62-0cae-4c0a-8c59-2455c53f7995/5d45dca43b797baf2f4fdab6e4356f43/Data/ExampleMaterial.ss_graph
+  Assets:
+    - !<ShaderGraphPass/f4a7abb1-912e-4dc8-9fe5-66887f8bf3d0>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N002:
+          typeIdx: 3
+          value: {x: 5.000000, y: 5.000000}
+        Port_Input1_N007:
+          typeIdx: 3
+          value: {x: 5.000000, y: 5.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N001:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Stripes
+            mType: Property
+            mName: enableStripes
+            mWidget: checkbox
+            mHint: "Property: enableStripes"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Stripe Scale
+            mType: Property
+            mName: stripeScale
+            mWidget: spinbox
+            mHint: "Property: stripeScale"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 20.000000
+            mValues:
+              []
+          - mLabel: Stripiness
+            mType: Property
+            mName: stripes
+            mWidget: slider
+            mHint: |-
+              Property: stripes
+              
+              How much stripiness to apply
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: StripeColor
+            mType: Property
+            mName: stripeColor
+            mWidget: color
+            mHint: "Property: stripeColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: c2505c62-0cae-4c0a-8c59-2455c53f7995/5d45dca43b797baf2f4fdab6e4356f43/Data/cfd37fa/ExampleMaterial.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 5d45dca43b797baf2f4fdab6e4356f43
+  FileHash: deff1b0377cfb0686d40694cb4c80d9f
+  NativePackageItems:
+    []

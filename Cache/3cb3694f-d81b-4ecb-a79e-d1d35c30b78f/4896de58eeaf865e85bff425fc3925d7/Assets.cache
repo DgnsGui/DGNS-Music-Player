@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e5a9bbf5-ec52-492b-806b-e584af06c86f: 3cb3694f-d81b-4ecb-a79e-d1d35c30b78f/4896de58eeaf865e85bff425fc3925d7/Data/CursorPlaneGeo.mesh
+  Assets:
+    - !<FileMesh/e5a9bbf5-ec52-492b-806b-e584af06c86f>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 0.000000, z: 1.000000}
+  SourceHash: 4896de58eeaf865e85bff425fc3925d7
+  FileHash: 3418ba27afc0ea6e722a136eb29cd2c4
+  NativePackageItems:
+    []

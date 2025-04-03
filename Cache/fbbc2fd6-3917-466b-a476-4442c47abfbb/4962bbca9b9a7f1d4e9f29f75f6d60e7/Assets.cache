@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9a4dbe7f-41f9-447f-b268-bacf0ad8cdd7: fbbc2fd6-3917-466b-a476-4442c47abfbb/4962bbca9b9a7f1d4e9f29f75f6d60e7/Data/fx_smoke_realisticsSmall.pvr
+  Assets:
+    - !<FileTexture/9a4dbe7f-41f9-447f-b268-bacf0ad8cdd7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 4962bbca9b9a7f1d4e9f29f75f6d60e7
+  FileHash: f0c2194f5887d51dbcb1b51b0db0a7b5
+  NativePackageItems:
+    []

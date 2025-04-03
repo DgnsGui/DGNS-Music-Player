@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1da65c70-8837-442b-9f09-86dd490c8854: f5e135c6-af74-4fa9-915c-2034b93b3cb1/6183bd035b2f06e6dfe115164441d9ab/Data/Arrow.mesh
+  Assets:
+    - !<FileMesh/1da65c70-8837-442b-9f09-86dd490c8854>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3200
+        Vertices: 1748
+        Blendshapes:
+          - Key 1
+        Joints: 0
+        AabbSize: {x: 1.999999, y: 7.881495, z: 10.275001}
+  SourceHash: 6183bd035b2f06e6dfe115164441d9ab
+  FileHash: cdf8df65654d6befdae2ccd0b6578417
+  NativePackageItems:
+    []

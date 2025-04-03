@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    30bbcb56-9b83-4ad2-809c-938e554eb323: fda9360e-551f-4f3c-9597-d383767b3532/065d26968b0a0e1e28c2bb7adf954d16/Data/Malou(1)(1).mp3
+  Assets:
+    - !<FileAudioTrack/30bbcb56-9b83-4ad2-809c-938e554eb323>
+      PackagePath: ""
+  SourceHash: 065d26968b0a0e1e28c2bb7adf954d16
+  FileHash: 895ea6c85802dbd5f4aa9f5ed66f21e9
+  NativePackageItems:
+    []

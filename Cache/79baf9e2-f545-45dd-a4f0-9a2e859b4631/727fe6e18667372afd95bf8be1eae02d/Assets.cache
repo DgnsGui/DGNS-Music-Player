@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    46eed935-2138-4778-b9df-ca6bb034c48f: 79baf9e2-f545-45dd-a4f0-9a2e859b4631/727fe6e18667372afd95bf8be1eae02d/Data/Fear and Loathing in DGNS Music Player(1).mp3
+  Assets:
+    - !<FileAudioTrack/46eed935-2138-4778-b9df-ca6bb034c48f>
+      PackagePath: ""
+  SourceHash: 727fe6e18667372afd95bf8be1eae02d
+  FileHash: c13f46f07f1f01658b55f7ca1a9cf17a
+  NativePackageItems:
+    []

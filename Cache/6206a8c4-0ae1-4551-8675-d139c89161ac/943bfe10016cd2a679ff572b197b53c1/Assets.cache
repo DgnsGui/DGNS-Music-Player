@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fa97eecc-1c42-48c2-ba5e-29a3427569b1: 6206a8c4-0ae1-4551-8675-d139c89161ac/943bfe10016cd2a679ff572b197b53c1/Data/cloud_diffuse.jpg
+  Assets:
+    - !<FileTexture/fa97eecc-1c42-48c2-ba5e-29a3427569b1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 943bfe10016cd2a679ff572b197b53c1
+  FileHash: 5356fe998456b78d14873fb3e8bf9a04
+  NativePackageItems:
+    []

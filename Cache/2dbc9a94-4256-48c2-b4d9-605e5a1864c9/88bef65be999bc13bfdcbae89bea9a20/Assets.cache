@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5423cd33-4fdc-4b57-b3a4-8d8e5d5f8f55: 2dbc9a94-4256-48c2-b4d9-605e5a1864c9/88bef65be999bc13bfdcbae89bea9a20/Data/Helmet_base.pvr
+  Assets:
+    - !<FileTexture/5423cd33-4fdc-4b57-b3a4-8d8e5d5f8f55>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 88bef65be999bc13bfdcbae89bea9a20
+  FileHash: 235016518f2caea8f563b713614ab7dd
+  NativePackageItems:
+    []

@@ -1,0 +1,1087 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label":       "World / Local Space",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "NODE_67_DROPLIST_ITEM 0",
+                			"label": "Local Space"
+                		},
+                		
+                		{
+                			"value": "NODE_67_DROPLIST_ITEM 1",
+                			"label": "World Space - Ignore Emitter Rotation"
+                		},
+                		
+                		{
+                			"value": "NODE_67_DROPLIST_ITEM 2",
+                			"label": "World Force - Gravity Ingores Emitter Rotation"
+                		}
+                	],
+                	"sortIndex":   "0",
+                	"hint":        "Specifies the purpose for which Rotation will be used."
+                },
+                
+                {
+                	"label": "Spawn / Time",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "timeGlobal",
+                    	"label":       "Global Time Multiplier",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "Particle System Time Multiplier. 1.0 is default.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "External Time",
+                    	"bindingName": "EXTERNALTIME",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Time can be overrided by this function"
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "externalTimeInput",
+                        	"label":       "External Time Input",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "3",
+                        	"hint":        "Use externalTimeInput to override particles time.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "EXTERNALTIME",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "externalSeed",
+                    	"label":       "External Seed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "This control randomizes the look of the particle system given the same setup. Valid range is 0-1.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "WORLDPOSSEED",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "World Position Seed",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "5",
+                    	"hint":        "Use World Position as Seed Value."
+                    },
+                    
+                    {
+                    	"bindingName": "lifeTimeConstant",
+                    	"label":       "Lifetime",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "Lifetime can be randomized by minimum and maximm value.",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Lifetime Random",
+                    	"bindingName": "LIFETIMEMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Particle lifetime random by minimum and maximum value."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "lifeTimeMinMax",
+                        	"label":       "Lifetime Min/Max",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "8",
+                        	"hint":        "Lifetime can be randomized by minimum and maximm value..",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "LIFETIMEMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "spawnDuration",
+                    	"label":       "Spawn Duration",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "9",
+                    	"hint":        "The number of seconds between when the lens starts and when spawning stops. 0 means infinite spawn..",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Particle Count",
+                    	"bindingName": "MAXPARTICLECOUNT",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Work as Spawnrate."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnMaxParticles",
+                        	"label":       "Amount",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1000,
+                        	"step":        "0.01",
+                        	"sortIndex":   "11",
+                        	"hint":        "Normalized based on 1000 particle mesh, represent the approximate particle amount, External Seed can be used to get random count result.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "MAXPARTICLECOUNT",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "INSTANTSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Instant Spawn",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "20",
+                    	"hint":        "All Particle Spawn at Time of 0."
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Spawn Location / Shape",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Initial Location",
+                    	"bindingName": "INILOCATION",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnLocation",
+                        	"label":       "Spawn Location",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "12",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "INILOCATION",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Initial Box Spawn",
+                    	"bindingName": "BOXSPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnBox",
+                        	"label":       "Spawn Box",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "14",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "BOXSPAWN",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Initial Sphere Spawn",
+                    	"bindingName": "SPHERESPAWN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Initial Spawn Shape Offset."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "spawnSphere",
+                        	"label":       "Spawn Sphere",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "16",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "SPHERESPAWN",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Textures",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Base Texture",
+                    	"bindingName": "BASETEXTURE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Base Texture for Particles."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "mainTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "21",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "BASETEXTURE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Flipbook",
+                    	"bindingName": "FLIPBOOK",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "This function can be used to create a texture animation."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "gridSize",
+                        	"label":       "Num Columns, Rows",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "23",
+                        	"hint":        "Sets the flipbook texture atlas grid size. x is the number of columns, y is the number of rows in the atlas.",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "numValidFrames",
+                        	"label":       "Num Valid Frames",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "24",
+                        	"hint":        "Number of valid animation frames. May be set to at most columns*rows. May be set to less if there are unused frames at the end of the grid.",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "flipBookSpeedMult",
+                        	"label":       "Flipbook Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "25",
+                        	"hint":        "Flipbook Play Speed Per/S. example 10 will play 10 flipbooks in second.",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "flipBookRandomStart",
+                        	"label":       "Flipbook Random",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "26",
+                        	"hint":        "Ramdomly Pick Initial Flipbook Start Frame.",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "FLIPBOOKBLEND",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Frame Blend",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "27",
+                        	"hint":        "Blend Flipbook between frames."
+                        },
+                        
+                        {
+                        	"label":       "Vector Blend",
+                        	"bindingName": "VECTORFIELD",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                            
+                            { 
+                            	"bindingName": "vectorTexture", 
+                            	"label":       "Vector Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "29",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "flowStrength",
+                            	"label":       "Flow Strength",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "30",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "flowSpeed",
+                            	"label":       "Flow Speed",
+                            	"widget":      "spinbox",
+                            	"step":        "0.01",
+                            	"sortIndex":   "31",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                        {
+                        	"_bindingName": "VECTORFIELD",
+                        	"widget": "group_end"
+                        }
+                        ,
+                        
+                        {
+                        	"bindingName": "FLIPBOOKBYLIFE",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "By Life",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "40",
+                        	"hint":        "Flipbook speed normalized by particle life."
+                        },
+                    {
+                    	"_bindingName": "FLIPBOOK",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Color Ramp Texture",
+                    	"bindingName": "COLORRAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "This can animate color/alpha over lifetime by ramp texture. size need to be 128x1."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "colorRampTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "37",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "colorRampMult",
+                        	"label":       "Color Ramp Mult",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "38",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"label":       "No Random Offset",
+                        	"bindingName": "NORANDOFFSET",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                        {
+                        	"_bindingName": "NORANDOFFSET",
+                        	"widget": "group_end"
+                        }
+                        ,
+                    {
+                    	"_bindingName": "COLORRAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Color / Alpha",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "colorStart",
+                    	"label":       "Color Start",
+                    	"widget":      "color",
+                    	"sortIndex":   "29",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "colorEnd",
+                    	"label":       "Color End",
+                    	"widget":      "color",
+                    	"sortIndex":   "30",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Color Random",
+                    	"bindingName": "COLORMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "colorMinStart",
+                        	"label":       "Color Min Start",
+                        	"widget":      "color",
+                        	"sortIndex":   "32",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMaxStart",
+                        	"label":       "Color Max Start",
+                        	"widget":      "color",
+                        	"sortIndex":   "33",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMinEnd",
+                        	"label":       "Color Min End",
+                        	"widget":      "color",
+                        	"sortIndex":   "34",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMaxEnd",
+                        	"label":       "Color Max End",
+                        	"widget":      "color",
+                        	"sortIndex":   "35",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "COLORMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "alphaStart",
+                    	"label":       "Alpha Start",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "40",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "alphaEnd",
+                    	"label":       "Alpha End",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "41",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Alpha Random",
+                    	"bindingName": "ALPHAMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "alphaMinStart",
+                        	"label":       "Alpha Min Start",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "43",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMinEnd",
+                        	"label":       "Alpha Min End",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "44",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMaxStart",
+                        	"label":       "Alpha Max Start",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "45",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "alphaMaxEnd",
+                        	"label":       "Alpha Max End",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "46",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "ALPHAMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "PREMULTIPLIEDCOLOR",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Premultiplied Color",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "47",
+                    	"hint":        "Use Premultiplied Alpha as Blend Mode."
+                    },
+                    
+                    {
+                    	"bindingName": "BLACKASALPHA",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Black as Alpha",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "55",
+                    	"hint":        "Use Add or Screen as Blend Mode."
+                    },
+                    
+                    {
+                    	"label":       "Alpha Dissolving",
+                    	"bindingName": "ALPHADISSOLVE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "global dissovle control, the bigger the number the faster particle will dissolve."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "alphaDissolveMult",
+                        	"label":       "Dissolve Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "58",
+                        	"hint":        "Global dissovle control, the bigger the number the faster particle will dissolve.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "ALPHADISSOLVE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "COLORMONOMIN",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Mono Color Random",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "59",
+                    	"hint":        ""
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Noise",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Noise",
+                    	"bindingName": "NOISE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "noiseMult",
+                        	"label":       "Noise Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "81",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "noiseFrequency",
+                        	"label":       "Noise Frequency",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "82",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "NOISE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Simplex Noise",
+                    	"bindingName": "SNOISE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Only for Mid-End and Up."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "sNoiseMult",
+                        	"label":       "Noise Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "91",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sNoiseFrequency",
+                        	"label":       "Noise Frequency",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "92",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "SNOISE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Velocity",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Velocity Ramp Texture",
+                    	"bindingName": "VELRAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Using RGB channel to multiply XYZ Velocity over lifetime."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "velRampTexture", 
+                        	"label":       "Velocity Ramp Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "91",
+                        	"hint":        "Using RGB channel to multiply XYZ Velocity over lifetime."
+                        },
+                    {
+                    	"_bindingName": "VELRAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "velocityMin",
+                    	"label":       "Velocity Min",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "92",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "velocityMax",
+                    	"label":       "Velocity Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "93",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "velocityDrag",
+                    	"label":       "Velocity Drag",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "94",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Rotation",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "rotationRate",
+                    	"label":       "Rotation Rate",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "100",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationRandom",
+                    	"label":       "Initial Rotation",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "101",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rotationDrag",
+                    	"label":       "Rotation Drag",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "102",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Alignment",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "ALIGNTOX",
+                    	"label":       "Align to X",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "110",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "ALIGNTOY",
+                    	"label":       "Align to Y",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "111",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "ALIGNTOZ",
+                    	"label":       "Align to Z",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "112",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "Align to Direction",
+                    	"bindingName": "VELOCITYDIR",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "sizeVelScale",
+                        	"label":       "Align to Direction",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "114",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"label":       "Ignore Velocity Scale",
+                        	"bindingName": "IGNOREVEL",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"widget":      "group_start",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        }
+                        ,                        {
+                        	"_bindingName": "IGNOREVEL",
+                        	"widget": "group_end"
+                        }
+                        ,
+                    {
+                    	"_bindingName": "VELOCITYDIR",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Size",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "sizeStart",
+                    	"label":       "Size Start",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "120",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "sizeEnd",
+                    	"label":       "Size End",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "121",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Size Random",
+                    	"bindingName": "SIZEMINMAX",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "sizeStartMin",
+                        	"label":       "Size Start Min",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "123",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sizeStartMax",
+                        	"label":       "Size Start Max",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "124",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sizeEndMin",
+                        	"label":       "Size End Min",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "125",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sizeEndMax",
+                        	"label":       "Size End Max",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "126",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "sizeSpeed",
+                        	"label":       "Size Drag",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "127",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "SIZEMINMAX",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"label":       "Size Ramp Texture",
+                    	"bindingName": "SIZERAMP",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "CAUTION!! not supported by Low-End Mobile devices. for Low-End size will become 0."
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "sizeRampTexture", 
+                        	"label":       "Size Ramp Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "129",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "SIZERAMP",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Force / Gravity",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "gravity",
+                    	"label":       "Gravity - cm/s",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "149",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Local Force",
+                    	"bindingName": "FORCE",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        "Adding Local Force separate from Gravity, Can be used as Wind."
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "localForce",
+                        	"label":       "Amount",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "151",
+                        	"hint":        "Adding Local Force separate from Gravity, Can be used as Wind.",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "FORCE",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		
+	]
+}

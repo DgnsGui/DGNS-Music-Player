@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    43e6ba69-2f50-4929-bcd4-378edb67fe84: ec255e56-cb21-4aa6-94f9-137e01b9d648/201f1379cbfb80ea99227ad7b923b2af/Data/Body_materialParams.pvr
+  Assets:
+    - !<FileTexture/43e6ba69-2f50-4929-bcd4-378edb67fe84>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 201f1379cbfb80ea99227ad7b923b2af
+  FileHash: 5597b9237577c1b62e2edb663740dc84
+  NativePackageItems:
+    []

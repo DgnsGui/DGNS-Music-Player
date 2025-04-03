@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    03c2ff0b-8a85-4b46-b26e-f539b11d687b: d2bbb6f8-a565-46dc-aef2-a37931ec9cbe/93fac7adda46566b62ba3c1f56273f79/Data/FASTO___.TTF
+  Assets:
+    - !<Font/03c2ff0b-8a85-4b46-b26e-f539b11d687b>
+      PackagePath: ""
+  SourceHash: 93fac7adda46566b62ba3c1f56273f79
+  FileHash: 1eae234c7f01236466dd4f5b9f37949e
+  NativePackageItems:
+    []

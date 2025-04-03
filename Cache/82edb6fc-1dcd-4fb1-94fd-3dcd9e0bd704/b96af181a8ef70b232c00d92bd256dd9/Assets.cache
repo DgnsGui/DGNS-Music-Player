@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    dc09fc7a-2e40-4237-935c-ebda118a5982: 82edb6fc-1dcd-4fb1-94fd-3dcd9e0bd704/b96af181a8ef70b232c00d92bd256dd9/Data/HEAD_GEO.mesh
+  Assets:
+    - !<FileMesh/dc09fc7a-2e40-4237-935c-ebda118a5982>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1984
+        Vertices: 1372
+        Blendshapes:
+          []
+        Joints: 18
+        AabbSize: {x: 118.996613, y: 142.210754, z: 121.818199}
+  SourceHash: b96af181a8ef70b232c00d92bd256dd9
+  FileHash: 950b585d72c7405eb3eea8137cfb0e49
+  NativePackageItems:
+    []

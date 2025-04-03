@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/c9806be5-3f0b-4f2f-86c1-66782922a30f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4c35fbbc-88f4-4426-8493-9e6dc5f67fc6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4c35fbbc-88f4-4426-8493-9e6dc5f67fc6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 50d3751a-30d4-4669-b6be-4defd6491f72
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/50d3751a-30d4-4669-b6be-4defd6491f72>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d207f4fb-9e45-41d3-9531-16f78519c3cf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    scrollbarObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - scrollbarObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject scrollbarObject
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    126f75d7-33e9-45aa-95a7-ad69a20f400c: 8dc7eedb-2f01-4318-92cc-19c69b404236/3b7fe732307aa5f0a6e0dbc18e312915/Data/holo.jpg
+  Assets:
+    - !<FileTexture/126f75d7-33e9-45aa-95a7-ad69a20f400c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: 3b7fe732307aa5f0a6e0dbc18e312915
+  FileHash: 8b0c7b01d16f80d1e776ac597f4a704d
+  NativePackageItems:
+    []

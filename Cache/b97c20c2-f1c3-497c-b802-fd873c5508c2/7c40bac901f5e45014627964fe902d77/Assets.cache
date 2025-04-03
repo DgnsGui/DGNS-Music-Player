@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e3c759fe-cc38-41ba-bf87-6396790a1df1: b97c20c2-f1c3-497c-b802-fd873c5508c2/7c40bac901f5e45014627964fe902d77/Data/Grid.png
+  Assets:
+    - !<FileTexture/e3c759fe-cc38-41ba-bf87-6396790a1df1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 7c40bac901f5e45014627964fe902d77
+  FileHash: e25bcc7a085cdf5e8cb0a609e3416cb8
+  NativePackageItems:
+    []

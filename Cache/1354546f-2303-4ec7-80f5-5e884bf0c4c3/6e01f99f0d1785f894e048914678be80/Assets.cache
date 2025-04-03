@@ -1,0 +1,12 @@
+- !<AssetCache>
+  AssetFiles:
+    4f74e49a-2f7b-4145-a1e5-4369a4bd936c: 1354546f-2303-4ec7-80f5-5e884bf0c4c3/6e01f99f0d1785f894e048914678be80/Data/Matrix Code - Digital Rain Greenretake.mp4
+  Assets:
+    - !<VideoTexture/4f74e49a-2f7b-4145-a1e5-4369a4bd936c>
+      PackagePath: ""
+      AutoPlay: true
+      Volume: 1.000000
+  SourceHash: 6e01f99f0d1785f894e048914678be80
+  FileHash: 920446df8b98f62af52dd0d5abaa6b04
+  NativePackageItems:
+    []

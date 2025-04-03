@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7c35c1c4-8162-497b-89b1-057abac5801b: 5a601ef5-728b-4a6f-893c-f3062d0ee332/a817836f8e7965216df76dbe152792bb/Data/FrustumAlbedo.webp
+  Assets:
+    - !<FileTexture/7c35c1c4-8162-497b-89b1-057abac5801b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: a817836f8e7965216df76dbe152792bb
+  FileHash: 012d3b20149c5ae799c0c2514e365bfa
+  NativePackageItems:
+    []

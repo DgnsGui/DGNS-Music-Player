@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ca76ade3-8e3a-4589-9a6d-806b1eeed1e5: 2a329baa-cb3b-4248-8967-ac48496c6576/735cc588cf43fc8624d5b1c22aaafa90/Data/KeepLookingButton.jpg
+  Assets:
+    - !<FileTexture/ca76ade3-8e3a-4589-9a6d-806b1eeed1e5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 735cc588cf43fc8624d5b1c22aaafa90
+  FileHash: 8c40c070ea089663557982c08e65d9b6
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b3a97f5b-753e-4a7b-9b6e-c55e986269ed: 6632aa79-a702-4135-b198-ed6fe5202502/e992e621600a24da04db744710eaf92a/Data/Right_Upper_Arm.mesh
+  Assets:
+    - !<FileMesh/b3a97f5b-753e-4a7b-9b6e-c55e986269ed>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 252
+        Vertices: 163
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 15.111112, y: 6.340741, z: 6.181765}
+  SourceHash: e992e621600a24da04db744710eaf92a
+  FileHash: 1daab3ec6a1f0c9b5f285c70581004d9
+  NativePackageItems:
+    []

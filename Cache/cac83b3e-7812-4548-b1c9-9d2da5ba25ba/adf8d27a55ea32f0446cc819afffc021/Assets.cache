@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3391429c-5c74-4b5c-b9fc-4ad3ba30bda4: cac83b3e-7812-4548-b1c9-9d2da5ba25ba/adf8d27a55ea32f0446cc819afffc021/Data/handMeshPinchTexture.png
+  Assets:
+    - !<FileTexture/3391429c-5c74-4b5c-b9fc-4ad3ba30bda4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: adf8d27a55ea32f0446cc819afffc021
+  FileHash: 1430a4a3824f115a6b736177d013a1b1
+  NativePackageItems:
+    []

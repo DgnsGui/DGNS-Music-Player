@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ab0fbe20-cf35-4f7a-a6c9-4ebe6173f3ee: a952ce8d-73b4-4972-8c30-f7b33f8fe514/3dc5a38a1a014d242cc16275ca5fdea3/Data/RobotoMono-Regular.ttf
+  Assets:
+    - !<Font/ab0fbe20-cf35-4f7a-a6c9-4ebe6173f3ee>
+      PackagePath: ""
+  SourceHash: 3dc5a38a1a014d242cc16275ca5fdea3
+  FileHash: 38e17a061ff600424b7c6d79ed7629fa
+  NativePackageItems:
+    []

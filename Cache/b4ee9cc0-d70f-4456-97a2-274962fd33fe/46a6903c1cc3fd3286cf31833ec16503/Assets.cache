@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8b4dc58e-784d-45f5-9310-481ddd5a14d7: b4ee9cc0-d70f-4456-97a2-274962fd33fe/46a6903c1cc3fd3286cf31833ec16503/Data/Babylone(1).mp3
+  Assets:
+    - !<FileAudioTrack/8b4dc58e-784d-45f5-9310-481ddd5a14d7>
+      PackagePath: ""
+  SourceHash: 46a6903c1cc3fd3286cf31833ec16503
+  FileHash: c6dd073af118971ea6523e85503bf289
+  NativePackageItems:
+    []

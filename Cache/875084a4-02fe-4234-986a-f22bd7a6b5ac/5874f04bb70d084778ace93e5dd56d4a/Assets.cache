@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    78f45b2c-0602-401f-afb2-8b2d474a3cd4: 875084a4-02fe-4234-986a-f22bd7a6b5ac/5874f04bb70d084778ace93e5dd56d4a/Data/ScarfBottom.mesh
+  Assets:
+    - !<FileMesh/78f45b2c-0602-401f-afb2-8b2d474a3cd4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 287
+        Vertices: 192
+        Blendshapes:
+          []
+        Joints: 4
+        AabbSize: {x: 28.012489, y: 79.395668, z: 26.422234}
+  SourceHash: 5874f04bb70d084778ace93e5dd56d4a
+  FileHash: 0808f41bf11cc1f4054781844e573e36
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    69534fea-e1e8-4315-b3a2-3a285b2b0ab0: f3f3d433-f6a7-49a3-b19d-f45d3fbf1708/fb2d1f930d86c3cce6c8e640591e8f96/Data/HackPhonk(2).mp3
+  Assets:
+    - !<FileAudioTrack/69534fea-e1e8-4315-b3a2-3a285b2b0ab0>
+      PackagePath: ""
+  SourceHash: fb2d1f930d86c3cce6c8e640591e8f96
+  FileHash: 711a1e4febfc5bd50ff7c111111db6e0
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    04d05e20-4f59-494e-9674-a2998424df5c: ad8bf001-cd2d-4541-a661-524dea4308a4/3bf8a22c50b187c9cbdf7df99f083b45/Data/GlassesScreenGradient.png
+  Assets:
+    - !<FileTexture/04d05e20-4f59-494e-9674-a2998424df5c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 406
+        Height: 1
+  SourceHash: 3bf8a22c50b187c9cbdf7df99f083b45
+  FileHash: fe116b44f9058208eb5cee9971cc53eb
+  NativePackageItems:
+    []

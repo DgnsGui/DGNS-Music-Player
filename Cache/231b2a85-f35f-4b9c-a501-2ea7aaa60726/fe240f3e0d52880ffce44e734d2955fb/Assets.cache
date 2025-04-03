@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    521e222c-9db1-4faa-b31f-05c137ca6b5f: 231b2a85-f35f-4b9c-a501-2ea7aaa60726/fe240f3e0d52880ffce44e734d2955fb/Data/Backroomz_dreamcore(1).mp3
+  Assets:
+    - !<FileAudioTrack/521e222c-9db1-4faa-b31f-05c137ca6b5f>
+      PackagePath: ""
+  SourceHash: fe240f3e0d52880ffce44e734d2955fb
+  FileHash: 6544f2e0e04f5f5b898c3e28a7e39e3f
+  NativePackageItems:
+    []

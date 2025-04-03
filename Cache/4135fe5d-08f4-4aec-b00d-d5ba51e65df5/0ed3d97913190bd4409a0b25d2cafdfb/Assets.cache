@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f90ea992-cd34-4990-93e0-e6d61f882263: 4135fe5d-08f4-4aec-b00d-d5ba51e65df5/0ed3d97913190bd4409a0b25d2cafdfb/Data/icons_environment.png
+  Assets:
+    - !<FileTexture/f90ea992-cd34-4990-93e0-e6d61f882263>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 0ed3d97913190bd4409a0b25d2cafdfb
+  FileHash: 10776da451bc36230f14715373f7e767
+  NativePackageItems:
+    []

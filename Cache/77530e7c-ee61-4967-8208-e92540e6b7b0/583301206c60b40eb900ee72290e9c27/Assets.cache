@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4c0f7fd8-cebb-4b07-93b9-5d63390d37fe: 77530e7c-ee61-4967-8208-e92540e6b7b0/583301206c60b40eb900ee72290e9c27/Data/cloud_base.png
+  Assets:
+    - !<FileTexture/4c0f7fd8-cebb-4b07-93b9-5d63390d37fe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 583301206c60b40eb900ee72290e9c27
+  FileHash: 13bc04b701331988a6128cadc43ae893
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4ef3bee6-c703-4f3d-88c4-e71c6e277f28: e7161db8-901c-409b-aa85-90b637a1c6c8/f9f9587636694943eb7f327529e1cd68/Data/Noise00.png
+  Assets:
+    - !<FileTexture/4ef3bee6-c703-4f3d-88c4-e71c6e277f28>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: f9f9587636694943eb7f327529e1cd68
+  FileHash: f7c1ace47cd8eae8a838be0cbc3318d6
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5074a141-0e30-459f-8761-37e91bf48b0d: 673dfd9c-0ad0-4719-9408-a897a7d42dfb/795622004cdf6f2672b96f8ba33180eb/Data/Diffuse.jpeg
+  Assets:
+    - !<FileTexture/5074a141-0e30-459f-8761-37e91bf48b0d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 32
+  SourceHash: 795622004cdf6f2672b96f8ba33180eb
+  FileHash: ed9a7315a8bd2eb21871660cef5f0eef
+  NativePackageItems:
+    []

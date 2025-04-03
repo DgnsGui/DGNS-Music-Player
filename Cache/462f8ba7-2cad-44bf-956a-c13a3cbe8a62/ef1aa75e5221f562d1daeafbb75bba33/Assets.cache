@@ -1,0 +1,73 @@
+- !<AssetCache>
+  AssetFiles:
+    20e28697-5313-4c72-b17c-621ef638897d: 462f8ba7-2cad-44bf-956a-c13a3cbe8a62/ef1aa75e5221f562d1daeafbb75bba33/Data/flat.glsl
+  Assets:
+    - !<Pass/20e28697-5313-4c72-b17c-621ef638897d>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: No Base Texture
+            mType: Define
+            mName: NOTEXTURE
+            mWidget: ""
+            mHint: "Define: NOTEXTURE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: No Opacity Texture
+            mType: Define
+            mName: NOMASK
+            mWidget: ""
+            mHint: "Define: NOMASK"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+  SourceHash: ef1aa75e5221f562d1daeafbb75bba33
+  FileHash: 109bd3061e0e2714fa018f8490f6dfb6
+  NativePackageItems:
+    []

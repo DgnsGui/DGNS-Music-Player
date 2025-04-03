@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    848815b4-2ee8-407b-81a4-422e3588997d: ee211a8b-17dc-47b4-8ef6-9dd142836ed7/0efa0186cbb943805734c009a0f86144/Data/R.I.O.mp3
+  Assets:
+    - !<FileAudioTrack/848815b4-2ee8-407b-81a4-422e3588997d>
+      PackagePath: ""
+  SourceHash: 0efa0186cbb943805734c009a0f86144
+  FileHash: a9702de81912e67ea89a78b79038b31d
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    86442b3b-5c58-4948-b178-318234fac99f: 17f104c5-894d-403a-954a-ec8509899410/d18d2c56e29a5fdce78bfecd2e858ed9/Data/joumirokoi no voice.wav
+  Assets:
+    - !<FileAudioTrack/86442b3b-5c58-4948-b178-318234fac99f>
+      PackagePath: ""
+  SourceHash: d18d2c56e29a5fdce78bfecd2e858ed9
+  FileHash: 2f0b2bf5ddd81c5a6ddb81c83ac32abf
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    36ab646f-9d2c-4fdd-9251-8133a53e267b: d5cc763d-0efb-4f66-aa42-2c5bde038754/6288b562ccc361a195fbf43d5ef488d9/Data/futura-bold-italic.otf
+  Assets:
+    - !<Font/36ab646f-9d2c-4fdd-9251-8133a53e267b>
+      PackagePath: ""
+  SourceHash: 6288b562ccc361a195fbf43d5ef488d9
+  FileHash: a6fe652e9a1aaee54ca569d348e7225d
+  NativePackageItems:
+    []

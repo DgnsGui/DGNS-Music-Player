@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    66814d13-4b86-4aff-ae5d-678524d65508: 50a0409b-45d2-4f29-9f57-1bd6ec30a55a/e38a14e7015f6de2f903b4e44230cef7/Data/Caveat-Medium.ttf
+  Assets:
+    - !<Font/66814d13-4b86-4aff-ae5d-678524d65508>
+      PackagePath: ""
+  SourceHash: e38a14e7015f6de2f903b4e44230cef7
+  FileHash: ce5ec699760f75e6897e3a3818ff21b4
+  NativePackageItems:
+    []

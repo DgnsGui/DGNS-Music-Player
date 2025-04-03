@@ -1,0 +1,152 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Car Paint",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label": "Clear Coat",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "clearRoughness",
+                        	"label":       "Roughness",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Base Coat",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "baseColor",
+                        	"label":       "Base Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "fresnelColor",
+                        	"label":       "Fresnel Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "baseRoughness",
+                        	"label":       "Roughness",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"label": "Glitter",
+                        	"widget": "group_start"
+                        },                            
+                            { 
+                            	"bindingName": "noiseTexture", 
+                            	"label":       "Noise Texture", 
+                            	"widget":      "texture_group",
+                            	"sortIndex":   "0",
+                            	"hint":        ""
+                            },
+                            
+                            {
+                            	"bindingName": "glitterColor",
+                            	"label":       "Color",
+                            	"widget":      "color",
+                            	"sortIndex":   "1",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "Intensity",
+                            	"label":       "Intensity",
+                            	"widget":      "slider",
+                            	"min":         0,
+                            	"max":         50,
+                            	"step":        "0.01",
+                            	"sortIndex":   "2",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "scale",
+                            	"label":       "Scale",
+                            	"widget":      "slider",
+                            	"min":         0.0001,
+                            	"max":         5,
+                            	"step":        "0.01",
+                            	"sortIndex":   "3",
+                            	"hint":        "",
+                            	"default":     "1.0"
+                            },
+                            
+                            {
+                            	"bindingName": "normalizeScale",
+                            	"bindingType": "define",
+                            	"optimize":    true,
+                            	"label":       "Normalize Scale",
+                            	"widget":      "checkbox",
+                            	"sortIndex":   "10",
+                            	"hint":        "Normalizes the scale of the effect of the material. This helps apply the material effect evenly regardless mesh size."
+                            },
+                        {
+                        	"widget": "group_end"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

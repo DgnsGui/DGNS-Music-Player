@@ -1,0 +1,112 @@
+- !<AssetCache>
+  AssetFiles:
+    1f5891fb-8657-492b-a108-8dc4fb36541f: ca75c17b-2eef-4fa0-890f-16130f2d0afc/460859e0e05dc8460c9ba0e979bdb591/Data/Meshes/Circle.001.mesh
+  Assets:
+    - !<ObjectPrefab/af62feb3-d588-4dba-944e-4dda868c5b41>
+      PackagePath: ""
+      objects:
+        - !<own> a9adf7a2-dcf1-48b2-b618-ea8c12e4e836
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/1f5891fb-8657-492b-a108-8dc4fb36541f>
+      PackagePath: Meshes/Circle.001
+      Info: !<MeshInfo>
+        Triangles: 1792
+        Vertices: 929
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.915068, y: 0.293777, z: 1.915068}
+  SourceHash: 460859e0e05dc8460c9ba0e979bdb591
+  FileHash: 8f4c1e8b7db644470a55e074cc5879dd
+  NativePackageItems:
+    []
+- !<SceneObject/102a384e-78c0-41c1-81ba-e7ff73710e19>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a47e60e1-5827-4331-8b4d-27bb799e98dc
+  Components:
+    []
+- !<AnimationPlayer/3987ae6d-3b01-438f-8e76-658d55b338c2>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<RenderMeshVisual/9a5511f6-56eb-4833-9f44-8cf3109b539f>
+  PrefabRemaps:
+    []
+  Name: Circle.001
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 1f5891fb-8657-492b-a108-8dc4fb36541f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a47e60e1-5827-4331-8b4d-27bb799e98dc>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c32e6408-2ca3-48e8-8a88-831f7dcd9fc5
+  Components:
+    - !<own> 3987ae6d-3b01-438f-8e76-658d55b338c2
+- !<SceneObject/a9adf7a2-dcf1-48b2-b618-ea8c12e4e836>
+  PrefabRemaps:
+    []
+  Name: MusicPlayerScreen 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 102a384e-78c0-41c1-81ba-e7ff73710e19
+  Components:
+    []
+- !<SceneObject/c32e6408-2ca3-48e8-8a88-831f7dcd9fc5>
+  PrefabRemaps:
+    []
+  Name: Screen
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.230547, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 2.190390, y: 1.119295, z: 1.119295}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9a5511f6-56eb-4833-9f44-8cf3109b539f

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    05f97cb0-e934-4dbb-bebd-9d39a5545190: 16e69c79-dc63-47ff-98ef-f19409d1da22/d21c0e44c303ec20c4345fdc5ae815e6/Data/statue_normal.png
+  Assets:
+    - !<FileTexture/05f97cb0-e934-4dbb-bebd-9d39a5545190>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: d21c0e44c303ec20c4345fdc5ae815e6
+  FileHash: 8e2f26f0acef90fa3c221bd0d5f01ade
+  NativePackageItems:
+    []

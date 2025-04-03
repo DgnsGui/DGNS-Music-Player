@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    19d1bfc8-0d40-48d7-ba6f-1389837572e4: 0c67d486-195b-48cf-bfba-cb4d93379170/a4c60e915f68006ac5d31a42954feccb/Data/Ltnng_002.mesh
+  Assets:
+    - !<FileMesh/19d1bfc8-0d40-48d7-ba6f-1389837572e4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 116
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 31.012463, y: 6.694255, z: 74.351852}
+  SourceHash: a4c60e915f68006ac5d31a42954feccb
+  FileHash: af5a31f2172cc0c0920ba9bcbea2efd3
+  NativePackageItems:
+    []

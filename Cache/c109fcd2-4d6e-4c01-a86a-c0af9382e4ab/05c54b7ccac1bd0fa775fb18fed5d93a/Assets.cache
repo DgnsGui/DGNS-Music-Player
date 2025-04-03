@@ -1,0 +1,72 @@
+- !<AssetCache>
+  AssetFiles:
+    22c9b14e-f730-4ed4-a627-71d0dcedea0a: c109fcd2-4d6e-4c01-a86a-c0af9382e4ab/05c54b7ccac1bd0fa775fb18fed5d93a/Data/WaterCausticsPreview 2.ss_graph
+  Assets:
+    - !<ShaderGraphPass/22c9b14e-f730-4ed4-a627-71d0dcedea0a>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_touchPosition_N000:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: c109fcd2-4d6e-4c01-a86a-c0af9382e4ab/05c54b7ccac1bd0fa775fb18fed5d93a/Data/cfd37fa/WaterCausticsPreview 2.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 05c54b7ccac1bd0fa775fb18fed5d93a
+  FileHash: 922e0724fba8f6182f55b3fc76c5faa3
+  NativePackageItems:
+    []

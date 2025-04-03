@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0c324eeb-7918-4ae2-99fd-d4b4a5a377d1: 369c45cb-3de4-43c3-80a2-076c6b2ecc2c/9451516fd916ff7e9e158624a3268f7a/Data/handMeshNewMask.png
+  Assets:
+    - !<FileTexture/0c324eeb-7918-4ae2-99fd-d4b4a5a377d1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 9451516fd916ff7e9e158624a3268f7a
+  FileHash: f2e5a4665ab5cc0fd4eadcd689a3b0fd
+  NativePackageItems:
+    []

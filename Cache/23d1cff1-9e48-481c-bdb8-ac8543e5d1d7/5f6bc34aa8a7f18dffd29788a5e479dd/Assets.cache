@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ed87bf26-a381-4e12-89ca-db02cc75a709: 23d1cff1-9e48-481c-bdb8-ac8543e5d1d7/5f6bc34aa8a7f18dffd29788a5e479dd/Data/cat_param_02.pvr
+  Assets:
+    - !<FileTexture/ed87bf26-a381-4e12-89ca-db02cc75a709>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 5f6bc34aa8a7f18dffd29788a5e479dd
+  FileHash: b0ddf12a98ba669a4a84f9516bf452ba
+  NativePackageItems:
+    []

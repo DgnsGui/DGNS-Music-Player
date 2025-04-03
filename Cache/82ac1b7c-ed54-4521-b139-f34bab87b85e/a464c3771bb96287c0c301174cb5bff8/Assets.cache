@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f88816ae-4ddd-4344-b859-37beda87b612: 82ac1b7c-ed54-4521-b139-f34bab87b85e/a464c3771bb96287c0c301174cb5bff8/Data/Specular.png
+  Assets:
+    - !<FileTexture/f88816ae-4ddd-4344-b859-37beda87b612>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 1024
+  SourceHash: a464c3771bb96287c0c301174cb5bff8
+  FileHash: 7ae324154f2f1aafe7e78994ac7c9bc7
+  NativePackageItems:
+    []

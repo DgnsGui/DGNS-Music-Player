@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1d8b1f02-ba6b-4726-a357-db4d4de37215: 3c68c47a-1ba8-4a2a-9e0c-015e8d64f2ca/b57146ec5ae243d2002c0e4e2a353e85/Data/Webinar™ - FerroWave.mp3
+  Assets:
+    - !<FileAudioTrack/1d8b1f02-ba6b-4726-a357-db4d4de37215>
+      PackagePath: ""
+  SourceHash: b57146ec5ae243d2002c0e4e2a353e85
+  FileHash: cb9e71dbc6e4de43e8d02180002f5d4a
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3c7b8a27-3f6b-4d56-9c83-832fe523c34f: 8aa093c2-2cf4-44a8-b091-dece923a583d/4f0069abc91348772e8fc835ce2644a5/Data/LeftLower_Arm.mesh
+  Assets:
+    - !<FileMesh/3c7b8a27-3f6b-4d56-9c83-832fe523c34f>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 252
+        Vertices: 163
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 13.703704, y: 5.318519, z: 5.185172}
+  SourceHash: 4f0069abc91348772e8fc835ce2644a5
+  FileHash: d7b6ac011b26b52cb10c15fa44aa65cc
+  NativePackageItems:
+    []

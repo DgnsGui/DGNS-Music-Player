@@ -1,0 +1,168 @@
+- !<AssetCache>
+  AssetFiles:
+    a0b47321-dbf4-4611-bc95-79f4e310c713: 9989bbf7-b4ba-4c53-9d85-0ed1a0ca0fa9/2337352d8cf7b45721ebac610e863ca7/Data/LoadingBarGrey.ss_graph
+  Assets:
+    - !<ShaderGraphPass/a0b47321-dbf4-4611-bc95-79f4e310c713>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Column3_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N052:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Import_N059:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N062:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N058:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: -1.000000}
+        Port_Input1_N070:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N075:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N083:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_LODValue_N098:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationAngle_N051:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAxis_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationXYZ_N051:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N020:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N020:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Simple Refl
+            mType: Property
+            mName: Tweak_N1
+            mWidget: texture_group
+            mHint: "Property: Tweak_N1"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 9989bbf7-b4ba-4c53-9d85-0ed1a0ca0fa9/2337352d8cf7b45721ebac610e863ca7/Data/cfd37fa/LoadingBarGrey.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 2337352d8cf7b45721ebac610e863ca7
+  FileHash: 3e82fff170596f8785b904ec89f30994
+  NativePackageItems:
+    []

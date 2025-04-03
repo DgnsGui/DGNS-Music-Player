@@ -1,0 +1,542 @@
+- !<AssetCache>
+  AssetFiles:
+    5648891c-2c33-4c94-bd27-cc31805fba2b: dca32a01-145c-402c-9edf-e343812cf2a4/8f8932fac9345c0455e8f593b7ca5f23/Data/Textures/iridescence_combined.png
+    0a24b3fa-b0c3-47dd-b8f4-d3284d42f203: dca32a01-145c-402c-9edf-e343812cf2a4/8f8932fac9345c0455e8f593b7ca5f23/Data/.hidden/Iridescence.ss_graph
+  Assets:
+    - !<FileTexture/5648891c-2c33-4c94-bd27-cc31805fba2b>
+      PackagePath: Textures/iridescence_combined
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 3
+    - !<Material/afd8d26e-7978-4815-b626-41cea0f30e40>
+      PackagePath: Iridescence
+      PassesInfo:
+        - !<own> 8a366500-11b7-42f4-9d4d-dc3f7d5f0807
+    - !<ShaderGraphPass/0a24b3fa-b0c3-47dd-b8f4-d3284d42f203>
+      PackagePath: .hidden/Iridescence
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N011:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N012:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N025:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N058:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N021:
+          typeIdx: 1
+          value: 0.200000
+        Port_Input2_N040:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N058:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N029:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N039:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Opacity_N006:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N049:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N049:
+          typeIdx: 1
+          value: 0.833500
+        Port_RangeMinA_N049:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N049:
+          typeIdx: 1
+          value: 0.166500
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N041:
+          typeIdx: 3
+          value: {x: 3.000000, y: 3.000000}
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_UVCoord_N039:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N022:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N022:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N060:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: "Property: metallic"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: "Property: roughness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: Tweak_N38
+            mWidget: group_start
+            mHint: "Define: Tweak_N38"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTexture
+            mWidget: texture_group
+            mHint: "Property: opacityTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N38
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Iridescence
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mix
+            mType: Property
+            mName: mixAmount
+            mWidget: slider
+            mHint: "Property: mixAmount"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Intensity
+            mType: Property
+            mName: noiseIntensity
+            mWidget: slider
+            mHint: "Property: noiseIntensity"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Scale
+            mType: Property
+            mName: noiseScale
+            mWidget: spinbox
+            mHint: "Property: noiseScale"
+            mMin: 0.010000
+            mMax: 20.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: intensity
+            mWidget: slider
+            mHint: "Property: intensity"
+            mMin: 1.000000
+            mMax: 3.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Thin Film Weight
+            mType: Property
+            mName: thinFilmWeight
+            mWidget: slider
+            mHint: "Property: thinFilmWeight"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: exponent
+            mWidget: slider
+            mHint: "Property: exponent"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Iridescence Map
+            mType: Property
+            mName: iridescenceMap
+            mWidget: texture_group
+            mHint: "Property: iridescenceMap"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: dca32a01-145c-402c-9edf-e343812cf2a4/8f8932fac9345c0455e8f593b7ca5f23/Data/.hidden/cfd37fa/Iridescence.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 8f8932fac9345c0455e8f593b7ca5f23
+  FileHash: 75bc793d4245cacc06924a2d13a82ca3
+  NativePackageItems:
+    []
+- !<PassInfo/8a366500-11b7-42f4-9d4d-dc3f7d5f0807>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_LODValue_N029:
+        typeIdx: 1
+        value: 0.000000
+    - Port_LODValue_N039:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Normal_N006:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_Opacity_N006:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_UVCoord_N039:
+        typeIdx: 3
+        value: {x: 0.000000, y: 0.000000}
+    - Port_Value3_N014:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value3_N022:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value3_N060:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N014:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N022:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Value4_N060:
+        typeIdx: 1
+        value: 0.000000
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - iridescenceMapBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - iridescenceMapDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - iridescenceMapTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - iridescenceMapUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - isProxyMode:
+        typeIdx: 2
+        value: false
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - receivesRayTracedAo:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedDiffuseIndirect:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedReflections:
+        typeIdx: 2
+        value: false
+    - receivesRayTracedShadows:
+        typeIdx: 2
+        value: false
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N006:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input1_N011:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N012:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N025:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N058:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N021:
+      typeIdx: 1
+      value: 0.200000
+    Port_Input2_N040:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N058:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N049:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N049:
+      typeIdx: 1
+      value: 0.833500
+    Port_RangeMinA_N049:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N049:
+      typeIdx: 1
+      value: 0.166500
+    Port_Scale_N041:
+      typeIdx: 3
+      value: {x: 3.000000, y: 3.000000}
+    Port_SpecularAO_N006:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.745098, y: 0.886717, z: 0.999542, w: 1.000000}
+    exponent:
+      typeIdx: 1
+      value: 1.250000
+    intensity:
+      typeIdx: 1
+      value: 2.700000
+    iridescenceMap:
+      typeIdx: 9
+      value:
+        id: 5648891c-2c33-4c94-bd27-cc31805fba2b
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.800000
+    mixAmount:
+      typeIdx: 1
+      value: 0.500000
+    noiseIntensity:
+      typeIdx: 1
+      value: 0.180000
+    noiseScale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    roughness:
+      typeIdx: 1
+      value: 0.200000
+    thinFilmWeight:
+      typeIdx: 1
+      value: 0.750000
+  Pass: !<reference> 0a24b3fa-b0c3-47dd-b8f4-d3284d42f203

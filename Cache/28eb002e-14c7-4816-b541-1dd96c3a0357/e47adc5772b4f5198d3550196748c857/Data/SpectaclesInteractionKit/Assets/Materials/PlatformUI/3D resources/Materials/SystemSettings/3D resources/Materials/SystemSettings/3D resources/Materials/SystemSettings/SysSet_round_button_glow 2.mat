@@ -1,0 +1,33 @@
+- !<Material/ea5764ce-e7ad-4773-9eeb-5fa3295c1a58>
+  PackagePath: 3D resources/Materials/SystemSettings/SysSet_round_button_glow
+  PassesInfo:
+    - !<own> b7424898-6137-4105-baaa-970ccaa09863
+- !<PassInfo/b7424898-6137-4105-baaa-970ccaa09863>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Screen
+  Properties:
+    Port_Input1_N003:
+      typeIdx: 1
+      value: 0.005000
+    Port_Value_N010:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 385bbf6e-f565-40ba-9abc-119e64500ae0
+  RTCaster: false
+  RTReceiver: false

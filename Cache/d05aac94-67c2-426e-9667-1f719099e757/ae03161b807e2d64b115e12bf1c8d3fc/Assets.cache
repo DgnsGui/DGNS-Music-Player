@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3b86289a-3408-4a79-a01c-11ed5f124659: d05aac94-67c2-426e-9667-1f719099e757/ae03161b807e2d64b115e12bf1c8d3fc/Data/sit.mesh
+  Assets:
+    - !<FileMesh/3b86289a-3408-4a79-a01c-11ed5f124659>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 184
+        Vertices: 201
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 273.100494, y: 318.916534, z: 423.754395}
+  SourceHash: ae03161b807e2d64b115e12bf1c8d3fc
+  FileHash: f260e4cb2475e5f1716f26c6406c9447
+  NativePackageItems:
+    []

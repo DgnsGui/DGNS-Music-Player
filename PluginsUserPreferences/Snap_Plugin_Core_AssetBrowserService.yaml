@@ -1,0 +1,20 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 2d9fa5f8-6a1a-4c7c-a77f-830a7feb1cb8: "C:/Users/boost/Downloads/363963034583478278.mp4"
+    - 34117b60-bca4-4d71-810f-5dac029290f6: "C:/Users/boost/AppData/Local/Temp/Rar$DRa40596.30345/static/Montserrat-BoldItalic.ttf"
+    - 37c120f6-590f-4abd-857c-0b4a10506dd9: "C:/Users/boost/Documents/Administratif/DGNS ENTREPRISE/Untitled-1.png"
+    - 4ac60ce9-8c86-4d7a-967b-07669e904c8e: "C:/Users/boost/Desktop/MusicPlayerScreen.glb"
+    - 4e3d992b-34e0-427a-8497-e57273f99471: "C:/Users/boost/Downloads/Cyber Hossegor.mp3"
+    - 51f85dfe-c491-4edf-940c-51788309a5a0: "C:/Users/boost/Downloads/Webinar™ - FerroWave(1).mp3"
+    - 56e88073-b6e4-4b3b-a683-4aade8f33c00: "C:/Users/boost/Downloads/ContainerFrame(1).mp3"
+    - 58222ba6-9b46-4753-9000-8d4f10e25303: "C:/Users/boost/Desktop/ButtonsIcons2.glb"
+    - 705f2ed1-e417-4bbe-9965-733541680190: "C:/Users/boost/Downloads/Backroomz_dreamcore.mp3"
+    - 79baf9e2-f545-45dd-a4f0-9a2e859b4631: "C:/Users/boost/Downloads/Fear and Loathing in DGNS Music Player(1).mp3"
+    - 8649e9ad-3e3a-4cb1-b4f8-c997d28fe6d4: "C:/Users/boost/Documents/Administratif/DGNS ENTREPRISE/DGNSENTREPRISELOGO(3).png"
+    - 8746b743-4a68-427d-b442-fd3a12782eb5: "C:/Users/boost/Downloads/Bomb HBP(1).mp3"
+    - aec5af63-b24b-4b95-b842-a3b46c7657d8: "C:/Users/boost/Downloads/HackPhonk(2)(1).mp3"
+    - c935b862-f5b8-42a8-9cfc-cdf06509cff2: "C:/Users/boost/Downloads/Babylone(1).mp3"
+    - db3d5f26-0e7d-4962-8f43-2c32b42df164: "C:/Users/boost/Downloads/Bad Coffe.mp3"
+    - f8e5bcea-aadd-4e4c-91ed-42418b30b4ea: "C:/Users/boost/Downloads/[4K] Clouds Timelapse UHD Free Video - no copyright.mp4"
+  options: 4

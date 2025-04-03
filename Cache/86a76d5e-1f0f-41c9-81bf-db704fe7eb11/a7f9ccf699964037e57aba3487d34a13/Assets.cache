@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0a80ea8e-1b68-483d-9eee-547a1cea4d14: 4783c03a-5ccc-4e90-b06a-ac32ee023f68/a7f9ccf699964037e57aba3487d34a13/Data/LoadingBar.png
+  Assets:
+    - !<FileTexture/0a80ea8e-1b68-483d-9eee-547a1cea4d14>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: a7f9ccf699964037e57aba3487d34a13
+  FileHash: 00f303c765c48eb9551e9c45142cceed
+  NativePackageItems:
+    []

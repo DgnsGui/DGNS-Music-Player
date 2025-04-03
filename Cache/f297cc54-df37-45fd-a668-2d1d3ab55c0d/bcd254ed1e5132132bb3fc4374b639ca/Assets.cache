@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c75f5f37-caa5-451b-80b1-34b0ea6dd997: f297cc54-df37-45fd-a668-2d1d3ab55c0d/bcd254ed1e5132132bb3fc4374b639ca/Data/PE_Scanline.png
+  Assets:
+    - !<FileTexture/c75f5f37-caa5-451b-80b1-34b0ea6dd997>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: bcd254ed1e5132132bb3fc4374b639ca
+  FileHash: 8788c26f34dd6ebbc8b9466f71c4b609
+  NativePackageItems:
+    []

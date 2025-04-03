@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a280c77b-2e12-42ab-835d-ff3dfdacf031: 3eb8bc33-8d60-4037-9841-c05f607002c3/711dee2c2607b2ff6000189d7c8f61c5/Data/chick_lo.mesh
+  Assets:
+    - !<FileMesh/a280c77b-2e12-42ab-835d-ff3dfdacf031>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2196
+        Vertices: 1540
+        Blendshapes:
+          []
+        Joints: 32
+        AabbSize: {x: 2.175687, y: 1.661641, z: 1.431950}
+  SourceHash: 711dee2c2607b2ff6000189d7c8f61c5
+  FileHash: 283a9cdbafbb83d0f47368aa4b374193
+  NativePackageItems:
+    []

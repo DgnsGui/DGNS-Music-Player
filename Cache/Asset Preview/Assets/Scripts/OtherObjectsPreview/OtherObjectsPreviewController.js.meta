@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/06e550ca-87a4-4d3c-979d-6dd31de59c25>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ad3b5a43-0ddc-4eeb-af14-c1d1be1f34e8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ad3b5a43-0ddc-4eeb-af14-c1d1be1f34e8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3138e182-b1ed-4235-80e6-e8c008375da7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ScriptAssetData/3138e182-b1ed-4235-80e6-e8c008375da7>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e00b0e04-12fd-4de2-bada-83b5b758ae9e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    fovController: false
+    lightning: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - lightning: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

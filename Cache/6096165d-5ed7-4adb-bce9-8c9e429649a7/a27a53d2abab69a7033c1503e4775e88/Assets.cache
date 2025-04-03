@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5b603e12-1052-4e18-964e-c577dd2775b9: 6096165d-5ed7-4adb-bce9-8c9e429649a7/a27a53d2abab69a7033c1503e4775e88/Data/Untitled(3).mp3
+  Assets:
+    - !<FileAudioTrack/5b603e12-1052-4e18-964e-c577dd2775b9>
+      PackagePath: ""
+  SourceHash: a27a53d2abab69a7033c1503e4775e88
+  FileHash: 5906e65bbc5dbb1cce8623aa3d7c7720
+  NativePackageItems:
+    []

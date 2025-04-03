@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    9722cf40-8159-447c-a8fa-de104f4cd6c7: 4e3d992b-34e0-427a-8497-e57273f99471/701cc4866388b3c407099daf58bcb343/Data/Cyber Hossegor.mp3
+  Assets:
+    - !<FileAudioTrack/9722cf40-8159-447c-a8fa-de104f4cd6c7>
+      PackagePath: ""
+  SourceHash: 701cc4866388b3c407099daf58bcb343
+  FileHash: c1aa271c7d98f739df7f36c82330a1d0
+  NativePackageItems:
+    []

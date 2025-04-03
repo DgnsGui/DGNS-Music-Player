@@ -1,0 +1,213 @@
+- !<AssetImportMetadata/fa2ee8f9-5c96-49fe-b8da-ce26c7698b7b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f8fcd09a-7433-4d1a-883a-6da181da98da
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f8fcd09a-7433-4d1a-883a-6da181da98da
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 54ce2002-00b2-4bca-b432-11ee74bd8383
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/021ffb09-d3f8-4855-85db-b03e430b16ca>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f1849421-2283-450e-aa8c-57f4a10808c5
+  Mesh: !<reference> 08059377-0244-4bb5-b614-c5dc168049e6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0bd2b774-0af4-4169-a7db-64e8ed2e7b84>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000002, y: 0.000000, z: -0.000008}
+    rotation: {x: 0.129037, y: 0.361890, z: -0.252968}
+    scale: {x: 5.000000, y: 4.999999, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9e675d28-9bca-43eb-a3f6-bec371d072ca
+- !<SceneObject/0d7b7400-8067-4744-b0b4-44a68d37886a>
+  PrefabRemaps:
+    []
+  Name: Earth 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -93.000000, z: 0.000000}
+    scale: {x: 1.990000, y: 1.990000, z: 1.990000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 021ffb09-d3f8-4855-85db-b03e430b16ca
+- !<Text3D/2a9f7ed2-a817-4c18-adef-810ac9ab40c3>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a3e0624a-5a93-4a3d-ba9f-d0a62503a27d
+  Text: "{{Time}}"
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.730000
+  ExtrudeDirection: Both
+  Font: !<reference> 03c2ff0b-8a85-4b46-b26e-f539b11d687b
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 0.680000
+    CapitalizationOverride: None
+- !<ObjectPrefabAssetData/54ce2002-00b2-4bca-b432-11ee74bd8383>
+  SourceRemaps:
+    - 1f591485-c5f7-48d3-9ab5-59d2ac12763b: c4b9e5ef-1029-4152-bcbd-a628f5f935ab
+    - 3ed34964-fb55-46cc-8b5f-378603504de2: 0bd2b774-0af4-4169-a7db-64e8ed2e7b84
+    - 6ceb838d-4a6c-49c6-829c-ec8f4b905e54: feca0b60-e102-4a88-b645-fc71f7cd1f33
+    - 6f116e26-1a09-4718-abe1-fe292e4be744: 2a9f7ed2-a817-4c18-adef-810ac9ab40c3
+    - 76842f6e-2283-4c55-bee5-c5553c922594: 9e675d28-9bca-43eb-a3f6-bec371d072ca
+    - 9bd87770-40b3-4f3a-b4f9-b6e236dca7e1: 0d7b7400-8067-4744-b0b4-44a68d37886a
+    - bfb741f5-f8eb-4ae6-887f-4033193f8763: d4f6c320-d943-45ff-a1d0-97a13539b34a
+    - d79f24fb-57d8-4192-8fe8-27ac1bf8225b: b3d32acc-34f6-4fc4-8b35-84b65a6f4651
+    - e25722c1-1408-43d5-883a-72f3ba51a9b2: 021ffb09-d3f8-4855-85db-b03e430b16ca
+    - f8fcd09a-7433-4d1a-883a-6da181da98da: 855860e7-f27e-4c74-a8fe-3950742bc17f
+  SourceState: !<own> 855860e7-f27e-4c74-a8fe-3950742bc17f
+- !<ObjectPrefab/855860e7-f27e-4c74-a8fe-3950742bc17f>
+  PackagePath: ""
+  objects:
+    - !<own> d4f6c320-d943-45ff-a1d0-97a13539b34a
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/9e675d28-9bca-43eb-a3f6-bec371d072ca>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 524ce075-64c9-49ce-bd34-1262436bb16b
+  Mesh: !<reference> 13f9a1ac-eb0b-4bc5-b75a-cdb603701468
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/b3d32acc-34f6-4fc4-8b35-84b65a6f4651>
+  PrefabRemaps:
+    []
+  Name: Billboard
+  Enabled: true
+  ScriptAsset: !<reference> 8108cb50-0ec1-42b5-b2dd-68e17e4f7b9a
+  ScriptInputsDefault:
+    _yAxisEnabled: true
+    _axisBufferDegrees: true
+    _axisEasing: true
+    duration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      _xAxisEnabled: true
+      _yAxisEnabled: true
+      _zAxisEnabled: true
+      _axisBufferDegrees: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      _axisEasing: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      duration: 0.033000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c4b9e5ef-1029-4152-bcbd-a628f5f935ab>
+  PrefabRemaps:
+    []
+  Name: RotatePrefab
+  Enabled: true
+  ScriptAsset: !<reference> 8bc77ff8-48b9-4290-aef8-f28d70f46582
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      rotationSpeed: -0.500000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d4f6c320-d943-45ff-a1d0-97a13539b34a>
+  PrefabRemaps:
+    []
+  Name: EarthcCLOCK
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.047062, y: 7.728055, z: 2.255474}
+    rotation: {x: 61.299664, y: -0.000000, z: 0.000000}
+    scale: {x: 0.498600, y: 0.498600, z: 0.498601}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0d7b7400-8067-4744-b0b4-44a68d37886a
+    - !<own> feca0b60-e102-4a88-b645-fc71f7cd1f33
+    - !<own> 0bd2b774-0af4-4169-a7db-64e8ed2e7b84
+  Components:
+    - !<own> c4b9e5ef-1029-4152-bcbd-a628f5f935ab
+- !<SceneObject/feca0b60-e102-4a88-b645-fc71f7cd1f33>
+  PrefabRemaps:
+    []
+  Name: HOUR
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.072514, y: 0.255207, z: -0.098294}
+    rotation: {x: 180.000000, y: -64.253174, z: 180.000000}
+    scale: {x: 1.517800, y: 1.517800, z: 1.517800}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a9f7ed2-a817-4c18-adef-810ac9ab40c3
+    - !<own> b3d32acc-34f6-4fc4-8b35-84b65a6f4651

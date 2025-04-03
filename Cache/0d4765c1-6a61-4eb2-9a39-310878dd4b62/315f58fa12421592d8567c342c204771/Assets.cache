@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    43515302-9836-4261-8f1e-4b55b50f846d: 0d4765c1-6a61-4eb2-9a39-310878dd4b62/315f58fa12421592d8567c342c204771/Data/README.md
+  Assets:
+    - !<BinAsset/43515302-9836-4261-8f1e-4b55b50f846d>
+      PackagePath: ""
+  SourceHash: 315f58fa12421592d8567c342c204771
+  FileHash: 8f57e422dc0d93cf094a5c58e087ee3e
+  NativePackageItems:
+    []

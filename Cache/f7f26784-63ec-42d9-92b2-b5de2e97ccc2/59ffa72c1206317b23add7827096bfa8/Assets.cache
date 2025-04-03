@@ -1,0 +1,56 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    - !<BodyTracking3DAsset/1b4ff4b7-0b81-47f4-bc04-3de0d5d5c25c>
+      PackagePath: ""
+      AttachmentPoints:
+        - name: Hips
+          parentPoint: ""
+        - name: Spine
+          parentPoint: Hips
+        - name: Spine1
+          parentPoint: Spine
+        - name: Spine2
+          parentPoint: Spine1
+        - name: Neck
+          parentPoint: Spine2
+        - name: Head
+          parentPoint: Neck
+        - name: LeftShoulder
+          parentPoint: Spine2
+        - name: LeftArm
+          parentPoint: LeftShoulder
+        - name: LeftForeArm
+          parentPoint: LeftArm
+        - name: LeftHand
+          parentPoint: LeftForeArm
+        - name: RightShoulder
+          parentPoint: Spine2
+        - name: RightArm
+          parentPoint: RightShoulder
+        - name: RightForeArm
+          parentPoint: RightArm
+        - name: RightHand
+          parentPoint: RightForeArm
+        - name: LeftUpLeg
+          parentPoint: Hips
+        - name: LeftLeg
+          parentPoint: LeftUpLeg
+        - name: LeftFoot
+          parentPoint: LeftLeg
+        - name: LeftToeBase
+          parentPoint: LeftFoot
+        - name: RightUpLeg
+          parentPoint: Hips
+        - name: RightLeg
+          parentPoint: RightUpLeg
+        - name: RightFoot
+          parentPoint: RightLeg
+        - name: RightToeBase
+          parentPoint: RightFoot
+      TrackHand: false
+  SourceHash: 59ffa72c1206317b23add7827096bfa8
+  FileHash: 579a99935ec3b88156c634e8ed4e0a9f
+  NativePackageItems:
+    []

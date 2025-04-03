@@ -1,0 +1,81 @@
+- !<Material/72bc4bf4-e417-41cf-8226-3094bb937982>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 1c10e230-a70c-4da7-9be9-bb270272c066
+- !<PassInfo/1c10e230-a70c-4da7-9be9-bb270272c066>
+  CachedProperties:
+    - Tweak_N1BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N1Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N1Transform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - Tweak_N1UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: false
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    Port_Import_N052:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Import_N059:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N060:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N062:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N058:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: -1.000000}
+    Port_Input1_N070:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N075:
+      typeIdx: 1
+      value: 2.000000
+    Port_Input1_N083:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Value2_N003:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N1:
+      typeIdx: 9
+      value:
+        id: 5f713422-bdca-42c2-ae84-50554f6d58c3
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.420264, y: 0.420264, z: 0.420264, w: 0.560006}
+  Pass: !<reference> 09c896e9-51a1-475c-a217-cfd33eeea93c

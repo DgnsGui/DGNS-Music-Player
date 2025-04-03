@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    121175a2-f40a-4442-9229-65b481d7e35b: c7129d68-663a-4f55-b321-133ee775ac64/1ff9797c3f8edb5bf33fa739acd36260/Data/JamiroWhat.mp3
+  Assets:
+    - !<FileAudioTrack/121175a2-f40a-4442-9229-65b481d7e35b>
+      PackagePath: ""
+  SourceHash: 1ff9797c3f8edb5bf33fa739acd36260
+  FileHash: 60b2c8cac83a18d27f71bbd5e7fb1395
+  NativePackageItems:
+    []

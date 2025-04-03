@@ -1,0 +1,174 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "baseColor",
+                	"label":       "Base Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "metallic",
+                	"label":       "Metallic",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "roughness",
+                	"label":       "Roughness",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "2",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Opacity Texture",
+                	"bindingName": "Tweak_N38",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "opacityTexture", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N38",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label": "Iridescence",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "mixAmount",
+                    	"label":       "Mix",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseIntensity",
+                    	"label":       "Noise Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseScale",
+                    	"label":       "Noise Scale",
+                    	"widget":      "spinbox",
+                    	"min":         0.01,
+                    	"max":         20,
+                    	"step":        "0.01",
+                    	"sortIndex":   "7",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "intensity",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         1,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "8",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "thinFilmWeight",
+                    	"label":       "Thin Film Weight",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "9",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "exponent",
+                    	"label":       "Exponent",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         2,
+                    	"step":        "0.01",
+                    	"sortIndex":   "10",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    { 
+                    	"bindingName": "iridescenceMap", 
+                    	"label":       "Iridescence Map", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "11",
+                    	"hint":        ""
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

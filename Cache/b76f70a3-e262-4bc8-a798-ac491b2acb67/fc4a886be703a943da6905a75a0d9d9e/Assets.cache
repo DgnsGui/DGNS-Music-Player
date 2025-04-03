@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    82863fd6-ed9b-475d-98a2-afc2e0adc26d: b76f70a3-e262-4bc8-a798-ac491b2acb67/fc4a886be703a943da6905a75a0d9d9e/Data/Diff.png
+  Assets:
+    - !<FileTexture/82863fd6-ed9b-475d-98a2-afc2e0adc26d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: fc4a886be703a943da6905a75a0d9d9e
+  FileHash: e9d6570822f173c7f569589b330e4616
+  NativePackageItems:
+    []

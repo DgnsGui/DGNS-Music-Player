@@ -1,0 +1,161 @@
+- !<AssetImportMetadata/f713a2ce-b5f1-4035-bdf8-add2f51e3294>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 89ee57bd-83d7-4b75-9631-11e0f0f3c8e5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 89ee57bd-83d7-4b75-9631-11e0f0f3c8e5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a761790d-5aff-4eb3-9a29-09363af8db89
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a761790d-5aff-4eb3-9a29-09363af8db89>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9e0a4ab7-92d1-4258-9a59-2dba8592cabc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    acknowledgeButton: false
+    handHandButton: false
+    modernHandButton: false
+    modernSkinButton: false
+    musicPlayerHand: false
+    musicPlayerManagerHand: false
+    musicPlayerManagerModern: false
+    musicPlayerManagerY2K: false
+    musicPlayerModern: false
+    musicPlayerY2K: false
+    welcomePrefab: false
+    y2kHandButton: false
+    y2kSkinButton: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - pinchButton: !<reference.PinchButton> 00000000-0000-0000-0000-000000000000
+      musicPlayerY2K: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      musicPlayerManagerY2K: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      musicPlayerModern: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      musicPlayerManagerModern: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchButtons: !<reference.ScriptComponent[]>
+        []
+      players: !<reference.SceneObject[]>
+        []
+      playerManagers: !<reference.SceneObject[]>
+        []
+      y2kPinchButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      modernPinchButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toggleButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toggleToModernButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toggleToY2KButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toggleToModernButtonObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      toggleToY2KButtonObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonY2KObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchButtonModernObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      musicPlayerHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      musicPlayerManagerHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchButtonSkinY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonHandY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonSkinModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonHandModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pinchButtonHandHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      audioY2K: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audioModern: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audioHand: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      welcomePrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      acknowledgeButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      y2kSkinButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      y2kHandButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      modernSkinButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      modernHandButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handSkinButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handHandButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      playPauseButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextTrackButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prevTrackButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      repeatButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shuffleButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stopButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      skinButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handButtonY2K: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      playPauseButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextTrackButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prevTrackButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      repeatButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shuffleButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stopButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      skinButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handButtonModern: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      playPauseButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextTrackButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prevTrackButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      repeatButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shuffleButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stopButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handButtonHand: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      track1: !<RequiredType.Object> 00000000-0000-0000-0000-000000000000
+      track2: !<RequiredType.Object> 00000000-0000-0000-0000-000000000000
+      track3: !<RequiredType.Object> 00000000-0000-0000-0000-000000000000
+      track4: !<RequiredType.Object> 00000000-0000-0000-0000-000000000000
+      track5: !<RequiredType.Object> 00000000-0000-0000-0000-000000000000
+      artist1: ""
+      artist2: ""
+      artist3: ""
+      artist4: ""
+      artist5: ""
+      title1: ""
+      title2: ""
+      title3: ""
+      title4: ""
+      title5: ""
+      trackPrefabY2K1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabY2K2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabY2K3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabY2K4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabY2K5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stoppedPrefabY2K: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabModern1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabModern2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabModern3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabModern4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabModern5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stoppedPrefabModern: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabHand1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabHand2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabHand3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabHand4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      trackPrefabHand5: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stoppedPrefabHand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      artistNameTextY2K: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timecodeTextY2K: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      trackTitleTextY2K: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      progressBarY2K: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earthSphereY2K: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      artistNameTextModern: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timecodeTextModern: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      trackTitleTextModern: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      progressBarModern: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earthSphereModern: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loopPlayback: false
+      earthSphereXOffset: !<float> 0.000000
+      rotationSpeed: !<float> 0.000000
+      videoPlayer: !<reference.VideoTextureProvider> 00000000-0000-0000-0000-000000000000
+      videoScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      introVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

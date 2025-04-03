@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9d992308-810d-4575-ab9a-7994f45f95f4: cfdb63fc-675f-4c9c-85c2-3c5c029e571f/9e23a6a1a9fe9dd059ae109b8fae4870/Data/HighPolyPlane.mesh
+  Assets:
+    - !<FileMesh/9d992308-810d-4575-ab9a-7994f45f95f4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32768
+        Vertices: 16641
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 0.000000, z: 2.000000}
+  SourceHash: 9e23a6a1a9fe9dd059ae109b8fae4870
+  FileHash: 132dbb93a346110a55b6e8f43c7725fb
+  NativePackageItems:
+    []

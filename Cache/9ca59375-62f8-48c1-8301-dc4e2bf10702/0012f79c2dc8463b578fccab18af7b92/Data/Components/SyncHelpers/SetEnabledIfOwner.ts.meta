@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/db6f7243-c31a-410b-b048-71c4feeba3ca>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3a033baa-9921-4595-a055-204d9cdcc3c3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3a033baa-9921-4595-a055-204d9cdcc3c3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6f128bf8-be6e-4304-95f2-9ee18d57d489
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/6f128bf8-be6e-4304-95f2-9ee18d57d489>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 880049ca-6243-4a36-add8-6e595af6d0d9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    nonOwnerObjects: false
+    ownerObjects: false
+    syncEntityScript: false
+    targetTypeString: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - targetTypeString: SyncEntity
+      syncEntityScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ownerObjects: !<reference.SceneObject[]>
+        []
+      nonOwnerObjects: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Entity Target"}'
+    - '// @input string targetTypeString = "SyncEntity" {"label":"Target Type", "widget":"combobox", "values":[{"label":"Sync Entity", "value":"SyncEntity"}, {"label":"Network Root", "value":"NetworkRoot"}]}'
+    - '// @input Component.ScriptComponent syncEntityScript {"showIf":"targetTypeString", "showIfValue":"SyncEntity"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @input SceneObject[] ownerObjects"
+    - "// @input SceneObject[] nonOwnerObjects"
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

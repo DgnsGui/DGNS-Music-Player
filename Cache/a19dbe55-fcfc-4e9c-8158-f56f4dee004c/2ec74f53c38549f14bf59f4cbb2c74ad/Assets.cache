@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    552c06a6-bdcc-4ddd-b1e6-a285a17f8dbf: a19dbe55-fcfc-4e9c-8158-f56f4dee004c/2ec74f53c38549f14bf59f4cbb2c74ad/Data/Fullbert.jpg
+  Assets:
+    - !<FileTexture/552c06a6-bdcc-4ddd-b1e6-a285a17f8dbf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 640
+        Height: 640
+  SourceHash: 2ec74f53c38549f14bf59f4cbb2c74ad
+  FileHash: f6f8a4d644e0bac84c4115330a18ec8c
+  NativePackageItems:
+    []

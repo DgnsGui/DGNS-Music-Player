@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6dab63f6-e6c4-479e-96e6-10f11363931a: 9cafa4b6-7722-46cd-94db-9423d56f3ade/61b549f69a6f17281d38d95536ae9690/Data/reflection-map-1.jpg
+  Assets:
+    - !<FileTexture/6dab63f6-e6c4-479e-96e6-10f11363931a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 61b549f69a6f17281d38d95536ae9690
+  FileHash: 244aba2f1569c959446f3fe97e9371b4
+  NativePackageItems:
+    []

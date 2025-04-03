@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    613dcad5-53a3-4e99-8639-6725a9118a64: d1ee09f9-aec1-402c-98ef-f4204396b346/0144d4acab5ac66533d5b1d5f7c4f112/Data/GPUParticlesTexture.png
+  Assets:
+    - !<FileTexture/613dcad5-53a3-4e99-8639-6725a9118a64>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 0144d4acab5ac66533d5b1d5f7c4f112
+  FileHash: e4dc9484a846ab29d63ec805bb49adfc
+  NativePackageItems:
+    []

@@ -1,0 +1,1 @@
+{"version":3,"file":"SyncKitLogLevelProvider.js","sourceRoot":"./","sources":["Assets/SpectaclesSyncKit.lspkg/Utils/SyncKitLogLevelProvider.ts"],"names":[],"mappings":";;;;;;;;AAAA,gFAA0E;AAC1E,8HAAsH;AAEtH;;GAEG;AAEY,IAAM,uBAAuB,GAA7B,MAAM,uBAAwB,SAAQ,0BAAgB;IAGnE;QACE,KAAK,EAAE,CAAA;IACT,CAAC;CACF,CAAA;AANoB,uBAAuB;IAD3C,qBAAS;GACW,uBAAuB,CAM3C;kBANoB,uBAAuB"}

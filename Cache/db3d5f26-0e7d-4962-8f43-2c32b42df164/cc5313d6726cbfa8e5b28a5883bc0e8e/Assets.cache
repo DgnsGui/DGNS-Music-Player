@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    985dfc1f-5ca7-419a-9495-2892e17c0f8d: db3d5f26-0e7d-4962-8f43-2c32b42df164/cc5313d6726cbfa8e5b28a5883bc0e8e/Data/Bad Coffe _ PaulMX_2022.mp3
+  Assets:
+    - !<FileAudioTrack/985dfc1f-5ca7-419a-9495-2892e17c0f8d>
+      PackagePath: ""
+  SourceHash: cc5313d6726cbfa8e5b28a5883bc0e8e
+  FileHash: 26742899e678daaeeb0a7a4741559ca7
+  NativePackageItems:
+    []

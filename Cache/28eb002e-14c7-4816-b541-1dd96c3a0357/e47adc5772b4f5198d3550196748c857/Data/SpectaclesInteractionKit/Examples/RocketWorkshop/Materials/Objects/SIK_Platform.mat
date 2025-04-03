@@ -1,0 +1,107 @@
+- !<Material/8ce9a5f8-9e46-49f2-bcaf-c20799a1c0ab>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 41c0ec2d-7446-406f-af73-864b43b61d52
+- !<PassInfo/41c0ec2d-7446-406f-af73-864b43b61d52>
+  CachedProperties:
+    - Tweak_N6BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N6Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N6Transform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - Tweak_N6UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - planet_refl_mapBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - planet_refl_mapDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - planet_refl_mapTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - planet_refl_mapUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N003:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Import_N013:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    Port_Rotation_N003:
+      typeIdx: 1
+      value: 90.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    PreviewNodeID:
+      typeIdx: 0
+      value: 0
+    Tweak_N2:
+      typeIdx: 5
+      value: {x: 0.223529, y: 0.223529, z: 0.223529, w: 1.000000}
+    Tweak_N6:
+      typeIdx: 9
+      value:
+        id: f564b629-9cc2-4472-977f-5bd8d4299bff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N8:
+      typeIdx: 5
+      value: {x: 0.372549, y: 0.372549, z: 0.372549, w: 1.000000}
+    Tweak_N9:
+      typeIdx: 5
+      value: {x: 0.498039, y: 0.498039, z: 0.498039, w: 1.000000}
+    colorRatio:
+      typeIdx: 1
+      value: 0.710000
+    planet_refl_map:
+      typeIdx: 9
+      value:
+        id: 9bd1601c-cf16-46a8-9b21-f822c07b57b7
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    reflIntensity:
+      typeIdx: 1
+      value: 0.270000
+  Pass: !<reference> 72503c85-f85a-45c3-a43a-aa569c36e248
+  RTCaster: false
+  RTReceiver: false

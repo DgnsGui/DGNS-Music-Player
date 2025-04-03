@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2b127fcc-a6df-4d45-b43f-9420b902a457: 211ad15e-eea2-4730-9720-b2058cb0a7e3/7ba6399f9ac036352bda62bf74e9b437/Data/icon_Alpha.png
+  Assets:
+    - !<FileTexture/2b127fcc-a6df-4d45-b43f-9420b902a457>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 7ba6399f9ac036352bda62bf74e9b437
+  FileHash: 1da1e769dc120301e29be4b5dd0a9552
+  NativePackageItems:
+    []

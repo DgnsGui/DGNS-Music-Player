@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/742cf378-ef66-4a3e-9c7f-3a08c80cdd55>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e5e94a03-1b59-4813-a994-0e281676df64
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e5e94a03-1b59-4813-a994-0e281676df64
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4fe1dd19-3b86-4a8d-a985-4d7a0d2048cf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ScriptAssetData/4fe1dd19-3b86-4a8d-a985-4d7a0d2048cf>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3cda3f71-5c2b-4383-9131-e1df1bb26af1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    controller: false
+    functionName: false
+    hoverFunctionName: false
+    id: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - controller: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: ""
+      id: 0
+      tapFunctionName: ""
+      hoverFunctionName: ""
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

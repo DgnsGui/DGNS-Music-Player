@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8a293f03-18ed-4117-b17f-1326e21e7ae0: e09c5b30-af69-4dd8-a00a-ad787417cccc/3948b3b0a73e6618d94d28ef9bdd3424/Data/blendshapes1.mesh
+  Assets:
+    - !<FileMesh/8a293f03-18ed-4117-b17f-1326e21e7ae0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 246
+        Vertices: 264
+        Blendshapes:
+          - edit34
+        Joints: 0
+        AabbSize: {x: 0.736834, y: 2.585076, z: 0.736647}
+  SourceHash: 3948b3b0a73e6618d94d28ef9bdd3424
+  FileHash: ce1b6ca39052afcbbe677a00eb91dd14
+  NativePackageItems:
+    []

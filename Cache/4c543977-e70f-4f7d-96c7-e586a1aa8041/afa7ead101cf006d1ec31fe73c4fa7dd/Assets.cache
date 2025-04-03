@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5261a8b0-addc-40a6-8e98-3c3d09f7492c: 4c543977-e70f-4f7d-96c7-e586a1aa8041/afa7ead101cf006d1ec31fe73c4fa7dd/Data/Yellowtail-Regular.ttf
+  Assets:
+    - !<Font/5261a8b0-addc-40a6-8e98-3c3d09f7492c>
+      PackagePath: ""
+  SourceHash: afa7ead101cf006d1ec31fe73c4fa7dd
+  FileHash: 94232f182aaccacb6e19daefdfcb9fc1
+  NativePackageItems:
+    []

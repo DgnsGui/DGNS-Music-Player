@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f0a321d0-4724-4c88-8f7e-25f88deea3a9: b0f4471b-145a-4faf-b913-d5d7f5f2274d/fc4343221e7ab6def98a64cb9d04a8bf/Data/face_gloss.jpg
+  Assets:
+    - !<FileTexture/f0a321d0-4724-4c88-8f7e-25f88deea3a9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: fc4343221e7ab6def98a64cb9d04a8bf
+  FileHash: 3b2d51c8c8d0cd3313dfdd68716c74aa
+  NativePackageItems:
+    []

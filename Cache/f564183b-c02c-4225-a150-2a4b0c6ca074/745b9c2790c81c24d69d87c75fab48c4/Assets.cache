@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1594e221-bc9b-4812-b87d-fc42e6373db9: f564183b-c02c-4225-a150-2a4b0c6ca074/745b9c2790c81c24d69d87c75fab48c4/Data/icon_mapping.png
+  Assets:
+    - !<FileTexture/1594e221-bc9b-4812-b87d-fc42e6373db9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 745b9c2790c81c24d69d87c75fab48c4
+  FileHash: 00e3a8c996366585060eecef908f3f63
+  NativePackageItems:
+    []

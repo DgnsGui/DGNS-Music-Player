@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    41309c1a-8a6f-48b1-a92f-847a2b4e843d: 8043714f-3a96-4f35-a14f-040ccf830f3d/8e084d6667efca0b5a13b97704eec646/Data/film_thin.jpg
+  Assets:
+    - !<FileTexture/41309c1a-8a6f-48b1-a92f-847a2b4e843d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 8e084d6667efca0b5a13b97704eec646
+  FileHash: 1079941b2fc60337702b0bac7b657026
+  NativePackageItems:
+    []

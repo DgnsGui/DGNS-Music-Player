@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    93ccce6d-acaf-463c-a766-245dfa12e12c: 9eeb6750-9e02-4b55-bf79-ef05d239c45e/d73c2bee15ca77bae0b4c3ede9ac3fc8/Data/close-icon-1.png
+  Assets:
+    - !<FileTexture/93ccce6d-acaf-463c-a766-245dfa12e12c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: d73c2bee15ca77bae0b4c3ede9ac3fc8
+  FileHash: 63120b96ab1bb56080dd5064a6639235
+  NativePackageItems:
+    []

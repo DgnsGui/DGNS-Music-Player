@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f292d46a-1e5d-4d09-9bbd-6a456154a6e6: 5af1e0a2-8500-497c-981f-380cfd7af8a8/70bafcdfcbf3aa3977c266c3db8a9aaa/Data/CapsuleButton.mesh
+  Assets:
+    - !<FileMesh/f292d46a-1e5d-4d09-9bbd-6a456154a6e6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1472
+        Vertices: 786
+        Blendshapes:
+          - Pinch
+        Joints: 0
+        AabbSize: {x: 11.831454, y: 3.435299, z: 3.179418}
+  SourceHash: 70bafcdfcbf3aa3977c266c3db8a9aaa
+  FileHash: cf14cabb1db5b8bfcc922dfc589ead23
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f43f49c2-2865-4018-b72b-aec5baff9d15: 9542216d-df42-44d9-a927-c755d9068139/fb1f355bf41e2bc6733a71bc712cf74e/Data/icon_red.png
+  Assets:
+    - !<FileTexture/f43f49c2-2865-4018-b72b-aec5baff9d15>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: fb1f355bf41e2bc6733a71bc712cf74e
+  FileHash: c2c941dea4143c56237e2600279b4fb1
+  NativePackageItems:
+    []

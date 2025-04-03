@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0beca54f-2460-4769-aa4e-0f5fd8676962: cc130003-0377-441e-8f1a-01aa1e77c159/8e2cc1585506b30d30e29f1e1ec57a44/Data/icon_green.png
+  Assets:
+    - !<FileTexture/0beca54f-2460-4769-aa4e-0f5fd8676962>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 8e2cc1585506b30d30e29f1e1ec57a44
+  FileHash: 599cd4e32034559fdb6da0692b1966b7
+  NativePackageItems:
+    []

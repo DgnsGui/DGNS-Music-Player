@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/ee8dd419-f9fc-4bf2-8331-0a81c07aacc7>
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2415e7c4-ca6d-4fd0-a2a1-2c0a52d37483
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2415e7c4-ca6d-4fd0-a2a1-2c0a52d37483
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> bc1cdf57-5878-4125-891f-de7429dfcef6
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/bc1cdf57-5878-4125-891f-de7429dfcef6>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e203c58d-000b-4143-b644-b4d37aa2b80a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    customFunctionForOnButtonPinched: false
+    editEventCallbacks: false
+    onButtonPinchedFunctionNames: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - editEventCallbacks: false
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onButtonPinchedFunctionNames: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input bool editEventCallbacks {\"hint\":\"Enable this to add functions from another script to this component's callback events\"}"
+    - '// @ui {"widget":"group_start", "label":"On Button Pinched Callbacks", "showIf":"editEventCallbacks"}'
+    - '// @input Component.ScriptComponent customFunctionForOnButtonPinched {"hint":"The script containing functions to be called when button is pinched"}'
+    - '// @input string[] onButtonPinchedFunctionNames = {} {"hint":"The names for the functions on the provided script, to be called on button pinch"}'
+    - '// @ui {"widget":"group_end"}'
+  SvgIcon: ""
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

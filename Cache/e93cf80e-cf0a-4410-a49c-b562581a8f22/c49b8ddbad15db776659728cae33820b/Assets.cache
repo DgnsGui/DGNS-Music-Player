@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4f99b7e3-7bfb-403d-ae41-5339064efa69: e93cf80e-cf0a-4410-a49c-b562581a8f22/c49b8ddbad15db776659728cae33820b/Data/cat_normal_02.pvr
+  Assets:
+    - !<FileTexture/4f99b7e3-7bfb-403d-ae41-5339064efa69>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: c49b8ddbad15db776659728cae33820b
+  FileHash: 8e1dbb650598e57e8a32685f981dfc0e
+  NativePackageItems:
+    []

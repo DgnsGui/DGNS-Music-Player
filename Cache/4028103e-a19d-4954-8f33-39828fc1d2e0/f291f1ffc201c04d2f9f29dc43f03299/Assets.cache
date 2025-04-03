@@ -1,0 +1,155 @@
+- !<AssetCache>
+  AssetFiles:
+    aa340f8a-cb96-46be-bc04-5c0996c08e85: 4028103e-a19d-4954-8f33-39828fc1d2e0/f291f1ffc201c04d2f9f29dc43f03299/Data/FingerHighlight.ss_graph
+  Assets:
+    - !<ShaderGraphPass/aa340f8a-cb96-46be-bc04-5c0996c08e85>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_Mask_N014:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: indexGlowColor
+            mType: Property
+            mName: indexGlowColor
+            mWidget: color
+            mHint: "Property: indexGlowColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: indexBrightness
+            mType: Property
+            mName: indexBrightness
+            mWidget: slider
+            mHint: "Property: indexBrightness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: handGlowTex
+            mType: Property
+            mName: handGlowTex
+            mWidget: texture_group
+            mHint: "Property: handGlowTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: thumbGlowColor
+            mType: Property
+            mName: thumbGlowColor
+            mWidget: color
+            mHint: "Property: thumbGlowColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: thumbBrightness
+            mType: Property
+            mName: thumbBrightness
+            mWidget: slider
+            mHint: "Property: thumbBrightness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 4028103e-a19d-4954-8f33-39828fc1d2e0/f291f1ffc201c04d2f9f29dc43f03299/Data/cfd37fa/FingerHighlight.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: f291f1ffc201c04d2f9f29dc43f03299
+  FileHash: b87a12be772b80959b3dbf0e6a649b7b
+  NativePackageItems:
+    []

@@ -1,0 +1,82 @@
+- !<AssetImportMetadata/bd5a9a53-423a-483b-b776-ce348f8cac6b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 25634088-f8e0-4452-b8c5-e6583abb12b9
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 25634088-f8e0-4452-b8c5-e6583abb12b9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> a0a13078-ef89-4648-a1f9-02d39a59e4bf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ColliderComponent/834a9d72-a196-42d1-9579-f90780c5cfaf>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    Size: {x: 1.000000, y: 1.000000, z: 0.050000}
+    FitVisual: false
+  ForceCompound: false
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  ShowCollider: false
+  Intangible: false
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/a0a13078-ef89-4648-a1f9-02d39a59e4bf>
+  SourceRemaps:
+    - 7f763f1a-d4ea-4c07-929e-dd88daf03219: 834a9d72-a196-42d1-9579-f90780c5cfaf
+    - 96052f8d-c1a5-4842-9335-c635546069df: e3e41443-9bc1-4ded-afdd-4d7aa04fd851
+    - ac70f38f-813f-4bc9-8fc8-d1f932f77856: ea894dfc-0d86-48a0-94df-0f7c38a138fe
+  SourceState: !<own> ea36f0ac-7a0a-4e8a-a07f-b2a7e099bb25
+- !<SceneObject/e3e41443-9bc1-4ded-afdd-4d7aa04fd851>
+  PrefabRemaps:
+    []
+  Name: FramePrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 834a9d72-a196-42d1-9579-f90780c5cfaf
+    - !<own> ea894dfc-0d86-48a0-94df-0f7c38a138fe
+- !<ObjectPrefab/ea36f0ac-7a0a-4e8a-a07f-b2a7e099bb25>
+  PackagePath: ""
+  objects:
+    - !<own> e3e41443-9bc1-4ded-afdd-4d7aa04fd851
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/ea894dfc-0d86-48a0-94df-0f7c38a138fe>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 323d1447-add6-41e1-8203-84f73c7669d8
+  Mesh: !<reference> 9fdece13-dce3-43f8-b1cf-98ceff24c0fe
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

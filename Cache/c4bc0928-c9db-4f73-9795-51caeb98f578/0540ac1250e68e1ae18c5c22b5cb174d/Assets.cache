@@ -1,0 +1,18 @@
+- !<AssetCache>
+  AssetFiles:
+    0479aeb4-3ef2-48f7-8cd9-338b07c4e893: c4bc0928-c9db-4f73-9795-51caeb98f578/0540ac1250e68e1ae18c5c22b5cb174d/Data/pinch-depth-button.mesh
+  Assets:
+    - !<FileMesh/0479aeb4-3ef2-48f7-8cd9-338b07c4e893>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1024
+        Vertices: 578
+        Blendshapes:
+          - Z depth
+          - Pinch
+        Joints: 0
+        AabbSize: {x: 2.202462, y: 2.202462, z: 2.218727}
+  SourceHash: 0540ac1250e68e1ae18c5c22b5cb174d
+  FileHash: 38fd51e63c9a764e99797287aad5b9c9
+  NativePackageItems:
+    []

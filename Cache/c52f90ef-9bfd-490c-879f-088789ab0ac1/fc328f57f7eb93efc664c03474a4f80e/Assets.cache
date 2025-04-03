@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    883e012a-ff32-45b7-bee4-68774edf2471: c52f90ef-9bfd-490c-879f-088789ab0ac1/fc328f57f7eb93efc664c03474a4f80e/Data/tree.mesh
+  Assets:
+    - !<FileMesh/883e012a-ff32-45b7-bee4-68774edf2471>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 36
+        Vertices: 88
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 282.842712, y: 679.139221, z: 282.842712}
+  SourceHash: fc328f57f7eb93efc664c03474a4f80e
+  FileHash: 0e08d64b689850aec6b9014f3e46d246
+  NativePackageItems:
+    []

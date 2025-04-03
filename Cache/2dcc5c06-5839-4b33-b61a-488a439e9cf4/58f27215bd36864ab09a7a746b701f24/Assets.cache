@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f0e83908-68e5-48be-a0b3-84f07b1a95cf: 2dcc5c06-5839-4b33-b61a-488a439e9cf4/58f27215bd36864ab09a7a746b701f24/Data/face_texture.jpg
+  Assets:
+    - !<FileTexture/f0e83908-68e5-48be-a0b3-84f07b1a95cf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 58f27215bd36864ab09a7a746b701f24
+  FileHash: 097319f790ea723b09e7fcbb0a8a9d79
+  NativePackageItems:
+    []

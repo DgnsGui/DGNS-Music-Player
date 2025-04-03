@@ -1,0 +1,75 @@
+- !<AssetCache>
+  AssetFiles:
+    4954ebc6-edd4-4b90-b5a5-0b0ec2b2a8a9: 596fb1e8-8fe9-48da-aafd-21b60e55ac5b/f8e91e85afd73e86eb8931e8a86af148/Data/RoundButtonGlowIdle.ss_graph
+  Assets:
+    - !<ShaderGraphPass/4954ebc6-edd4-4b90-b5a5-0b0ec2b2a8a9>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Bool_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N003:
+          typeIdx: 1
+          value: 0.005000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value_N010:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 596fb1e8-8fe9-48da-aafd-21b60e55ac5b/f8e91e85afd73e86eb8931e8a86af148/Data/cfd37fa/RoundButtonGlowIdle.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: f8e91e85afd73e86eb8931e8a86af148
+  FileHash: 4824b898093da4cde875e7c1c94bf82d
+  NativePackageItems:
+    []

@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/ffcd063c-7b82-4768-9458-3e7cda631a79>
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ad7bd612-0593-4a91-bae4-4c58ccba3880
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ad7bd612-0593-4a91-bae4-4c58ccba3880
+  PackageType: NotAPackage
+  AssetDataMap:
+    TypeScriptAsset: !<own> f23524f3-ecf5-4220-8214-bc672fa41fdb
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/f23524f3-ecf5-4220-8214-bc672fa41fdb>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7e75589e-a63e-4c2e-8ef3-782ebe279d3b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    defaultColor: false
+    disabledColor: false
+    hoverColor: false
+    meshVisuals: false
+    pinchedColor: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+      defaultColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
+      hoverColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
+      pinchedColor: !<Vec4> {x: 0.460000, y: 0.460000, z: 0.460000, w: 1.000000}
+      disabledColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input vec4 defaultColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 hoverColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 pinchedColor = "{0.46, 0.46, 0.46, 1}" {"widget":"color"}'
+    - '// @input vec4 disabledColor = "{1, 1, 1, 0}" {"widget":"color"}'
+    - '// @input Component.RenderMeshVisual[] meshVisuals = {} {"hint":"The meshes which will have their baseColor changed on pinch/hover events"}'
+  SvgIcon: ""
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

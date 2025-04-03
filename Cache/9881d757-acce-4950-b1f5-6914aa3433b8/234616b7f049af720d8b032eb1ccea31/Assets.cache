@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7f8b7f6c-1f93-4b9a-8e63-eadfee240cac: 9881d757-acce-4950-b1f5-6914aa3433b8/234616b7f049af720d8b032eb1ccea31/Data/Tire_materialParams.pvr
+  Assets:
+    - !<FileTexture/7f8b7f6c-1f93-4b9a-8e63-eadfee240cac>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 234616b7f049af720d8b032eb1ccea31
+  FileHash: 3b2591432a3a4fd9b07cb2eb2ce7a074
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fa55ece4-c304-4c0a-bd3e-d03f917a936d: fafd52dd-894a-4916-83cd-e23df543fee3/4124a5f831604537b3722b38dabcd43d/Data/Boarding.jpg
+  Assets:
+    - !<FileTexture/fa55ece4-c304-4c0a-bd3e-d03f917a936d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 640
+        Height: 640
+  SourceHash: 4124a5f831604537b3722b38dabcd43d
+  FileHash: f65fd11b533472d34ca3356112a8735c
+  NativePackageItems:
+    []

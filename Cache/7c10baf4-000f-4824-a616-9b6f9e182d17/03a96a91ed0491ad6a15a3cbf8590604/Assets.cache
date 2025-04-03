@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    639f8e25-3d6a-429c-a74c-16c79275a4af: 7c10baf4-000f-4824-a616-9b6f9e182d17/03a96a91ed0491ad6a15a3cbf8590604/Data/Elmer Bernstein - Thinking Of Baby(1).mp3
+  Assets:
+    - !<FileAudioTrack/639f8e25-3d6a-429c-a74c-16c79275a4af>
+      PackagePath: ""
+  SourceHash: 03a96a91ed0491ad6a15a3cbf8590604
+  FileHash: 4439c408c62f88256b60f3cc2ecf2deb
+  NativePackageItems:
+    []

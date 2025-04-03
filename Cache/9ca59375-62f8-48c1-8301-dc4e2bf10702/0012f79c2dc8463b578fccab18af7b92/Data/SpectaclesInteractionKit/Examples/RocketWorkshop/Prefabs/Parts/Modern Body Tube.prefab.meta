@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/6b2872c9-f0b3-45e6-ba4d-36aedc615881>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 13962fd0-f4db-4dfe-9317-7f99828a2004
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 13962fd0-f4db-4dfe-9317-7f99828a2004
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 9d78d615-f2ab-4bd8-8d14-581a50a4dad9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ObjectPrefab/5c234df6-f413-4e16-affe-c8753aabe0f0>
+  PackagePath: ""
+  objects:
+    - !<own> d595522c-74d7-41ad-a541-5e38fe779080
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/6cc82a5e-2a9c-4e01-922a-61039c14f67f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 95b37f61-4429-4ec1-94b7-833d77ca6caf
+  Mesh: !<reference> dc4edc7f-e71a-4793-90c2-08aee450ad93
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/9d78d615-f2ab-4bd8-8d14-581a50a4dad9>
+  SourceRemaps:
+    - 711f8bda-86b8-4f5f-a78f-3b701975b672: d595522c-74d7-41ad-a541-5e38fe779080
+    - b1095b76-a65c-4ffa-8180-ecbbec6a5172: 6cc82a5e-2a9c-4e01-922a-61039c14f67f
+  SourceState: !<own> 5c234df6-f413-4e16-affe-c8753aabe0f0
+- !<SceneObject/d595522c-74d7-41ad-a541-5e38fe779080>
+  PrefabRemaps:
+    []
+  Name: Modern Body Tube
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 13.478287, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6cc82a5e-2a9c-4e01-922a-61039c14f67f

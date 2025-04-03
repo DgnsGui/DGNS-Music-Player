@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    28f3f301-aa35-42a0-aeb0-892445ebe5a8: 4781e065-87ac-43f1-86ef-4e51238bf939/3b78a9a78b27224607268fc5fe164705/Data/icon_geo_sphere.png
+  Assets:
+    - !<FileTexture/28f3f301-aa35-42a0-aeb0-892445ebe5a8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 3b78a9a78b27224607268fc5fe164705
+  FileHash: ed63dd4b75cdaa3d252b7554da94d167
+  NativePackageItems:
+    []

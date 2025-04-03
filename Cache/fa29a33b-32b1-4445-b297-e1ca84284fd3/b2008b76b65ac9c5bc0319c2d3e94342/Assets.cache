@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3144e01e-c9e4-4d71-924f-273bbc4d5954: fa29a33b-32b1-4445-b297-e1ca84284fd3/b2008b76b65ac9c5bc0319c2d3e94342/Data/face_film_luminance.jpg
+  Assets:
+    - !<FileTexture/3144e01e-c9e4-4d71-924f-273bbc4d5954>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: b2008b76b65ac9c5bc0319c2d3e94342
+  FileHash: fc97cb96a2c5d7f54ce99dadf2ee001b
+  NativePackageItems:
+    []

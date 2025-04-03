@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/8928bad1-8046-4268-8bb6-052c1f528b67>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d7cbaf76-7f7c-46db-98a1-659413ecf9bf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d7cbaf76-7f7c-46db-98a1-659413ecf9bf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 10e40b2f-003d-4650-90ba-f5bc660459de
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/10e40b2f-003d-4650-90ba-f5bc660459de>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7b0e8a7f-8003-40a8-9563-a61e1eb89627
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    positionInFrontOfCamera: false
+    shouldFaceCamera: false
+    triggerOnlyForMapper: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - positionInFrontOfCamera: !<Vec3> {x: 0.000000, y: 0.000000, z: -110.000000}
+      shouldFaceCamera: false
+      triggerOnlyForMapper: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input vec3 positionInFrontOfCamera = "{0, 0, -110}"'
+    - '// @input boolean shouldFaceCamera = "false"'
+    - '// @input boolean triggerOnlyForMapper = "true"'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

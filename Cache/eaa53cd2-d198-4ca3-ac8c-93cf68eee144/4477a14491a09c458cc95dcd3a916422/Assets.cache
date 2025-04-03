@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1cd4f229-2914-4a06-a915-1d5da36ffbb9: b0ca71b2-a20c-438a-bdca-dc24ad43d3b5/4477a14491a09c458cc95dcd3a916422/Data/BoyTutorial.webp
+  Assets:
+    - !<FileTexture/1cd4f229-2914-4a06-a915-1d5da36ffbb9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 4477a14491a09c458cc95dcd3a916422
+  FileHash: 6e1be5cc978743482d9bc8462eed6ac3
+  NativePackageItems:
+    []

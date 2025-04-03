@@ -1,0 +1,311 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Color",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "Opacity Texture",
+                    	"bindingName": "Tweak_N12",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "opacityTexture", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "-1",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N12",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "thinlinesColor",
+                    	"label":       "Thin Lines Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "thicklinesColor",
+                    	"label":       "Thick Lines Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "rimTint",
+                    	"label":       "Tint",
+                    	"widget":      "color",
+                    	"sortIndex":   "3",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Scanline",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N89",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Use Screen UV",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "1",
+                    	"hint":        "Can be used when mesh is animated."
+                    },
+                    
+                    {
+                    	"label":       "Animated",
+                    	"bindingName": "animated",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "scanlineSpeed",
+                        	"label":       "Speed",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "2",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N68",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Invert Direction",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "4",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "animated",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "Offset",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "3",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Density",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "thinLines",
+                        	"label":       "Thin Lines ",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         10,
+                        	"step":        "0.01",
+                        	"sortIndex":   "4",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "thickLines",
+                        	"label":       "Thick Lines",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "5",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label":       "Glitch",
+                	"bindingName": "Tweak_N76",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    {
+                    	"label":       "Animated",
+                    	"bindingName": "Tweak_N87",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "glitchSpeed",
+                        	"label":       "Speed",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "22",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"_bindingName": "Tweak_N87",
+                    	"widget": "group_end"
+                    }
+                    ,
+                    
+                    {
+                    	"bindingName": "glitchOffset",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "23",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "glitchScale",
+                    	"label":       "Scale",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "24",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "glitchIntensity",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         -1,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "25",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "glitchFrequency",
+                    	"label":       "Frequency",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "26",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Random Glitch Area",
+                    	"bindingName": "Tweak_N75",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        {
+                        	"bindingName": "randScale",
+                        	"label":       "Scale",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "28",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N130",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Invert Mask",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "29",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N75",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "Tweak_N76",
+                	"widget": "group_end"
+                }
+                ,
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		
+	]
+}

@@ -1,0 +1,18 @@
+- !<AssetCache>
+  AssetFiles:
+    bb83eba5-a59a-4a2f-a952-1bfe68113899: bc5c45f3-5358-418e-9638-b9f411125f0e/5a4f6e980b55912763ecdabadb4b3510/Data/TutorialTile.mesh
+  Assets:
+    - !<FileMesh/bb83eba5-a59a-4a2f-a952-1bfe68113899>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 728
+        Vertices: 541
+        Blendshapes:
+          - X
+          - Y
+        Joints: 0
+        AabbSize: {x: 3.878234, y: 3.819857, z: 0.453123}
+  SourceHash: 5a4f6e980b55912763ecdabadb4b3510
+  FileHash: 9b3e67a0c6330ec440f9612fb9819eba
+  NativePackageItems:
+    []

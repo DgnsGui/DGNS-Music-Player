@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/860f7389-5047-473b-95eb-ea13dcea5d8a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b21dcd7e-7ff8-48cc-9ae6-8779c9033924
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b21dcd7e-7ff8-48cc-9ae6-8779c9033924
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> dd5e85ac-2562-4819-8cf2-9a59f1623152
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<RenderMeshVisual/1324e586-f4f7-47a6-8c28-5b1e585306e9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 38c71a68-a57b-410c-b78f-c1e40f5535f5
+  Mesh: !<reference> a6449aea-f47f-4362-8d71-d2de78d524fa
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/bf65d9a0-298c-4da6-aff4-c2b56dd9b17a>
+  PackagePath: ""
+  objects:
+    - !<own> e7add12c-ee20-41d0-b6a4-c0290ceddb9c
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/dd5e85ac-2562-4819-8cf2-9a59f1623152>
+  SourceRemaps:
+    - 3abde27d-da23-4794-bc04-790246a071f6: 1324e586-f4f7-47a6-8c28-5b1e585306e9
+    - 3f94c7a6-ecf4-4b92-b41a-b8c3d5a3221a: e7add12c-ee20-41d0-b6a4-c0290ceddb9c
+  SourceState: !<own> bf65d9a0-298c-4da6-aff4-c2b56dd9b17a
+- !<SceneObject/e7add12c-ee20-41d0-b6a4-c0290ceddb9c>
+  PrefabRemaps:
+    []
+  Name: Sleek Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 21.029972, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1324e586-f4f7-47a6-8c28-5b1e585306e9

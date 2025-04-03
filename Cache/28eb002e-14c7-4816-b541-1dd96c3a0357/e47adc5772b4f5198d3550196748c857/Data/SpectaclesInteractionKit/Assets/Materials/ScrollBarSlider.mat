@@ -1,0 +1,56 @@
+- !<Material/f9433e71-3cda-4e2d-a6bd-c12d5bd50c66>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 33878ed0-a358-4a86-86b8-ce98af3c6b72
+- !<PassInfo/33878ed0-a358-4a86-86b8-ce98af3c6b72>
+  CachedProperties:
+    - Tweak_N1BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N1Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N1Transform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - Tweak_N1UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    Tweak_N1:
+      typeIdx: 9
+      value:
+        id: acadce3a-5695-43c2-8f32-9a11cdd5bae3
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    Tweak_N5:
+      typeIdx: 5
+      value: {x: 0.749996, y: 0.749996, z: 0.749996, w: 1.000000}
+  Pass: !<reference> a43b19df-d73e-4cdf-adb1-019197895348
+  RTCaster: false
+  RTReceiver: false

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    131e60d5-7ada-494d-8b74-0c81d55c5193: 0b7b0a7a-73d6-4f0d-a56a-202e84faba1a/4b011f393155ce6dc87235ec986950e5/Data/Bike_base.pvr
+  Assets:
+    - !<FileTexture/131e60d5-7ada-494d-8b74-0c81d55c5193>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 4b011f393155ce6dc87235ec986950e5
+  FileHash: 50eb676ef7b72c6d9921df7890e24493
+  NativePackageItems:
+    []

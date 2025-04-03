@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    aa3ef9b8-93d9-4b93-8711-8b99a7cdd06a: 20ab62f4-8dc3-4de9-8685-bf5777e24d90/aefb418166df8cd939548dd8309ed0e5/Data/white.png
+  Assets:
+    - !<FileTexture/aa3ef9b8-93d9-4b93-8711-8b99a7cdd06a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: aefb418166df8cd939548dd8309ed0e5
+  FileHash: be4591a26c589048bf04e758da4d6760
+  NativePackageItems:
+    []

@@ -1,0 +1,90 @@
+- !<AssetCache>
+  AssetFiles:
+    0c157709-cff6-43b2-8928-912ef73a1c63: 33f6cfa6-bdf5-41fe-a53b-328caad2db30/0c4c8b345cc3d3a37ad0d72c3bcd3a0b/Data/MatrixEffect 2.ss_graph
+  Assets:
+    - !<ShaderGraphPass/0c157709-cff6-43b2-8928-912ef73a1c63>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N002:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N003:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Offset_N003:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Position_N003:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N002:
+          typeIdx: 3
+          value: {x: 700.000000, y: 700.000000}
+        Port_Scale_N003:
+          typeIdx: 4
+          value: {x: 0.001000, y: 0.001000, z: 0.001000}
+        Port_Sharpness_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_resolution_N005:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 33f6cfa6-bdf5-41fe-a53b-328caad2db30/0c4c8b345cc3d3a37ad0d72c3bcd3a0b/Data/cfd37fa/MatrixEffect 2.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: f29783480a597a7abbc90b092997c5f5
+  FileHash: a49745369487e652a4898969f991ed70
+  NativePackageItems:
+    []

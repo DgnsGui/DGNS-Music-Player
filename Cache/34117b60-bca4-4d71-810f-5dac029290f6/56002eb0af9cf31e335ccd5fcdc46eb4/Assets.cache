@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    c5a3ce1f-9341-4f9f-8d18-a074a1be0878: 34117b60-bca4-4d71-810f-5dac029290f6/56002eb0af9cf31e335ccd5fcdc46eb4/Data/Montserrat-BoldItalic.ttf
+  Assets:
+    - !<Font/c5a3ce1f-9341-4f9f-8d18-a074a1be0878>
+      PackagePath: ""
+  SourceHash: 56002eb0af9cf31e335ccd5fcdc46eb4
+  FileHash: e3ab970ed315df93d85d2c4b8b593942
+  NativePackageItems:
+    []

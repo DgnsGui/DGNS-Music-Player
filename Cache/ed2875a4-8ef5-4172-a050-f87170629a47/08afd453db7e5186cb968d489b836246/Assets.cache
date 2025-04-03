@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c1486fb8-af5f-47be-9f8d-454899944d70: ed2875a4-8ef5-4172-a050-f87170629a47/08afd453db7e5186cb968d489b836246/Data/Helmet_normal.pvr
+  Assets:
+    - !<FileTexture/c1486fb8-af5f-47be-9f8d-454899944d70>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 08afd453db7e5186cb968d489b836246
+  FileHash: 9abd434086929dd02fb5e8b3a4ded98e
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4c4fd06c-7c0b-4c70-99f3-92208b520d26: f966ac69-c03d-4cb2-bb1b-4ca4d61d3d70/a914e6c4d97342fc155fc131da3efc19/Data/LeftJoint.mesh
+  Assets:
+    - !<FileMesh/4c4fd06c-7c0b-4c70-99f3-92208b520d26>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 168
+        Vertices: 118
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.610844, y: 3.703704, z: 3.520313}
+  SourceHash: a914e6c4d97342fc155fc131da3efc19
+  FileHash: 56d6b2ac0768470cbad98fd17145a4aa
+  NativePackageItems:
+    []

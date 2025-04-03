@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0df47332-b524-4453-a733-b3a6bd6bfb07: 7ec7c27c-34f1-47e0-84db-ef6fa119982e/9eb8f8aad4621f08e15a723962827102/Data/Elmer Bernstein.jpg
+  Assets:
+    - !<FileTexture/0df47332-b524-4453-a733-b3a6bd6bfb07>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 300
+        Height: 300
+  SourceHash: 9eb8f8aad4621f08e15a723962827102
+  FileHash: cd127b6c0282c0da4b7614b5c237cb16
+  NativePackageItems:
+    []

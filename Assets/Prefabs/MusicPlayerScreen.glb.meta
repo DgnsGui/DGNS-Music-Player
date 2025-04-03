@@ -1,0 +1,175 @@
+- !<AssetImportMetadata/4ac60ce9-8c86-4d7a-967b-07669e904c8e>
+  ImportedAssetIds:
+    .hidden/Border: !<reference> b889d31f-88ea-4a07-b188-0abe8867cc43
+    430100311ebb80d8: !<reference> 8ae50594-bcfd-4808-83fb-0b674ef80e8a
+    45e6e65386539f84: !<reference> 7eaccff3-5ee2-4801-a312-389dd185878d
+    4e6c8797971782b8: !<reference> 79331e7c-b73d-4b26-8156-a7215ab07277
+    624f6792bd6e379e: !<reference> 372f9ff0-d909-40d2-bc21-983a805e64d0
+    78c81d754c1ee267: !<reference> 17bbddc6-3c83-4b82-8e3e-11693e7faf38
+    7a0dd5cd69df73fa: !<reference> a297eea9-0c7b-4618-8a76-1c65df23ac4b
+    Materials/Border: !<reference> 1107310e-9871-4f95-87fd-0f7fa70ab021
+    Materials/Border|Border|GraphPassInfo: !<reference> 12ab7908-e59b-43d8-ab37-6b986feef1b6
+    Materials/Screen: !<reference> b6bec4d1-2e70-454f-a41d-d91946de88be
+    Materials/Screen|Screen|GraphPassInfo: !<reference> dd922d18-778c-4f60-b17b-781a38c5b032
+    Meshes/Circle: !<reference> eadbf1cc-dfaf-4d8b-85f9-be6093bf945f
+    Meshes/Circle1: !<reference> 8c6f7338-bb7d-4014-976f-d4e7eb56a448
+    Scene: !<reference> 0ee2796f-dd5d-4ce2-a0eb-08fc9b203c61
+    e140c4199169af55: !<reference> 9627239c-0545-4eb5-ac64-21d7c1a6f53a
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 0ee2796f-dd5d-4ce2-a0eb-08fc9b203c61
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> ecdc1e4e-164c-40bd-a78d-beec94918fd9
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/08f2c9c5-162a-40ef-9d67-6f4e0ac233cf>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1a2721cb-783c-4826-9221-c97fb64c1d9d
+  Components:
+    []
+- !<SceneObject/1a2721cb-783c-4826-9221-c97fb64c1d9d>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 73ffbb7d-bb67-482e-b9dc-9b9bd7b3fd39
+  Components:
+    - !<own> c26c41d6-eeef-4d80-af7c-cffe6356deeb
+- !<RenderMeshVisual/4edbd2f6-c168-4551-83e4-b828a10c1748>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1107310e-9871-4f95-87fd-0f7fa70ab021
+  Mesh: !<reference> eadbf1cc-dfaf-4d8b-85f9-be6093bf945f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5cf4a602-193b-4dad-bbee-7dd73619d839>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b6bec4d1-2e70-454f-a41d-d91946de88be
+  Mesh: !<reference> 8c6f7338-bb7d-4014-976f-d4e7eb56a448
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/73ffbb7d-bb67-482e-b9dc-9b9bd7b3fd39>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.907788, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4edbd2f6-c168-4551-83e4-b828a10c1748
+    - !<own> 5cf4a602-193b-4dad-bbee-7dd73619d839
+- !<ObjectPrefab/74c6e37f-2310-4cbd-a1a4-c8ec65b56c8b>
+  PackagePath: ""
+  objects:
+    - !<own> afc85415-6991-403c-93ec-7474f5994892
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/afc85415-6991-403c-93ec-7474f5994892>
+  PrefabRemaps:
+    []
+  Name: MusicPlayerScreen
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 08f2c9c5-162a-40ef-9d67-6f4e0ac233cf
+  Components:
+    []
+- !<AnimationPlayer/c26c41d6-eeef-4d80-af7c-cffe6356deeb>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/ecdc1e4e-164c-40bd-a78d-beec94918fd9>
+  SourceRemaps:
+    - 0ee2796f-dd5d-4ce2-a0eb-08fc9b203c61: 74c6e37f-2310-4cbd-a1a4-c8ec65b56c8b
+    - 17bbddc6-3c83-4b82-8e3e-11693e7faf38: 5cf4a602-193b-4dad-bbee-7dd73619d839
+    - 372f9ff0-d909-40d2-bc21-983a805e64d0: 08f2c9c5-162a-40ef-9d67-6f4e0ac233cf
+    - 79331e7c-b73d-4b26-8156-a7215ab07277: 1a2721cb-783c-4826-9221-c97fb64c1d9d
+    - 7eaccff3-5ee2-4801-a312-389dd185878d: 73ffbb7d-bb67-482e-b9dc-9b9bd7b3fd39
+    - 8ae50594-bcfd-4808-83fb-0b674ef80e8a: 4edbd2f6-c168-4551-83e4-b828a10c1748
+    - 9627239c-0545-4eb5-ac64-21d7c1a6f53a: c26c41d6-eeef-4d80-af7c-cffe6356deeb
+    - a297eea9-0c7b-4618-8a76-1c65df23ac4b: afc85415-6991-403c-93ec-7474f5994892
+  SourceState: !<own> 74c6e37f-2310-4cbd-a1a4-c8ec65b56c8b

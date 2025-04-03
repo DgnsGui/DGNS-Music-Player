@@ -1,0 +1,12 @@
+- !<AssetCache>
+  AssetFiles:
+    3bfad163-609c-45ea-9f39-22285eef0170: "f8e5bcea-aadd-4e4c-91ed-42418b30b4ea/bd0ba9a311d0fe9bd333a784a0efb99e/Data/[4K] Clouds Timelapse UHD Free Video - no copyright.mp4"
+  Assets:
+    - !<VideoTexture/3bfad163-609c-45ea-9f39-22285eef0170>
+      PackagePath: ""
+      AutoPlay: true
+      Volume: 1.000000
+  SourceHash: bd0ba9a311d0fe9bd333a784a0efb99e
+  FileHash: 16c4d1fa2cefb9ae57924eba8f8fd7a1
+  NativePackageItems:
+    []

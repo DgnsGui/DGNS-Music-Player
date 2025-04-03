@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    260a1cd0-171e-4431-80d2-6b19243d2060: 155b1ec1-856f-4989-ba26-6c04879cfd8f/d552766c3a27490b01dc0a6ca0c411fd/Data/Bike_materialParams.pvr
+  Assets:
+    - !<FileTexture/260a1cd0-171e-4431-80d2-6b19243d2060>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: d552766c3a27490b01dc0a6ca0c411fd
+  FileHash: 78e9ddcb2c175c3933f232d647ab9755
+  NativePackageItems:
+    []

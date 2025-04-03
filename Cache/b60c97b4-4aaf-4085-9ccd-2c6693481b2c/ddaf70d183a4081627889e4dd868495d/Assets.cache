@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6438cf56-724a-40ab-935a-9327e0223ff3: b60c97b4-4aaf-4085-9ccd-2c6693481b2c/ddaf70d183a4081627889e4dd868495d/Data/Glasses.mesh
+  Assets:
+    - !<FileMesh/6438cf56-724a-40ab-935a-9327e0223ff3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 34
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 193.236710, y: 32.001465, z: 2.955326}
+  SourceHash: ddaf70d183a4081627889e4dd868495d
+  FileHash: 0940e70c555be037447efd89692d8529
+  NativePackageItems:
+    []

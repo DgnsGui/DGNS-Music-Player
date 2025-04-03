@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    4be2abd8-9bd8-4aab-806c-95d113a036ce: 2ef1bb59-f682-442d-965d-aa675fc436f3/ea33667185dd49354945499d7ec78466/Data/Deep Disco House Mix(1).mp3
+  Assets:
+    - !<FileAudioTrack/4be2abd8-9bd8-4aab-806c-95d113a036ce>
+      PackagePath: ""
+  SourceHash: ea33667185dd49354945499d7ec78466
+  FileHash: 614c73a8224652c81e609ce23caee0a5
+  NativePackageItems:
+    []

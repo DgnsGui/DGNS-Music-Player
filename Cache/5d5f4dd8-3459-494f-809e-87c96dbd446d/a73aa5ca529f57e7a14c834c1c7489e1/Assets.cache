@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0d98131a-25c0-46a5-a8b4-bf5148871749: 5d5f4dd8-3459-494f-809e-87c96dbd446d/a73aa5ca529f57e7a14c834c1c7489e1/Data/Motor.mesh
+  Assets:
+    - !<FileMesh/0d98131a-25c0-46a5-a8b4-bf5148871749>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2068
+        Vertices: 2135
+        Blendshapes:
+          []
+        Joints: 4
+        AabbSize: {x: 196.023270, y: 272.220245, z: 396.679077}
+  SourceHash: a73aa5ca529f57e7a14c834c1c7489e1
+  FileHash: 9d1e4ef1dc826a83fd9ced475364b604
+  NativePackageItems:
+    []

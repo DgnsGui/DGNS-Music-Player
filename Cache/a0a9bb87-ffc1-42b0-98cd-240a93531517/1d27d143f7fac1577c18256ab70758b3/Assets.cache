@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    44ba4ac5-733b-4d02-8ec1-9436ecad93e7: a0a9bb87-ffc1-42b0-98cd-240a93531517/1d27d143f7fac1577c18256ab70758b3/Data/groundIcon.png
+  Assets:
+    - !<FileTexture/44ba4ac5-733b-4d02-8ec1-9436ecad93e7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 1d27d143f7fac1577c18256ab70758b3
+  FileHash: 2e983ca95dc93ff5ecb084d411c2f7a2
+  NativePackageItems:
+    []

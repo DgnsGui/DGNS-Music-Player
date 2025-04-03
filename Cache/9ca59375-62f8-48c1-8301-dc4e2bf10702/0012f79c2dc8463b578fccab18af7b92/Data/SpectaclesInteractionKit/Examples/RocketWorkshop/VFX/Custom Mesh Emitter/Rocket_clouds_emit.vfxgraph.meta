@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/d1d538c6-8578-4404-9d58-5800792c4dfa>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 22c9e860-4bd0-4544-af4d-3357ba70ef72
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 22c9e860-4bd0-4544-af4d-3357ba70ef72
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    VFXGraph: !<own> fc191f44-7709-4fe6-8f9d-cc124de5e99a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<VFXAssetData/fc191f44-7709-4fe6-8f9d-cc124de5e99a>
+  Mesh: !<reference> a80ff0a0-c935-43d7-b07f-8f742bf76298
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/f15615e8-79e1-420d-a0a9-94658d0c55e7>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        Tweak_N12:
+          typeIdx: 1
+          value: 57.829998
+        particle_scale:
+          typeIdx: 1
+          value: 1.580000
+        particles_speed:
+          typeIdx: 1
+          value: 800.000000
+        particlesReduce:
+          typeIdx: 1
+          value: 1.100000
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

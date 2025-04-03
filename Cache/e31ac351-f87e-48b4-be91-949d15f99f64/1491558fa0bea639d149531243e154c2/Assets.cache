@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    617845ff-cb4d-4683-85b7-b82e3d977538: 92845ea2-f59b-4329-ae03-e171ceb85f9d/1491558fa0bea639d149531243e154c2/Data/RoundButton.mesh
+  Assets:
+    - !<FileMesh/617845ff-cb4d-4683-85b7-b82e3d977538>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 544
+        Vertices: 321
+        Blendshapes:
+          - Pinch
+        Joints: 0
+        AabbSize: {x: 2.266862, y: 2.266881, z: 0.878028}
+  SourceHash: 1491558fa0bea639d149531243e154c2
+  FileHash: b12a0548d6b5d78e9fd16a2d9445b62b
+  NativePackageItems:
+    []

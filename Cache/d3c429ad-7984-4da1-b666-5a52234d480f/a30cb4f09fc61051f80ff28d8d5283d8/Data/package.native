@@ -1,0 +1,39 @@
+- !<NativePackageDescriptor/9bfec9c0-556c-424a-8e20-d8eebcf441da>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 7
+    patch: 2
+    build: 25030805
+    type: Unset
+  Description: |
+    RIght Click and Unpack to use
+    
+    Drag prefab to scene
+    
+    Set Camera input and make sure your camera has Device Simulation Component
+    
+    Enable Interactive Environment in the Preview Panel
+
+  SvgIcon: ""
+  InternalVersion: 0
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 55
+  ExportUid: dae69dfd-3ace-40b2-9168-6af78312e2c3
+  ComponentUid: f6093983-0c86-4e1e-97b4-a24c036d37db
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 301
+  clientVersion: 13.300000

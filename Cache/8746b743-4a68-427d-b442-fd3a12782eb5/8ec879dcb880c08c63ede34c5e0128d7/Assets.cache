@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    9abcf883-5c94-4e0b-8dbb-3d8ab18aa0b4: 8746b743-4a68-427d-b442-fd3a12782eb5/8ec879dcb880c08c63ede34c5e0128d7/Data/Bomb HBP(1).mp3
+  Assets:
+    - !<FileAudioTrack/9abcf883-5c94-4e0b-8dbb-3d8ab18aa0b4>
+      PackagePath: ""
+  SourceHash: 8ec879dcb880c08c63ede34c5e0128d7
+  FileHash: 97ca109f6f16077346e68199f800455f
+  NativePackageItems:
+    []

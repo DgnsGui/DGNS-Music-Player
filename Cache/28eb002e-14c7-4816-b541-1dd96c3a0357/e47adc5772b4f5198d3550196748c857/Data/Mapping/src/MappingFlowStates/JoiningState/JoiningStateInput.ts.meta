@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/c4331df1-4433-40d5-927d-9f9f36ecd3db>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a177f957-4a5d-41d4-b082-8f39db0489e9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a177f957-4a5d-41d4-b082-8f39db0489e9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3fce3499-c660-404f-bdad-39dc1347018e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/3fce3499-c660-404f-bdad-39dc1347018e>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 71d7f360-d263-4232-8d1c-5e655e589a6b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    spinner: false
+    textMappingHintInput: false
+    textMappingHintTimingsInput: false
+    tutorialNotificationInput: false
+    tutorialParametersInput: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - tutorialNotificationInput: !<MappingBased.TutorialNotificationInput> 00000000-0000-0000-0000-000000000000
+      textMappingHintInput: !<MappingBased.TextMappingHintInput> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textMappingHintTimingsInput: !<MappingBased.TextMappingHintTimingsInput> 00000000-0000-0000-0000-000000000000
+      tutorialParametersInput: !<MappingBased.TutorialParametersInput> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input TutorialInput tutorialNotificationInput
+    - // @input TextMappingHintInput textMappingHintInput
+    - // @input SceneObject spinner
+    - // @input TextMappingHintParametersInput textMappingHintTimingsInput
+    - // @input TutorialParametersInput tutorialParametersInput
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

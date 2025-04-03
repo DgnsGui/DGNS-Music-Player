@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/b4dfc61c-ea9c-4e81-8579-8e0ae99af7ca>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7c40e953-251e-46f3-92a1-1d7749708107
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7c40e953-251e-46f3-92a1-1d7749708107
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a4de5d50-dc49-495a-984d-261a58627015
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/a4de5d50-dc49-495a-984d-261a58627015>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 40534c2f-43a4-471a-9d05-450c7b9cb223
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoInstantiate: false
+    autoInstantiateOwnershipString: false
+    autoInstantiatePrefabs: false
+    persistenceString: false
+    prefabs: false
+    spawnAsChildren: false
+    spawnUnderParent: false
+    spawnerOwnsObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - prefabs: !<reference.ObjectPrefab[]>
+        []
+      spawnerOwnsObject: false
+      spawnAsChildren: false
+      spawnUnderParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      autoInstantiate: false
+      autoInstantiatePrefabs: !<reference.ObjectPrefab[]>
+        []
+      persistenceString: Session
+      autoInstantiateOwnershipString: Unowned
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input Asset.ObjectPrefab[] prefabs = {}"
+    - '// @input boolean spawnerOwnsObject = "false"'
+    - '// @input boolean spawnAsChildren = "false"'
+    - '// @input SceneObject spawnUnderParent {"showIf":"spawnAsChildren"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input boolean autoInstantiate = "false"'
+    - '// @input Asset.ObjectPrefab[] autoInstantiatePrefabs = {} {"label":"Prefabs", "showIf":"autoInstantiate"}'
+    - '// @input string persistenceString = "Session" {"label":"Persistence", "widget":"combobox", "values":[{"label":"Ephemeral", "value":"Ephemeral"}, {"label":"Owner", "value":"Owner"}, {"label":"Session", "value":"Session"}, {"label":"Persist", "value":"Persist"}], "showIf":"autoInstantiate"}'
+    - '// @input string autoInstantiateOwnershipString = "Unowned" {"label":"Auto Instantiate Ownership", "widget":"combobox", "values":[{"label":"Owned", "value":"Owned"}, {"label":"Unowned", "value":"Unowned"}], "showIf":"autoInstantiate"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
