@@ -47,7 +47,9 @@ The player functions primarily through two main scripts:
     ```bash
     git clone https://github.com/DgnsGui/DGNS-Music-Player.git
     ```
-2.  **Open in Lens Studio:** Launch Lens Studio and open the cloned project folder.
+    ⚠️Make sure you have GitLFS (Large File Storage)⚠️
+    
+3.  **Open in Lens Studio:** Launch Lens Studio and open the cloned project folder.
 
 ## Adding Your Own Music (V1 Method)
 
