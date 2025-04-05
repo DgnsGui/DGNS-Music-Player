@@ -60,7 +60,7 @@ You can load your own music tracks into the player. Follow these steps **for eac
 3.  **Inspect Script:** In the `Inspector` panel, find the `MusicPlayerManager` (Script) component.
 
 4.  **Add Track Asset:**
-    *   **Local Tracks:** Find the `Local Tracks` array. Click `+ Add Value`. Drag your `.mp3` or `.ogg` audio file from the `Asset Browser` into the new `Value` slot.
+    *   **Local Tracks:** Find the `Local Tracks` array. Click `+ Add Value`. Drag your `.mp3` audio file from the `Asset Browser` into the new `Value` slot.
     *   **Remote Tracks:** Find the `Remote Tracks` array. Click `+ Add Value`. Create or assign a `RemoteReferenceAsset` pointing to your remotely hosted audio file in the new `Value` slot.
 ![Alt text](https://iili.io/37otU67.png)
 ![Alt text](https://iili.io/37obMdX.png)
