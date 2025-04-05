@@ -78,7 +78,7 @@ You can load your own music tracks into the player. Follow these steps **for eac
 
 ### Managing Screen Prefabs
 
-Each track needs a `SceneObject` prefab assigned in the `Track Prefabs` array. These prefabs represent the visual screen area of the player, often displaying album art via a shader.
+Each track needs a `SceneObject` prefab assigned in the `Track Prefabs` array. These prefabs represent the visual screen area of the player, displaying album art and a GLSL shader background.
 
 *   **Location:** You can find the existing screen prefabs under the different player skin objects in the `Scene Hierarchy` (e.g., expand `MusicPlayerY2K`, look for objects named `MusicPlayerScreen0`, `MusicPlayerScreen1`, etc.)
 *   **Adding More:** If you add more tracks than there are existing screen prefabs, you can easily duplicate one:
