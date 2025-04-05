@@ -96,7 +96,7 @@ Each track needs a `SceneObject` prefab assigned in the `Track Prefabs` array. T
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, feel free to contribute.
 
 ## License
 
