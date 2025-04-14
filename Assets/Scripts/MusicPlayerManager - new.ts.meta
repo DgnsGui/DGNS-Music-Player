@@ -1,27 +1,27 @@
-- !<AssetImportMetadata/66bef151-c68d-4714-80a6-05f897bf360d>
+- !<AssetImportMetadata/ad603eda-590e-4290-8f74-70e8ee301a17>
   ImportedAssetIds:
-    TypeScriptAsset: !<reference> b81afd21-5156-4df3-bf60-1d8dca9cfd9b
+    TypeScriptAsset: !<reference> 5b94fbbc-768d-4e80-90c6-8ecd8e382f2a
   ImporterName: TypeScriptAssetImporter
-  PrimaryAsset: !<reference> b81afd21-5156-4df3-bf60-1d8dca9cfd9b
+  PrimaryAsset: !<reference> 5b94fbbc-768d-4e80-90c6-8ecd8e382f2a
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
     {}
   AssetDataMap:
-    TypeScriptAsset: !<own> e7f75fa7-9e65-4dbc-8cd1-f4998e0ac8dd
+    TypeScriptAsset: !<own> 8eae142f-fecb-4acf-a1a5-e42e219dc413
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<TypeScriptAssetData/e7f75fa7-9e65-4dbc-8cd1-f4998e0ac8dd>
+- !<TypeScriptAssetData/8eae142f-fecb-4acf-a1a5-e42e219dc413>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 9328f31b-24b3-4fa5-aea3-9ca9e135be62
+  ComponentUid: eee48873-4b22-4762-afaa-86ba6c0f4334
   ExportUid: 00000000-0000-0000-0000-000000000000
   CurrentVisibility: Editable
   MaxVisibility: Editable
@@ -61,22 +61,14 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - artistNameText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      timecodeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      trackTitleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      playPauseButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      nextTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      prevTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      loopPlayback: true
-      progressBar: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      earthSphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      earthSphereXOffset: !<float> 0.000000
-      repeatButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      shuffleButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      stopButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      rotationSpeed: !<float> 30.000000
-      stoppedPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - localTracks: !<reference.AudioTrackAsset[]>
+        []
+      localArtists: !<string[]>
+        []
+      localTitles: !<string[]>
+        []
+      localTrackPrefabs: !<reference.SceneObject[]>
+        []
       remoteTracks: !<reference.RemoteReferenceAsset[]>
         []
       remoteArtists: !<string[]>
@@ -85,6 +77,22 @@
         []
       remoteTrackPrefabs: !<reference.SceneObject[]>
         []
+      stoppedPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      artistNameText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timecodeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      trackTitleText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      playPauseButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prevTrackButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      repeatButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      shuffleButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stopButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressBar: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      earthSphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      loopPlayback: true
+      earthSphereXOffset: !<float> 0.000000
+      rotationSpeed: !<float> 30.000000
       playButtonMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
       originalPlayButtonMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
       blinkMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
@@ -92,14 +100,6 @@
       repeatOffIcon: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       shuffleOnIcon: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       shuffleOffIcon: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      localTracks: !<reference.AudioTrackAsset[]>
-        []
-      localArtists: !<string[]>
-        []
-      localTitles: !<string[]>
-        []
-      localTrackPrefabs: !<reference.SceneObject[]>
-        []
   ScriptTypes:
     -
       {}

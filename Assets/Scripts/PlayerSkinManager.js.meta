@@ -156,6 +156,9 @@
       videoPlayer: !<reference.VideoTextureProvider> 00000000-0000-0000-0000-000000000000
       videoScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       introVideoTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      y2kPinchToPlayButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      glowingMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      blinkInterval: 0.500000
   ScriptTypes:
     -
       {}

@@ -125,43 +125,43 @@ function handlePinchEvent(buttonName, methodUsed, eventData) {
 
     print("DEBUG: Is '"+buttonName+"' relevant for current skin '"+currentSkin+"'? "+isRelevant);
     if (isRelevant) {
-         print("EVENT: Button pinch is relevant, executing callback for: "+buttonName);
-         switch(buttonName) {
-             case "Acknowledge": switchToSkin(SKINS.Y2K); break;
-             case "Y2K Skin":    switchToSkin(SKINS.MODERN); break;
-             case "Y2K Hand":    switchToSkin(SKINS.HAND); break;
-             case "Modern Skin": switchToSkin(SKINS.Y2K); break; // Execute the switch
-             case "Modern Hand": switchToSkin(SKINS.HAND); break; // Execute the switch
-             case "Hand Back":   switchToSkin(SKINS.Y2K); break;
-             default: print("WARN: Unknown button name in handlePinchEvent: "+buttonName); break;
-         }
+        print("EVENT: Button pinch is relevant, executing callback for: "+buttonName);
+        switch(buttonName) {
+            case "Acknowledge": switchToSkin(SKINS.Y2K); break;
+            case "Y2K Skin":    switchToSkin(SKINS.MODERN); break;
+            case "Y2K Hand":    switchToSkin(SKINS.HAND); break;
+            case "Modern Skin": switchToSkin(SKINS.Y2K); break; // Execute the switch
+            case "Modern Hand": switchToSkin(SKINS.HAND); break; // Execute the switch
+            case "Hand Back":   switchToSkin(SKINS.Y2K); break;
+            default: print("WARN: Unknown button name in handlePinchEvent: "+buttonName); break;
+        }
     } else {
-         print("INFO: Pinch event ignored for "+buttonName+" as it's not relevant for the current skin '"+currentSkin+"'.");
+        print("INFO: Pinch event ignored for "+buttonName+" as it's not relevant for the current skin '"+currentSkin+"'.");
     }
 }
 
 // NEW function to bind buttons for a specific skin
 function bindSkinButtons(skinName) {
-     print("DEBUG: Attempting to bind buttons for skin: " + skinName);
-     switch(skinName) {
-         case SKINS.Y2K:
-             bindButton(script.y2kSkinButton, "Y2K Skin");
-             bindButton(script.y2kHandButton, "Y2K Hand");
-             break;
-         case SKINS.MODERN:
-             bindButton(script.modernSkinButton, "Modern Skin");
-             bindButton(script.modernHandButton, "Modern Hand");
-             break;
-         case SKINS.HAND:
-             bindButton(script.handHandButton, "Hand Back");
-             break;
-         case SKINS.WELCOME:
-             // Acknowledge button is bound in initialize
-             break;
-         default:
-             print("WARN: No specific buttons to bind for skin: " + skinName);
-             break;
-     }
+    print("DEBUG: Attempting to bind buttons for skin: " + skinName);
+    switch(skinName) {
+        case SKINS.Y2K:
+            bindButton(script.y2kSkinButton, "Y2K Skin");
+            bindButton(script.y2kHandButton, "Y2K Hand");
+            break;
+        case SKINS.MODERN:
+            bindButton(script.modernSkinButton, "Modern Skin");
+            bindButton(script.modernHandButton, "Modern Hand");
+            break;
+        case SKINS.HAND:
+            bindButton(script.handHandButton, "Hand Back");
+            break;
+        case SKINS.WELCOME:
+            // Acknowledge button is bound in initialize
+            break;
+        default:
+            print("WARN: No specific buttons to bind for skin: " + skinName);
+            break;
+    }
 }
 
 // --- Initialization ---

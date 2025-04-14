@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1955
+    size: 2855
     values:
       - Covers
       - Covers/Backroomz_Dreamcode.jpg
@@ -81,7 +81,6 @@ CollapsedEntities:
       - Miscelanious/LSTween.lspkg/TweenJS/mainGroup.ts
       - Miscelanious/LSTween.lspkg/package.native
       - Miscelanious/Montserrat-BoldItalic.ttf
-      - Music
       - Music (Remote Assets)
       - Music (Remote Assets)/Backroomz Instrumental.remoteReferenceAsset
       - Music (Remote Assets)/Backroomz_dreamcore.remoteReferenceAsset
@@ -101,7 +100,6 @@ CollapsedEntities:
       - Music/MP Manager.mp3
       - Music/Webinar™ - FerroWave.mp3
       - Prefabs
-      - Prefabs/ButtonsIcons2.glb
       - Prefabs/ButtonsIcons2.glb/.hidden
       - Prefabs/ButtonsIcons2.glb/.hidden/SVGMat
       - Prefabs/ButtonsIcons2.glb/ButtonsIcons2
@@ -117,7 +115,6 @@ CollapsedEntities:
       - Prefabs/ButtonsIcons2.glb/Materials/SVGMat.008
       - Prefabs/ButtonsIcons2.glb/Materials/SVGMat.009
       - Prefabs/ButtonsIcons2.glb/Materials/SVGMat.010
-      - Prefabs/ButtonsIcons2.glb/Meshes
       - Prefabs/ButtonsIcons2.glb/Meshes/Curve
       - Prefabs/ButtonsIcons2.glb/Meshes/Curve.001
       - Prefabs/ButtonsIcons2.glb/Meshes/Curve.002
@@ -146,6 +143,8 @@ CollapsedEntities:
       - Render Target.renderTarget
       - Scene.scene
       - Scripts
+      - Scripts/MusicPlayerManager - new.ts
+      - Scripts/MusicPlayerManager - old.ts
       - Scripts/MusicPlayerManager.ts
       - Scripts/PlayerSkinManager.js
       - Shader Graphs
@@ -1954,6 +1953,907 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/LineRenderer/LineMeshUtils.ts
       - SpectaclesInteractionKit/Utils/views/LineRenderer/LineRenderer.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
+      - SpectaclesSyncKit.lspkg
+      - SpectaclesSyncKit.lspkg/Components
+      - SpectaclesSyncKit.lspkg/Components/Instantiator.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncHelpers
+      - SpectaclesSyncKit.lspkg/Components/SyncHelpers/DisplayStorageProperty.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncHelpers/SetEnabledIfOwner.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncHelpers/SetEnabledOnReady.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncHelpers/SyncEntityDebug.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncMaterials.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncRealtimeStore.ts
+      - SpectaclesSyncKit.lspkg/Components/SyncTransform.ts
+      - SpectaclesSyncKit.lspkg/Connected Lens Module.connectedLensModule
+      - SpectaclesSyncKit.lspkg/Core
+      - SpectaclesSyncKit.lspkg/Core/EventWrapper.ts
+      - SpectaclesSyncKit.lspkg/Core/KeyedEventWrapper.ts
+      - SpectaclesSyncKit.lspkg/Core/MockMultiplayerSession.ts
+      - SpectaclesSyncKit.lspkg/Core/MockMultiplayerSessionConfig.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkIdTools.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkIdType.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkMessage.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkMessageWrapper.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkRootInfo.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkUtils.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkedSceneObject.ts
+      - SpectaclesSyncKit.lspkg/Core/NetworkedScriptComponent.ts
+      - SpectaclesSyncKit.lspkg/Core/OwnershipType.ts
+      - SpectaclesSyncKit.lspkg/Core/PersistenceType.ts
+      - SpectaclesSyncKit.lspkg/Core/PropertyType.ts
+      - SpectaclesSyncKit.lspkg/Core/SessionController.ts
+      - SpectaclesSyncKit.lspkg/Core/SessionControllerComponent.ts
+      - SpectaclesSyncKit.lspkg/Core/StoragePropLookup.ts
+      - SpectaclesSyncKit.lspkg/Core/StorageProperty.ts
+      - SpectaclesSyncKit.lspkg/Core/StoragePropertySet.ts
+      - SpectaclesSyncKit.lspkg/Core/StorageType.ts
+      - SpectaclesSyncKit.lspkg/Core/StorageTypes.ts
+      - SpectaclesSyncKit.lspkg/Core/StoreEventWrapper.ts
+      - SpectaclesSyncKit.lspkg/Core/SyncEntity.ts
+      - SpectaclesSyncKit.lspkg/Core/SyncSnapshot.ts
+      - SpectaclesSyncKit.lspkg/Examples
+      - SpectaclesSyncKit.lspkg/Examples/CyclingMaterialExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/DisplayStorageProperty
+      - SpectaclesSyncKit.lspkg/Examples/DisplayStorageProperty/CurrentTimeObject.ts
+      - SpectaclesSyncKit.lspkg/Examples/InstantiateOnceExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/InstantiatorExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/InstantiatorExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/ManipulateExamplePrefab.prefab
+      - SpectaclesSyncKit.lspkg/Examples/Materials
+      - SpectaclesSyncKit.lspkg/Examples/Materials/ExampleMaterial.mat
+      - SpectaclesSyncKit.lspkg/Examples/Materials/ExampleMaterial.ss_graph
+      - SpectaclesSyncKit.lspkg/Examples/SessionControllerExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/SessionControllerExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/AutoStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/AutoStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/ManualStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/ManualStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/PositionRotationScaleStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/PositionRotationScaleStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/RmvColorStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/RmvColorStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/RmvPropertyStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/RmvPropertyStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/TextStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/TextStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/TransformStoragePropertyExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/StorageProperty/TransformStoragePropertyExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Examples/SyncEntityDebug
+      - SpectaclesSyncKit.lspkg/Examples/SyncEntityDebug/InstantiatedSyncEntityDebugExample.prefab
+      - SpectaclesSyncKit.lspkg/Examples/SyncEntityExample.ts
+      - SpectaclesSyncKit.lspkg/Examples/SyncEntityExampleJavascript.js
+      - SpectaclesSyncKit.lspkg/Location Cloud Storage Module.locationCloudStorageModule
+      - SpectaclesSyncKit.lspkg/Mapping
+      - SpectaclesSyncKit.lspkg/Mapping/Assets
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/AnimationMixers
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/AnimationMixers/MappingSuccessCheckmark.animationLayer
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/AnimationMixers/MappingTutorial.animationMixerLayer
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Audio
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Audio/MappingSuccess.wav
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/.hidden
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/.hidden/Material
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/.hidden/white
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Frustim
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Materials
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Materials/Material
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Materials/phong1
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Meshes/glasses_frames
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Meshes/screen
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Meshes/screen.001
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/Frustim.fbx/Meshes/screen.002
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/.hidden
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/.hidden/Material.007
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/.hidden/white
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/BaseLayer
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/Material.007
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/lambert1
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/lambert130
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/lambert153
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/lambert98
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/lambert99
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/pasted__lambert94
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Materials/pasted__lambert98
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/GUY_OPT
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/P1_Arrow
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/P2_Arrow
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/POINT_CLOUD
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/POINT_CLOUD_SYNC_p2
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/girl_character
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/head_GEO_GRP
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/mapping_Checkmark_KEY_1
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/mapping_GreyBar
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/mapping_YellowBar
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/Meshes/mapping_point_cloud
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialCharacters.fbx/TutorialCharacters
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/.hidden
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/.hidden/lambert36
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/.hidden/white
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/BaseLayer
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/Materials
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/Materials/lambert36
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/Meshes/room_all
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/TutorialRoom.fbx/TutorialRoom
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/WindowOccluderBox.fbx
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/WindowOccluderBox.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/WindowOccluderBox.fbx/Meshes/Cube
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/FBX/WindowOccluderBox.fbx/WindowOccluderBox
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/AlignUnsuccessNotificationTile.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/Arrow.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/BoyTutorialUnlit.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/FrustumOutlineTeachingMode.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/FrustumOutlineTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/FrustumTeachingMode.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/FrustumTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GirlTutorialUnlit.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesInnerGhostTeachingMode.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesInnerGhostTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesInnerON.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesOccluder.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesScreenGradientTeachingMode.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/GlassesScreenGradientTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/KeepLookingButton.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/Landmarks3D.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/Landmarks3D.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/LoadingBarGreyTutorisl.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/LoadingBarTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/MappingHintBg.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/MappingSuccessCheckmark.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/MappingUnsuccessNotificationTile.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/OutlineInsideRoomHeadTeachingMode.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/OutlineInsideRoomHeadTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/ProgressBar.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/ProgressBarGrey.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/Spinner.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/TutorialCheckmark.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/TutorialHeadCharacter.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/TutorialRoom.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/TutorialRoomOccluder.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/TutorialTile.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/UnlitActivePoints.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/UnlitNonActivePoints.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Materials/YellowArrowTutorial.mat
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes/Arrow.mesh
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes/CapsuleButton.mesh
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes/Colocated Landmarks 3D Mesh.colocatedLandmarks3DMesh
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes/TutorialTile.mesh
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Meshes/UnsuccessNotificationTile.mesh
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Scripts
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Scripts/PinchButton.js
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/Arrow.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/CapsuleButton.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/Checkmark.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/FrustumOutline.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/FrustumTeachingMode.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/FrustumTutorial.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/GlassesInner 1.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/GlassesInner.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/GlassesOccluder.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/GlassesOutline.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/LoadingBar.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/LoadingBarGrey.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/MappingHintBg.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/Spinner.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/TutorialCharacterUnlit.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/TutorialHeadCharacter.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/TutorialRoom.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/TutorialRoomOccluder.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/TutorialTile.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/UnlitPoints.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/UnsuccessNotificationTile.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Shaders/YellowArrowTutorial.ss_graph
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/BoyTutorial.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/FrustumAlbedo.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/FrustumAlpha.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/FrustumEmissive.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/GirlTutorial.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/GlassesScreenGradient.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/Glow.jpg
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/KeepLookingButton.jpg
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/KeepLookingButtonText.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/LoadingBar.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/LoadingBarGrey.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/MappingHintBg.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/SpinnerLoader.t3d
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/SpinnerLoader.t3d/SpinnerLoader
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/SpinnerLoader.t3d/spinner_loader_0.png
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/TutorialRoom.webp
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/TutorialTileMask.jpg
+      - SpectaclesSyncKit.lspkg/Mapping/Assets/Textures/UnsuccessNotificationTile.jpg
+      - SpectaclesSyncKit.lspkg/Mapping/src
+      - SpectaclesSyncKit.lspkg/Mapping/src/EntryPointComponents
+      - SpectaclesSyncKit.lspkg/Mapping/src/EntryPointComponents/EntryPointMain.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/BufferState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/BufferState/BufferState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/JoiningState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/JoiningState/JoiningState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/JoiningState/JoiningStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingCanceledState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingCanceledState/MappingCanceledState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingState/MappingState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingState/MappingStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingSuccessfulState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingSuccessfulState/MappingSuccessfulState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingSuccessfulState/MappingSuccessfulStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingUnsuccessfulState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingUnsuccessfulState/MappingUnsuccessfulState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingUnsuccessfulState/MappingUnsuccessfulStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/MappingUnsuccessfulState/MappingUnsuccessfulTypeEnum.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/TeachingJoinedUserState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/TeachingJoinedUserState/TeachingJoinedUserState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/TeachingJoinedUserState/TeachingJoinedUserStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/WaitingForMappingState
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/WaitingForMappingState/WaitingForMappingState.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/MappingFlowStates/WaitingForMappingState/WaitingForMappingStateInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Texts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Texts/ITitledText.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Texts/MessageTextsEnum.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Texts/TextValues.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/ProgressBar
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/ProgressBar/ProgressBar.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/ProgressBar/ProgressBarInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/ProgressBar/ProgressBarParametersInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/TextMappingHint
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/TextMappingHint/TextMappingHint.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/TextMappingHint/TextMappingHintInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/TextMappingHint/TextMappingHintParametersInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/Tutorial
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/Tutorial/Tutorial.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/Tutorial/TutorialInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/Tutorial/TutorialParametersInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingFlow/Tutorial/TutorialTypeEnum.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingUnsuccessful
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingUnsuccessful/MappingUnsuccessfulNotification.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/MappingUnsuccessful/MappingUnsuccessfulNotificationInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/ObjectLocator.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/ObjectLocatorInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/StartPointAlphaAnimation.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/animations
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/animations/TweenFactory.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/animations/Update.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/animations/tween.d.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/UI/ObjectLocator/animations/tween.js
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/HeadLockBehavior
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/HeadLockBehavior/HeadLockBehavior.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/HeadLockBehavior/HeadLockBehaviorInput.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/HeadLockBehavior/IHeadLockBehavior.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/HeadLockBehavior/SecondOrderDynamics.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/JoiningController.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/ProjectContainer.ts
+      - SpectaclesSyncKit.lspkg/Mapping/src/Utils/SharedFunctions.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Audio
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerTipGlow.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/HandOccluderLeft.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/HandOccluderRight.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/RadialGradientOcclusion.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/BitmojiMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/ContainerImageMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/LogoMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/NormalBasedTargetOutline.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkInactive.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonDarkRadial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOffIcon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnDefault.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnIcon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PinchButtonToggleOnSelect.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 1.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 10.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 2.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 3.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 4.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 5.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 6.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 7.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 8.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close 9.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_close.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_glow 1.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_glow 2.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/3D resources/Materials/SystemSettings/SysSet_round_button_glow.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonHover.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButtonPinched.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/RoundButton_Idle.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/LensExp_scroll 1.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/LensExp_scroll 2.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/LensExp_scroll.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/SWIS/SWIS/3D resources/Materials/LensExplorer/LensExp_scroll_bg.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/PlatformUI/Slider_Platform.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/ScaleBasedTargetOutline.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/ScrollBarButton.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/ScrollBarSlider.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SimplePBRMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SliderMat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonDarkDefault.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonOnSelect.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SliderMat/SliderMat.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/SpritePreset.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/TargetOutlineMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Materials/Text3DDefault.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/BoxMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/ButtonCapsuleMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/ButtonSphereMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/Check.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/LeftHandMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlaneMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/PlatformCapsuleButton.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/PlatformSphereButton.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/RoundButton.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/RoundButtonGlow.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/ScrollBarKnobMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/ScrollBarMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/PlatformUI/Slider.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/RightHandMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/ScrollBarSlider.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/SliderSphereKnob.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/SliderTrack.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/SnapGhost_Mesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/SphereMesh.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Meshes/Uncheck.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerHighlight.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/HandOccluder.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/RadialGradientOcclusion.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/NormalBasedTargetOutline.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PinchButton-ActiveOrInActive.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PinchDarkRadial.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonIdle.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ButtonPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonIdle.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/CapsuleButtonPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowIdle.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonGlowPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButtonPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/RoundButton_Idle.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollBackground.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonIdle.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/ScrollButtonPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/Slider_Platform.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/StateButtonToggledHover.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/PlatformUI/StateButtonToggledPinched.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/ScaleBasedTargetOutline.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/ScrollBarSlider.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/SliderShaders
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/SliderShaders/PinchButton-Default.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/SliderShaders/Slider.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/SpritePreset.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/TargetOutline.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/Text3DDefault.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/ToggleOff.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/ToggleOn.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/ToggleOnSelect.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Shaders/simple_pbr.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/2DBitmojiAvatar.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/Base.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/Glow.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMask.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshNewMaskColored.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshPinchTexture.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/handMeshTapTexture.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/BaseHandVisualsTextures/occlusionGradient.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/MaterialParams.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/Normal.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/ArrowDown.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/ArrowUp.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/Close.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/FollowIconBlack.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/FollowIconWhite.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/Image.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/Mask_simple_reflection_ellipse.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleIdle.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleIdle_05.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_02.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_05.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/SimpleRefl_06.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/PlatformUI/UI_glow.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/Rectangle-Active.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/Rectangle-Inactive.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/Rectangle.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/InteractableColorFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/InteractableOutlineFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/InteractableSquishFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/ScreenTransformAdapter.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/ScrollBarFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Billboard
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardRotationCalculator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/HandVisual
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectView.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/HandVisual/GlowEffectViewModel.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/HandVisual/HandVisual.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/HandVisual/RadialOcclusionView.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Headlock
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Headlock/Headlock.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockController.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockRotationCalculator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Interactable
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractableManipulation
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractionPlane
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractionPlane/InteractionPlane.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CircleVisual.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/Cursor.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorController.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorMat.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/CursorViewModel.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/InteractorCursor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/ManipulateLineMat.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/ManipulateLineMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/Plane.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/disabled.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/scale-tl.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/scale-tr.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorCursor/translate.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMat.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Ghost Material.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Ghost Material.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Image.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/Label.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/container-button.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/container-button.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/flat.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame_High.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/Frame_Mid.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SphereButton.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SysSettings_settings_button.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/pinch-depth-button.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/container-button.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/README.md
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon-1.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/close-icon.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/container-button-matcap.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-black.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-white-shadow.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/follow-white.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/reflection-map-1-cube.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/reflection-map-1.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/Textures/soft-reflection.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/container-ui.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/CursorHandler.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/ForceContainerParent.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/FrameInputHandler.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/HoverBehavior.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/LabeledPinchButton.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SmoothFollow.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/PinchButton
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollBar
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollBar/ScrollBar.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/GridContentCreator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/ScrollArea.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/ScrollProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/ScrollView.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/BoundariesProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/BufferedBoundariesProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/SceneObjectBoundariesProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/ScreenTransformBoundariesProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/VisualBoundariesProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/Slider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ToggleButton
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/ConfigurationValidator
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/ConfigurationValidator/ConfigurationValidator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/HandInteractor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/HandInteractor/HandInteractor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/InteractionManager
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/InteractionManager/EventDispatcher.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/InteractionManager/InteractionManager.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/BaseInteractor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/ColliderTargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/DirectTargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/DragProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/HandRayProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/IndirectTargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/Interactor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/InteractorEvent.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/MobileRayProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/MouseTargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/PokeTargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/RayProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/TouchRayProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/AxisAngle.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/ContinousIrInteractionTransition.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/IrInteractionTransition.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/PinchJumpSuppressor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastAnchorHead.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastAnchorVariableShoulder.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastBase.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastLegacySingleCamera.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RaycastProxy.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/RgbIrTransitionJumpSuppressor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/SwitchIrInteractionTransition.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeDataContainer.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimeScalarContainer.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimedVec2Container.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/Interactor/raycastAlgorithms/TimedVec3Container.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/LogLevelConfiguration
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/LogLevelConfiguration/LogLevelConfiguration.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/LogLevelConfiguration/SIKLogLevelConfiguration.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/MobileInteractor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/MobileInteractor/MobileInteractor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/MouseInteractor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Decorators
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Decorators/Singleton.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernFins_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernNoseCone_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekBodyTube_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekFins_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SleekNoseCone_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeBodyTube_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeFins_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/SpaceAgeNoseCone_icon.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Meteor.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Planet.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Planet_rings.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Platform.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_fire.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_glass.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_glass_satellite.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_grey.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_metal.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_metal_red.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_01.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_02.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03_logo.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_white.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Rocket_white_logo.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Objects/SIK_Satellite_blue.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden/Lightbake.001
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/.hidden/white
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Bases
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Materials
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Materials/Lightbake.001
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Circular
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Cubic_01
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/Bases.fbx/Meshes/Hexagon_01
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Meteor
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom2
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom3
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle2
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_bottom
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_middle
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_top
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom2
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom3
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom4
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_middle
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top2
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite1
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite2
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite3
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Meshes/SIK_Rockets.fbx/SIK_Rockets
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Modern Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Sleek Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/Parts/Space Age Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Body Tube Category.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Fins Category.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Nose Cone Category.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Body Tube.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Fins.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Nose Cone.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/ExhaustControls.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketConfigurator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketGridContentCreator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketLaunchControl.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketScrollViewItem.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Glass.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Meteor.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Planet.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Planet_rings.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Platform.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Shaders/Rocket.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/A-icon.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/B-icon.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/C-icon.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Meteor_bc.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Platforms_AO.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Rockets_AO.jpg
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Snap_logo.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/SIK_Space_logo_TEMP.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-A.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-B.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-C.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-A.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-B.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-C.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-A.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-B.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-C.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_ANIM_mat_landing.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_material_landing_.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/CloudsLanding.animationAsset
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Landing/line1.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/Bones_clouds_ANIM_mat_takeoff.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/Bones_clouds_material_start_.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/CloudsStart.animationAsset
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Clouds Start/line1.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/Custom Mesh Emitter.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/Rocket_clouds_emit.vfxgraph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Custom Mesh Emitter/cl_goup.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Fire.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Fire_ANIM_mat.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Glow_ANIM_mat.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/Glow_MAt.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/blendshapes1.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/dots.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/engine_exhaust.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Exhaust/glow_plane.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Noise00.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Plane.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/RadialHeat_ANIM_mat.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Radial Heat/Radial_heat.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 1.animationAsset
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 2.animationAsset
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 3.animationAsset
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Rocket_sparks.mesh
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.mat
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.ss_graph
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/RocketWorkshop/VFX/Rocket Sparks/stripe_noise 2.png
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Examples/SIK Examples.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Prefabs
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Prefabs/ScrollViewListItem.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Prefabs/SpectaclesInteractionKit.prefab
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider/ARCameraFinderProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider/BaseCameraFinderProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider/BaseWorldCameraProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider/CameraProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CursorControllerProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/CursorControllerProvider/CursorControllerProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/BaseHand.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/DefaultHandTrackingAssetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/GestureModuleProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/MotionControllerProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetector.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetectorStateMachine.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapDetectionEvent.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PalmTapEvent.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/HciPinchDetectionStrategy.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/HeuristicPinchDetectionStrategy.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/PinchDetectionStrategy.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetector.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetectorStateMachine.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/GestureProvider/PinchEventType.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/HandInputData.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/HandTrackingAssetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/HandType.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/HandVisuals.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/Joints.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/Keypoint.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/LandmarkNames.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/LeftHandAsset.handTracking3D
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/RightHandAsset.handTracking3D
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/HandInputData/TrackedHand.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/InteractionConfigurationProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/InteractionConfigurationProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/LogLevelProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/InteractionConfigurationProvider/SIKLogLevelProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/MobileInputData
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/MobileInputData/MobileInputData.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/TargetProvider
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/TargetProvider/TargetProvider.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Providers/TargetProvider/TargetingData.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/SIK.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/BistableThreshold.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/Event.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/Filter.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/InputChecker.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/InspectorCallbacks.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/LensConfig.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/LogLevel.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/MovingAverageFilter.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/NativeLogger.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/OneEuroFilter.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/ReplayEvent.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/SafeReference.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/SampleOps.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/SceneObjectUtils.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/SeededRandomNumberGenerator.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/Spatial.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/State.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/StateMachine.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/UpdateDispatcher.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/aabb.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/algorithms.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/animate.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/color.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/debounce.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/lazyProperty.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/logger.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/mathUtils.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/notEmpty.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/springAnimate.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/validate.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views/LineRenderer
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views/LineRenderer/LineMeshUtils.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views/LineRenderer/LineRenderer.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views/MeshView.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/Utils/views/View.ts
+      - SpectaclesSyncKit.lspkg/SpectaclesInteractionKit/package.native
+      - SpectaclesSyncKit.lspkg/SpectaclesSyncKit.prefab
+      - SpectaclesSyncKit.lspkg/Utils
+      - SpectaclesSyncKit.lspkg/Utils/EnableObjectsOnAwake.ts
+      - SpectaclesSyncKit.lspkg/Utils/Fadeable.ts
+      - SpectaclesSyncKit.lspkg/Utils/Helpers.ts
+      - SpectaclesSyncKit.lspkg/Utils/Observable.ts
+      - SpectaclesSyncKit.lspkg/Utils/PositionInitializer.ts
+      - SpectaclesSyncKit.lspkg/Utils/StartMenu.ts
+      - SpectaclesSyncKit.lspkg/Utils/SyncKitLogLevelConfiguration.ts
+      - SpectaclesSyncKit.lspkg/Utils/SyncKitLogLevelProvider.ts
+      - SpectaclesSyncKit.lspkg/Utils/SyncKitLogger.ts
+      - SpectaclesSyncKit.lspkg/Utils/Timers.ts
+      - SpectaclesSyncKit.lspkg/Utils/UUID.ts
+      - SpectaclesSyncKit.lspkg/Utils/Unsubscribe.ts
+      - SpectaclesSyncKit.lspkg/VersionNumber.ts
+      - SpectaclesSyncKit.lspkg/package.native
       - Textures and videos
       - Textures and videos/363963034583478278.mp4
       - Textures and videos/DGNSENTREPRISELOGO(3).png
